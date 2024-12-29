@@ -1401,7 +1401,7 @@
 		(at 133.35 104.775)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "M6"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1413,7 +1413,7 @@
 				)
 			)
 		)
-		(property "Value" "Val**"
+		(property "Value" "Mark"
 			(at 0 3.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1461,7 +1461,10 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(path "/0a272a14-7b7f-4d0e-b9d9-ea845f94ef65")
+		(sheetname "ルート")
+		(sheetfile "RKD01_Assemble_L.kicad_sch")
+		(attr exclude_from_pos_files)
 		(fp_line
 			(start -2.4 0)
 			(end -1.2 2.15)
@@ -1733,9 +1736,9 @@
 	(footprint "BrownSugar_KBD:RotaryEncoder_EC11-Switch"
 		(layer "F.Cu")
 		(uuid "0ea3f1e3-0c37-46eb-ae18-76b154706577")
-		(at 171.45 133.35 180)
+		(at 171.45 133.35 90)
 		(property "Reference" "SW34"
-			(at 0 5 0)
+			(at 0 5 90)
 			(layer "F.SilkS")
 			(uuid "d0117dc2-c5c9-4056-8d5c-e5e9312b5876")
 			(effects
@@ -1746,7 +1749,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 0 10 0)
+			(at 0 10 90)
 			(layer "F.Fab")
 			(uuid "a476cd80-9274-4f0d-9012-020e1ab85e3b")
 			(effects
@@ -1757,7 +1760,7 @@
 			)
 		)
 		(property "Footprint" "BrownSugar_KBD:RotaryEncoder_EC11-Switch"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ff7dab59-0b77-4d3d-b2b6-7c2b744ab9e1")
@@ -1769,7 +1772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5be4525c-a2ea-4596-8431-6dc9e6dace0f")
@@ -1781,7 +1784,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "546c2714-6d47-459d-97c7-362b882400d4")
@@ -1798,16 +1801,6 @@
 		(sheetfile "RKD01_Assemble_L.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 7.1 9)
-			(end -7.1 9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "37c85892-c85a-4b68-93f8-aae9228904db")
-		)
-		(fp_line
 			(start 7.1 -8.5)
 			(end 7.1 9)
 			(stroke
@@ -1816,16 +1809,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "a7e7685a-8d68-40a9-ab74-16f0d7b5ac94")
-		)
-		(fp_line
-			(start -7.1 9)
-			(end -7.1 -8.5)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3d0c18c6-8e3e-47a1-9f1b-8bb37e6e6432")
 		)
 		(fp_line
 			(start -7.1 -8.5)
@@ -1838,14 +1821,24 @@
 			(uuid "35d6bfd0-8725-4887-bf90-9ff5b31c66b3")
 		)
 		(fp_line
-			(start 5.85 6)
-			(end -5.85 6)
+			(start 7.1 9)
+			(end -7.1 9)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "1e4c0c49-a978-4c57-9bb3-de670a026261")
+			(layer "F.CrtYd")
+			(uuid "37c85892-c85a-4b68-93f8-aae9228904db")
+		)
+		(fp_line
+			(start -7.1 9)
+			(end -7.1 -8.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3d0c18c6-8e3e-47a1-9f1b-8bb37e6e6432")
 		)
 		(fp_line
 			(start 5.85 -6)
@@ -1856,6 +1849,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "8dff95ea-36d4-4c0e-acdb-76f71edaf7e7")
+		)
+		(fp_line
+			(start -5.85 -6)
+			(end 5.85 -6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "702c617e-abb0-4819-b2af-097444d8a6db")
 		)
 		(fp_line
 			(start 0 -2)
@@ -1878,6 +1881,16 @@
 			(uuid "1594e88e-c735-484c-b94e-3f11da9d32b3")
 		)
 		(fp_line
+			(start 5.85 6)
+			(end -5.85 6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1e4c0c49-a978-4c57-9bb3-de670a026261")
+		)
+		(fp_line
 			(start -5.85 6)
 			(end -5.85 -6)
 			(stroke
@@ -1886,16 +1899,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "ee5b828c-6d4d-47ee-af71-4b3cb6972a5c")
-		)
-		(fp_line
-			(start -5.85 -6)
-			(end 5.85 -6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "702c617e-abb0-4819-b2af-097444d8a6db")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1909,7 +1912,7 @@
 			(uuid "c53dcb54-efac-4c88-b670-8f2cc82875f6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.6 3.8 0)
+			(at 3.6 3.8 90)
 			(layer "F.Fab")
 			(uuid "54e5b039-20fa-411e-91a1-d6e4f8358e44")
 			(effects
@@ -1920,7 +1923,7 @@
 			)
 		)
 		(pad "A" thru_hole circle
-			(at -2.5 7.5 180)
+			(at -2.5 7.5 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1931,7 +1934,7 @@
 			(uuid "ca2c3217-90aa-42a2-9ee7-7fa0d43b41f9")
 		)
 		(pad "B" thru_hole circle
-			(at 2.5 7.5 180)
+			(at 2.5 7.5 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1942,7 +1945,7 @@
 			(uuid "8bac2397-6790-4f65-b831-185daf958402")
 		)
 		(pad "C" thru_hole circle
-			(at 0 7.5 180)
+			(at 0 7.5 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1953,7 +1956,7 @@
 			(uuid "d5e1a888-d60d-474a-8918-f28465888fc0")
 		)
 		(pad "MP" thru_hole rect
-			(at -5.6 0 180)
+			(at -5.6 0 90)
 			(size 2 3.2)
 			(drill oval 1.5 2.8)
 			(layers "*.Cu" "*.Mask")
@@ -1961,7 +1964,7 @@
 			(uuid "bd7064f0-a37d-48a2-a850-1235668a8267")
 		)
 		(pad "MP" thru_hole rect
-			(at 5.6 0 180)
+			(at 5.6 0 90)
 			(size 2 3.2)
 			(drill oval 1.5 2.8)
 			(layers "*.Cu" "*.Mask")
@@ -1969,23 +1972,23 @@
 			(uuid "1da7ad23-9718-43b6-a2e9-3ca527d41f3b")
 		)
 		(pad "S1" thru_hole circle
-			(at -2.5 -7 180)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 50 "Col6")
-			(pinfunction "S1")
-			(pintype "passive")
-			(uuid "e439e0d7-1a96-4dd3-918c-ad1380381a05")
-		)
-		(pad "S2" thru_hole circle
-			(at 2.5 -7 180)
+			(at -2.5 -7 90)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 39 "Net-(D34-A)")
+			(pinfunction "S1")
+			(pintype "passive")
+			(uuid "e439e0d7-1a96-4dd3-918c-ad1380381a05")
+		)
+		(pad "S2" thru_hole circle
+			(at 2.5 -7 90)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 50 "Col6")
 			(pinfunction "S2")
 			(pintype "passive")
 			(uuid "bc7f4351-ab6c-4e74-b2c4-d6a3f7d50f25")
@@ -2008,7 +2011,7 @@
 		(at 78.58125 26.19375)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "M9"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(uuid "685a5389-b170-4aae-a3a2-7a36bf397d0d")
@@ -2019,7 +2022,7 @@
 				)
 			)
 		)
-		(property "Value" "Val**"
+		(property "Value" "Mark"
 			(at 0 3.2 0)
 			(layer "F.Fab")
 			(uuid "18d9bdc7-df9b-4dfa-9191-f1e115309f8b")
@@ -2066,7 +2069,10 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(path "/68dab340-fd07-459c-92a5-a472d18f2dbc")
+		(sheetname "ルート")
+		(sheetfile "RKD01_Assemble_L.kicad_sch")
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -5275,10 +5281,9 @@
 		(at 71.4375 85.725)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "M5"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "871fb466-9830-4a79-b4f2-3a53a58fae93")
 			(effects
 				(font
@@ -5287,10 +5292,9 @@
 				)
 			)
 		)
-		(property "Value" "Val**"
+		(property "Value" "Mark"
 			(at 0 3.2 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "c3ff1a37-26b0-4913-95af-f073dd2270b6")
 			(effects
 				(font
@@ -5335,7 +5339,10 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(path "/46dcda32-5251-4176-bf38-bb435c3e59c4")
+		(sheetname "ルート")
+		(sheetfile "RKD01_Assemble_L.kicad_sch")
+		(attr exclude_from_pos_files)
 		(fp_line
 			(start -2.4 0)
 			(end -1.2 2.15)
@@ -15862,10 +15869,9 @@
 		(at 180.975 23.8125)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "M2"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "955d218a-1c91-460f-b972-0909fcb9f976")
 			(effects
 				(font
@@ -15874,10 +15880,9 @@
 				)
 			)
 		)
-		(property "Value" "Val**"
+		(property "Value" "Mark"
 			(at 0 3.2 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "8e2c3e53-48e5-45d6-ae8d-d6f39682b478")
 			(effects
 				(font
@@ -15922,7 +15927,10 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(path "/63871401-caed-4f50-8632-8ee79763a41c")
+		(sheetname "ルート")
+		(sheetfile "RKD01_Assemble_L.kicad_sch")
+		(attr exclude_from_pos_files)
 		(fp_line
 			(start -2.4 0)
 			(end -1.2 2.15)
@@ -16197,7 +16205,7 @@
 		(at 180.975 140.49375)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "M8"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16209,7 +16217,7 @@
 				)
 			)
 		)
-		(property "Value" "Val**"
+		(property "Value" "Mark"
 			(at 0 3.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16257,7 +16265,10 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(path "/991b533c-0be6-445b-a9dd-721762f5be61")
+		(sheetname "ルート")
+		(sheetfile "RKD01_Assemble_L.kicad_sch")
+		(attr exclude_from_pos_files)
 		(fp_line
 			(start -2.4 0)
 			(end -1.2 2.15)
@@ -16325,7 +16336,7 @@
 		(at 78.58125 35.71875)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "M10"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(uuid "5a764ad1-4921-4024-9a6f-85479175faac")
@@ -16336,7 +16347,7 @@
 				)
 			)
 		)
-		(property "Value" "Val**"
+		(property "Value" "Mark"
 			(at 0 3.2 0)
 			(layer "F.Fab")
 			(uuid "8cb7d1a7-4a98-4ed5-aeb5-0381b5fd82ba")
@@ -16383,7 +16394,10 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(path "/d51b173e-7f79-47eb-bc8a-0e1400a754f1")
+		(sheetname "ルート")
+		(sheetfile "RKD01_Assemble_L.kicad_sch")
+		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -17691,7 +17705,7 @@
 		(at 47.625 140.49375)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "M7"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17703,7 +17717,7 @@
 				)
 			)
 		)
-		(property "Value" "Val**"
+		(property "Value" "Mark"
 			(at 0 3.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17751,7 +17765,10 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(path "/b92d8f3b-c71f-4662-b5c8-27a155b25294")
+		(sheetname "ルート")
+		(sheetfile "RKD01_Assemble_L.kicad_sch")
+		(attr exclude_from_pos_files)
 		(fp_line
 			(start -2.4 0)
 			(end -1.2 2.15)
@@ -24552,10 +24569,9 @@
 		(at 88.10625 23.8125)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "M1"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "207a5ce2-7b52-49d4-977e-d5833070456b")
 			(effects
 				(font
@@ -24564,10 +24580,9 @@
 				)
 			)
 		)
-		(property "Value" "Val**"
+		(property "Value" "Mark"
 			(at 0 3.2 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "2467898b-b5cc-4cb1-b702-47e24cc5856f")
 			(effects
 				(font
@@ -24612,7 +24627,10 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(path "/6615327d-612e-4ec6-9530-4eb246868c9f")
+		(sheetname "ルート")
+		(sheetfile "RKD01_Assemble_L.kicad_sch")
+		(attr exclude_from_pos_files)
 		(fp_line
 			(start -2.4 0)
 			(end -1.2 2.15)
@@ -25940,10 +25958,9 @@
 		(at 133.35 47.625)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "M4"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "25e5562f-bf74-4791-8f21-25486a0153d6")
 			(effects
 				(font
@@ -25952,10 +25969,9 @@
 				)
 			)
 		)
-		(property "Value" "Val**"
+		(property "Value" "Mark"
 			(at 0 3.2 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "b66fca1c-7ca1-45bf-8b93-ba2389fc2f70")
 			(effects
 				(font
@@ -26000,7 +26016,10 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(path "/081e2aa6-5aa3-43d0-9cb4-4e8c816b7390")
+		(sheetname "ルート")
+		(sheetfile "RKD01_Assemble_L.kicad_sch")
+		(attr exclude_from_pos_files)
 		(fp_line
 			(start -2.4 0)
 			(end -1.2 2.15)
@@ -38815,10 +38834,9 @@
 		(at 28.575 47.625)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "Ref**"
+		(property "Reference" "M3"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "7e2b5f40-6ec4-4aea-9e4c-ed32a0c68753")
 			(effects
 				(font
@@ -38827,10 +38845,9 @@
 				)
 			)
 		)
-		(property "Value" "Val**"
+		(property "Value" "Mark"
 			(at 0 3.2 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "c6854537-eadc-4a5b-a063-ebb8c6c6385c")
 			(effects
 				(font
@@ -38875,7 +38892,10 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(path "/53ee3d27-654d-4ef9-958b-83261537e190")
+		(sheetname "ルート")
+		(sheetfile "RKD01_Assemble_L.kicad_sch")
+		(attr exclude_from_pos_files)
 		(fp_line
 			(start -2.4 0)
 			(end -1.2 2.15)

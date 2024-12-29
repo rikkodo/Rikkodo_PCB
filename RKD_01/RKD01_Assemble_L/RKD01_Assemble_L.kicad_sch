@@ -5,6 +5,70 @@
 	(uuid "6e5cd7dd-f51d-475f-ae62-052f0b2c3d71")
 	(paper "A3")
 	(lib_symbols
+		(symbol "BrownSugar_KBD:Mark"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Mark"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Mark_0_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "BrownSugar_KBD:OLED"
 			(pin_names
 				(offset 1.016)
@@ -3546,7 +3610,7 @@
 			)
 		)
 	)
-	(global_label "REB"
+	(global_label "REA"
 		(shape input)
 		(at 231.14 182.88 90)
 		(fields_autoplaced yes)
@@ -3558,7 +3622,7 @@
 		)
 		(uuid "64b1f4e3-3090-4aaa-af01-31c8003d2105")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 176.2058 90)
+			(at 231.14 176.3872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,7 +3852,7 @@
 			)
 		)
 	)
-	(global_label "REA"
+	(global_label "REB"
 		(shape input)
 		(at 226.06 182.88 90)
 		(fields_autoplaced yes)
@@ -3800,7 +3864,7 @@
 		)
 		(uuid "91571c99-13cb-4d60-b897-6d3e35cb90a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.06 176.3872 90)
+			(at 226.06 176.2058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,6 +4289,134 @@
 			(project ""
 				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:Mark")
+		(at 342.9 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "081e2aa6-5aa3-43d0-9cb4-4e8c816b7390")
+		(property "Reference" "M4"
+			(at 345.44 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mark"
+			(at 345.44 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
+			(at 342.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RKD01_Assemble_L"
+				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:Mark")
+		(at 368.3 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a272a14-7b7f-4d0e-b9d9-ea845f94ef65")
+		(property "Reference" "M6"
+			(at 370.84 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mark"
+			(at 370.84 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
+			(at 368.3 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RKD01_Assemble_L"
+				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
+					(reference "M6")
 					(unit 1)
 				)
 			)
@@ -5547,6 +5739,70 @@
 		)
 	)
 	(symbol
+		(lib_id "BrownSugar_KBD:Mark")
+		(at 355.6 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46dcda32-5251-4176-bf38-bb435c3e59c4")
+		(property "Reference" "M5"
+			(at 358.14 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mark"
+			(at 358.14 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
+			(at 355.6 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 355.6 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RKD01_Assemble_L"
+				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
+					(reference "M5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 81.28 156.21 90)
 		(unit 1)
@@ -5766,6 +6022,70 @@
 			(project "RKD01_Assemble_L"
 				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
 					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:Mark")
+		(at 330.2 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53ee3d27-654d-4ef9-958b-83261537e190")
+		(property "Reference" "M3"
+			(at 332.74 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mark"
+			(at 332.74 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
+			(at 330.2 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 330.2 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RKD01_Assemble_L"
+				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
+					(reference "M3")
 					(unit 1)
 				)
 			)
@@ -6428,6 +6748,70 @@
 		)
 	)
 	(symbol
+		(lib_id "BrownSugar_KBD:Mark")
+		(at 317.5 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63871401-caed-4f50-8632-8ee79763a41c")
+		(property "Reference" "M2"
+			(at 320.04 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mark"
+			(at 320.04 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
+			(at 317.5 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 132.08 130.81 90)
 		(unit 1)
@@ -6510,6 +6894,134 @@
 			(project "RKD01_Assemble_L"
 				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
 					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:Mark")
+		(at 304.8 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6615327d-612e-4ec6-9530-4eb246868c9f")
+		(property "Reference" "M1"
+			(at 307.34 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mark"
+			(at 307.34 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
+			(at 304.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:Mark")
+		(at 304.8 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68dab340-fd07-459c-92a5-a472d18f2dbc")
+		(property "Reference" "M9"
+			(at 307.34 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mark"
+			(at 307.34 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
+			(at 304.8 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RKD01_Assemble_L"
+				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
+					(reference "M9")
 					(unit 1)
 				)
 			)
@@ -7431,6 +7943,70 @@
 		)
 	)
 	(symbol
+		(lib_id "BrownSugar_KBD:Mark")
+		(at 393.7 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "991b533c-0be6-445b-a9dd-721762f5be61")
+		(property "Reference" "M8"
+			(at 396.24 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mark"
+			(at 396.24 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
+			(at 393.7 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 393.7 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RKD01_Assemble_L"
+				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
+					(reference "M8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 55.88 207.01 90)
 		(unit 1)
@@ -8298,6 +8874,70 @@
 		)
 	)
 	(symbol
+		(lib_id "BrownSugar_KBD:Mark")
+		(at 381 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b92d8f3b-c71f-4662-b5c8-27a155b25294")
+		(property "Reference" "M7"
+			(at 383.54 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mark"
+			(at 383.54 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
+			(at 381 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 381 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RKD01_Assemble_L"
+				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
+					(reference "M7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 132.08 181.61 90)
 		(unit 1)
@@ -9013,6 +9653,70 @@
 		)
 	)
 	(symbol
+		(lib_id "BrownSugar_KBD:Mark")
+		(at 317.5 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d51b173e-7f79-47eb-bc8a-0e1400a754f1")
+		(property "Reference" "M10"
+			(at 320.04 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mark"
+			(at 320.04 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
+			(at 317.5 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RKD01_Assemble_L"
+				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
+					(reference "M10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 157.48 105.41 90)
 		(unit 1)
@@ -9258,8 +9962,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 228.6 190.5 90)
-		(mirror x)
+		(at 228.6 190.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9268,7 +9971,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5fdaa0a-8d3d-46a8-bebb-b44359814ff4")
 		(property "Reference" "SW34"
-			(at 222.25 189.2299 90)
+			(at 234.95 189.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9277,7 +9980,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 222.25 191.7699 90)
+			(at 234.95 191.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9286,7 +9989,7 @@
 			)
 		)
 		(property "Footprint" "BrownSugar_KBD:RotaryEncoder_EC11-Switch"
-			(at 224.536 186.69 0)
+			(at 232.664 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9295,7 +9998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 221.996 190.5 0)
+			(at 235.204 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
