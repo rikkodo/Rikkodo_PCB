@@ -3548,7 +3548,7 @@
 	)
 	(global_label "REB"
 		(shape input)
-		(at 226.06 182.88 90)
+		(at 231.14 182.88 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3558,7 +3558,7 @@
 		)
 		(uuid "64b1f4e3-3090-4aaa-af01-31c8003d2105")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.06 176.2058 90)
+			(at 231.14 176.2058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,7 +3790,7 @@
 	)
 	(global_label "REA"
 		(shape input)
-		(at 231.14 182.88 90)
+		(at 226.06 182.88 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3800,7 +3800,7 @@
 		)
 		(uuid "91571c99-13cb-4d60-b897-6d3e35cb90a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 176.3872 90)
+			(at 226.06 176.3872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9258,7 +9258,8 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 228.6 190.5 270)
+		(at 228.6 190.5 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9267,7 +9268,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5fdaa0a-8d3d-46a8-bebb-b44359814ff4")
 		(property "Reference" "SW34"
-			(at 234.95 189.2299 90)
+			(at 222.25 189.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9276,7 +9277,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 234.95 191.7699 90)
+			(at 222.25 191.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9284,8 +9285,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_Parts:RotaryEncoder_EC12E"
-			(at 232.664 186.69 0)
+		(property "Footprint" "BrownSugar_KBD:RotaryEncoder_EC11-Switch"
+			(at 224.536 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9294,7 +9295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 235.204 190.5 0)
+			(at 221.996 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
