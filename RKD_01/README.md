@@ -10,16 +10,22 @@ RKD01
 
 ## FOOTPRINT
 
-[koktoh BrownSugar_KBD_KiCad_Library](https://github.com/koktoh/BrownSugar_KBD_KiCad_Library/tree/master)
+Salicylic-acid3 [KiCAD_FootPrint](https://github.com/Salicylic-acid3/KiCAD_FootPrint)
 
-[palette-system az1uball](https://github.com/palette-system/az1uball/tree/main/kicad)
+koktoh [BrownSugar_KBD_KiCad_Library](https://github.com/koktoh/BrownSugar_KBD_KiCad_Library/tree/master)
+
+palette-system [az1uball](https://github.com/palette-system/az1uball/tree/main/kicad)
 
 ## REFS
 
-[koktoh の雑記帳 自作キーボード用の KiCad フットプリントライブラリを作った](https://koktoh.hatenablog.com/entry/2023/08/25/195443)
+kotoh [koktoh の雑記帳 自作キーボード用の KiCad フットプリントライブラリを作った](https://koktoh.hatenablog.com/entry/2023/08/25/195443)
 
-[koktoh の雑記帳 【開発者向け】 TRRS ジャックの配線ってどうすればいいの？](https://koktoh.hatenablog.com/entry/2024/05/10/191926)
+kotoh [koktoh の雑記帳 【開発者向け】 TRRS ジャックの配線ってどうすればいいの？](https://koktoh.hatenablog.com/entry/2024/05/10/191926)
 
-[ミクモ ほぼゼロから始める自作キーボード設計体験記](https://ninthsky.hatenablog.com/entry/keyboard_design_zero)
+サリチル酸 [zenn GL516 デザインガイド](https://zenn.dev/salicylic_acid3/books/gl516_design_guide)
 
-[いまむら 自作キーボードがひとまず完成してしまったがここからが沼](https://ima.hatenablog.jp/entry/2024/02/24/223000)
+サリチル酸 [booth 自作キーボード設計ガイド](https://booth.pm/ja/items/4410329)
+
+ミクモ [NinthSky Studio ほぼゼロから始める自作キーボード設計体験記](https://ninthsky.hatenablog.com/entry/keyboard_design_zero)
+
+いまむら [ただいま村 自作キーボードがひとまず完成してしまったがここからが沼](https://ima.hatenablog.jp/entry/2024/02/24/223000)
