@@ -54,8 +54,8 @@ Yoshimasa Niwa [Zenn 自作キーボードを自作した話](https://zenn.dev/n
 |:--|:--|
 |Common|左右共通部品 (マイコンプレート)|
 |Left|左|
-|Right_Id01| 右 人差し指トラックボール|
-|Right_Tm01| 右 親指トラックボール|
+|Right_Idx01| 右 人差し指トラックボール|
+|Right_Thm01| 右 親指トラックボール|
 
 ## 備忘録
 
