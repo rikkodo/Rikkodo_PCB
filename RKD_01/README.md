@@ -43,8 +43,9 @@ Yoshimasa Niwa [Zenn 自作キーボードを自作した話](https://zenn.dev/n
 |chosスイッチ|x個|
 |chocソケット|x個|
 |ダイオード|x個|
-|M2六角スペーサ 5mm|16個|
+|M2六角スペーサ 5mm|10個|
 |M2丸スペーサ 9mm or 10mm|4個|
+|M2丸スペーサ 3.5mm|4個|
 |M2低頭ネジ|36個|
 |TRRSジャック|2個|
 |Choc用スタビライザ|4個|
@@ -57,8 +58,7 @@ Yoshimasa Niwa [Zenn 自作キーボードを自作した話](https://zenn.dev/n
 |Common|左右共通部品 (マイコンプレート)|
 |Left|左|
 |Right_Ball| 右 トラックボール|
-<!-- |Right_Idx01| 右 人差し指トラックボール| 未実装-->
-<!-- |Right_Thm01| 右 親指トラックボール| 未実装-->
+|Right_SP| 右 スティックポイント|
 
 ## 備忘録
 
