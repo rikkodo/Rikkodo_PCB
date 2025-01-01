@@ -16,6 +16,8 @@ koktoh [BrownSugar_KBD_KiCad_Library](https://github.com/koktoh/BrownSugar_KBD_K
 
 palette-system [az1uball](https://github.com/palette-system/az1uball/tree/main/kicad)
 
+Seeed-Studio [OPL_Kicad_Library](https://github.com/Seeed-Studio/OPL_Kicad_Library)
+
 ## REFS
 
 kotoh [koktoh の雑記帳 自作キーボード用の KiCad フットプリントライブラリを作った](https://koktoh.hatenablog.com/entry/2023/08/25/195443)
