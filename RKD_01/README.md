@@ -45,10 +45,7 @@ Yoshimasa Niwa [Zenn 自作キーボードを自作した話](https://zenn.dev/n
 |M2丸スペーサ 9mm or 10mm|4個|
 |M2低頭ネジ|36個|
 |TRRSジャック|2個|
-|OLED|2個|
-|OLED用ピンソケット|2個|
 |Choc用スタビライザ|4個|
-|ロータリーエンコーダ, ノブ|1個|
 |ゴム足|y個|
 
 ## 配置
@@ -57,7 +54,7 @@ Yoshimasa Niwa [Zenn 自作キーボードを自作した話](https://zenn.dev/n
 |:--|:--|
 |Common|左右共通部品 (マイコンプレート)|
 |Left|左|
-|Right_Greed01| 右　両指トラックボール|
+|Right_Ball01| 右 トラックボール|
 <!-- |Right_Idx01| 右 人差し指トラックボール| 未実装-->
 <!-- |Right_Thm01| 右 親指トラックボール| 未実装-->
 
