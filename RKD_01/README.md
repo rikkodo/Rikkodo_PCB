@@ -84,9 +84,9 @@ script consoleで以下
 ```python
 import pcbnew
 b = pcbnew.GetBoard()
-tracks = b.GetTracks()
-for track in tracks:
-    track.DeleteStructure()
+t = b.GetTracks()
+for tt in t:
+    tt.DeleteStructure()
 ```
 
 あすき [試行錯誤な日々 KiCadで基板の配線とビアを全部消す方法](https://asukiaaa.blogspot.com/2019/06/kicad.html)
