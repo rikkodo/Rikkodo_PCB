@@ -1972,6 +1972,10 @@
 		(uuid "0abbb07d-a5bb-4b32-bce4-e3ba877422c9")
 	)
 	(no_connect
+		(at 78.74 30.48)
+		(uuid "10a5eea8-32bb-4979-ba03-dca2618bcedb")
+	)
+	(no_connect
 		(at 78.74 25.4)
 		(uuid "87151b93-08a3-4f14-b0fd-973cc276b42b")
 	)
@@ -2024,16 +2028,6 @@
 			(type default)
 		)
 		(uuid "04b806dc-dc7e-4c39-8616-f693aa72f3f6")
-	)
-	(wire
-		(pts
-			(xy 78.74 30.48) (xy 88.9 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04da9151-d845-48a1-93ed-97e90a429666")
 	)
 	(wire
 		(pts
@@ -2607,16 +2601,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 38.1) (xy 161.29 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60ec673b-e8a8-4433-9188-3aed44edc428")
-	)
-	(wire
-		(pts
 			(xy 147.32 127) (xy 147.32 152.4)
 		)
 		(stroke
@@ -2654,16 +2638,6 @@
 			(type default)
 		)
 		(uuid "6bfdd683-8431-45b4-b6f9-652066a58b0c")
-	)
-	(wire
-		(pts
-			(xy 157.48 33.02) (xy 161.29 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6deb3645-c3b6-45d0-bbf1-01ea86663528")
 	)
 	(wire
 		(pts
@@ -2714,16 +2688,6 @@
 			(type default)
 		)
 		(uuid "77dda8dd-2000-416f-ae22-874e03426d59")
-	)
-	(wire
-		(pts
-			(xy 143.51 40.64) (xy 161.29 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b124d6a-9f32-4d3f-9411-356ac5288b31")
 	)
 	(wire
 		(pts
@@ -2784,16 +2748,6 @@
 			(type default)
 		)
 		(uuid "8fef62bc-caf7-4af8-b1aa-78bbe31c61f4")
-	)
-	(wire
-		(pts
-			(xy 157.48 35.56) (xy 161.29 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9009082c-6d0b-4ad3-8c73-643c741d1089")
 	)
 	(wire
 		(pts
@@ -2864,16 +2818,6 @@
 			(type default)
 		)
 		(uuid "9b39679a-4893-4509-ab28-cc8ac29405a5")
-	)
-	(wire
-		(pts
-			(xy 143.51 40.64) (xy 143.51 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bf4d5a4-3e1f-4a16-8cfb-f10e3c734930")
 	)
 	(wire
 		(pts
@@ -3275,16 +3219,6 @@
 		)
 		(uuid "f6a91afb-9896-4f85-8491-e71cc4b58b3e")
 	)
-	(wire
-		(pts
-			(xy 143.51 36.83) (xy 143.51 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc38d204-1f61-43ac-80c0-7fb527a4997c")
-	)
 	(global_label "Col7"
 		(shape input)
 		(at 88.9 53.34 0)
@@ -3483,28 +3417,6 @@
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape input)
-		(at 157.48 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "431042bc-a0ae-4fae-bf2c-964e3463e20f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.9267 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Row3"
 		(shape input)
 		(at 38.1 48.26 180)
@@ -3567,28 +3479,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 157.48 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "81708e8c-7fae-4d28-b383-eec5171b2987")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.9872 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3879,28 +3769,6 @@
 			)
 		)
 	)
-	(global_label "Reset"
-		(shape input)
-		(at 299.72 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cad4f85c-4fdc-4f53-961c-482280ccc62c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 291.5338 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Row2"
 		(shape input)
 		(at 38.1 45.72 180)
@@ -4077,28 +3945,6 @@
 			)
 		)
 	)
-	(global_label "Reset"
-		(shape input)
-		(at 88.9 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f3a7e2ba-9c54-481c-bb4f-f915d1ba0f4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.0862 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Col2"
 		(shape input)
 		(at 88.9 40.64 0)
@@ -4204,70 +4050,6 @@
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
 					(reference "D47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BrownSugar_KBD:Mark")
-		(at 355.6 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0335a37b-2fcb-4d88-8a8e-91684caac71e")
-		(property "Reference" "M5"
-			(at 358.14 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Mark"
-			(at 358.14 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
-			(at 355.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 355.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "RKD01_Assemble_R"
-				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "M5")
 					(unit 1)
 				)
 			)
@@ -5546,72 +5328,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 309.88 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d84e0c5-7c13-4845-8f15-e9b788c5d339")
-		(property "Reference" "#PWR02"
-			(at 309.88 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 309.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 309.88 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "253b0f76-f04e-4dcc-9473-018d4e722633")
-		)
-		(instances
-			(project ""
-				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 157.48 156.21 90)
 		(unit 1)
@@ -6172,74 +5888,6 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 304.8 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bf03a9c-b2dc-4a9b-aee7-866ccd1f316b")
-		(property "Reference" "SW79"
-			(at 304.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 304.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Parts:ResetSW"
-			(at 304.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 304.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 304.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "911cb194-d0cd-46a4-937d-506effd2958c")
-		)
-		(pin "2"
-			(uuid "7b870447-a681-4e7d-aff0-0f30ce20d66c")
-		)
-		(instances
-			(project "RKD01_Assemble_R"
-				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
 		(at 76.2 152.4 0)
 		(mirror y)
 		(unit 1)
@@ -6390,70 +6038,6 @@
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
 					(reference "D52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BrownSugar_KBD:Mark")
-		(at 393.7 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42490569-0690-4aa8-a960-b75990f529e6")
-		(property "Reference" "M8"
-			(at 396.24 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Mark"
-			(at 396.24 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
-			(at 393.7 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 393.7 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 393.7 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "RKD01_Assemble_R"
-				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "M8")
 					(unit 1)
 				)
 			)
@@ -6783,7 +6367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e97a3c7-36b3-43c0-88e6-d8fcc3d195ba")
-		(property "Reference" "M10"
+		(property "Reference" "M6"
 			(at 320.04 176.5299 0)
 			(effects
 				(font
@@ -6831,7 +6415,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "M10")
+					(reference "M6")
 					(unit 1)
 				)
 			)
@@ -8298,70 +7882,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BrownSugar_KBD:Mark")
-		(at 368.3 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fe1c3ca-baaa-4d67-add8-adbb8fef2cc8")
-		(property "Reference" "M6"
-			(at 370.84 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Mark"
-			(at 370.84 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
-			(at 368.3 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 368.3 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 368.3 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "RKD01_Assemble_R"
-				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "M6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 81.28 130.81 90)
 		(unit 1)
@@ -8987,71 +8507,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 143.51 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8acdadbc-70f0-4349-a9ba-f1b5856e2cd7")
-		(property "Reference" "#PWR012"
-			(at 143.51 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 143.51 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 143.51 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b7bffb1-e4d1-4bba-a389-b81e852d8172")
-		)
-		(instances
-			(project "RKD01_Assemble_R"
-				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 50.8 152.4 0)
 		(mirror y)
@@ -9667,7 +9122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d628be3-ed38-4316-ab03-562f5b6b1cd3")
-		(property "Reference" "M9"
+		(property "Reference" "M5"
 			(at 307.34 176.5299 0)
 			(effects
 				(font
@@ -9715,7 +9170,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "M9")
+					(reference "M5")
 					(unit 1)
 				)
 			)
@@ -11938,148 +11393,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BrownSugar_KBD:OLED")
-		(at 168.91 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f016a8df-f3ef-40a5-817f-2a5f4de78d20")
-		(property "Reference" "OL2"
-			(at 175.26 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OLED"
-			(at 175.26 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BrownSugar_KBD:OLED_center_module"
-			(at 168.91 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36931552-8331-46b0-ab7f-2986bd444213")
-		)
-		(pin "3"
-			(uuid "a98d2a69-b004-4d27-a871-293c11c22f54")
-		)
-		(pin "2"
-			(uuid "e8f5d9de-938c-40f7-ba2b-86d6e34730c0")
-		)
-		(pin "4"
-			(uuid "36e03029-74a9-4d2a-a610-c0405d5c371f")
-		)
-		(instances
-			(project ""
-				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "OL2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 143.51 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f30f5191-f798-4cbb-942a-6c3a78864954")
-		(property "Reference" "#PWR013"
-			(at 143.51 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d0daff3-a689-4073-9831-517e3215ac42")
-		)
-		(instances
-			(project "RKD01_Assemble_R"
-				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 233.68 207.01 90)
 		(unit 1)
@@ -12726,70 +12039,6 @@
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BrownSugar_KBD:Mark")
-		(at 381 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdcd8c80-2e98-45f0-92a7-a19fe0fc97de")
-		(property "Reference" "M7"
-			(at 383.54 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Mark"
-			(at 383.54 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
-			(at 381 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 381 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 381 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "RKD01_Assemble_R"
-				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "M7")
 					(unit 1)
 				)
 			)
