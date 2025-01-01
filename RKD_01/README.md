@@ -76,3 +76,17 @@ Yoshimasa Niwa [Zenn 自作キーボードを自作した話](https://zenn.dev/n
 ### ダイオードのフットプリント
 
 TH_SMD (表面実装 + スルーホール) 型にすると、スルーホールをビアがわりにしてくれるので自動配線が成功しやすい
+
+### 配線の全消去
+
+script consoleで以下
+
+```python
+import pcbnew
+b = pcbnew.GetBoard()
+tracks = b.GetTracks()
+for track in tracks:
+    track.DeleteStructure()
+```
+
+あすき [試行錯誤な日々 KiCadで基板の配線とビアを全部消す方法](https://asukiaaa.blogspot.com/2019/06/kicad.html)
