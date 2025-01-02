@@ -44494,7 +44494,7 @@
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "aa85b59b-6277-4daf-8ec2-db30b396a18f")
-		(at 78.5813 26.1937)
+		(at 83.34375 26.19375)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "M5"
@@ -54868,7 +54868,7 @@
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "e370d304-96b9-4cfb-9d7b-0ca0ed41dda9")
-		(at 78.5813 35.7187)
+		(at 83.34375 35.71875)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "M6"
@@ -54977,7 +54977,7 @@
 	(footprint "kbd_Hole:m2_Spacer_Hole_hex"
 		(layer "F.Cu")
 		(uuid "e92695cd-88b5-41c1-a41c-36ae43c5a3f3")
-		(at 88.1063 23.8125)
+		(at 92.86875 23.8125)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "M1"
@@ -58038,8 +58038,8 @@
 		)
 	)
 	(gr_line
-		(start 80.96245 42.86255)
-		(end 80.96245 19.05005)
+		(start 85.725 42.86255)
+		(end 85.725 19.05005)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -58049,7 +58049,7 @@
 	)
 	(gr_line
 		(start 21.4312 42.86255)
-		(end 80.96245 42.86255)
+		(end 85.725 42.86255)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -58059,7 +58059,7 @@
 	)
 	(gr_line
 		(start 23.8125 45.24375)
-		(end 83.3437 45.2438)
+		(end 88.10625 45.2438)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -58068,8 +58068,8 @@
 		(uuid "ba6b2e55-aff2-49c3-995a-b1ff173271cb")
 	)
 	(gr_line
-		(start 83.3437 45.2438)
-		(end 83.3437 19.05005)
+		(start 88.10625 45.2438)
+		(end 88.10625 19.05005)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -62182,20 +62182,28 @@
 		(uuid "f827df86-e90f-4627-8841-c8019216921a")
 	)
 	(segment
-		(start 205.2063 38.1)
-		(end 95.25 38.1)
+		(start 100.0125 38.1)
+		(end 82.95 21.0375)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 59)
-		(uuid "0f4d05ef-c177-4b71-a434-d075b40cec4b")
+		(uuid "69885338-14d7-494b-b10c-f7ef94dcd2f2")
 	)
 	(segment
-		(start 95.25 38.1)
-		(end 78.1875 21.0375)
+		(start 82.95 21.0375)
+		(end 58.02 21.0375)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 59)
-		(uuid "4ba11f2b-f39f-44d0-b66f-fb04225c108d")
+		(uuid "a71ec72c-b1a8-4c15-8013-63af1928d039")
+	)
+	(segment
+		(start 205.2063 38.1)
+		(end 100.0125 38.1)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 59)
+		(uuid "e51452bf-c25e-420a-8f4d-fc9b27079f6b")
 	)
 	(segment
 		(start 58.02 21.0375)
@@ -62203,15 +62211,7 @@
 		(width 0.25)
 		(layer "F.Cu")
 		(net 59)
-		(uuid "96c3c654-b6b7-4ed4-b03e-85cd1247ff49")
-	)
-	(segment
-		(start 78.1875 21.0375)
-		(end 58.02 21.0375)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 59)
-		(uuid "f3f5668d-319b-4e86-b5ac-1c2d645cefea")
+		(uuid "ef6a30e3-4caf-494b-a70c-56feef298722")
 	)
 	(via
 		(at 205.2063 38.1)
