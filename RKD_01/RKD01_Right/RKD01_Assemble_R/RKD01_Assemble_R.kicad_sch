@@ -1704,6 +1704,12 @@
 		(uuid "5a6a0dac-57e8-48d0-84fb-25e49879e4d3")
 	)
 	(junction
+		(at 147.32 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d9f2c2f-0def-4993-8ebc-eeb6e93bdbff")
+	)
+	(junction
 		(at 208.28 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1768,6 +1774,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b593639-e390-4ca5-aec9-1421aaf25757")
+	)
+	(junction
+		(at 157.48 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8650049f-b958-4842-9f3b-a7dbe1a2462b")
 	)
 	(junction
 		(at 71.12 177.8)
@@ -2461,6 +2473,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 236.22) (xy 182.88 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8f6468-f1e5-4467-932e-7c2ee86d0b75")
+	)
+	(wire
+		(pts
 			(xy 157.48 160.02) (xy 182.88 160.02)
 		)
 		(stroke
@@ -2931,6 +2953,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 203.2) (xy 147.32 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac5b1b65-855b-48a9-b08e-c91c55da912c")
+	)
+	(wire
+		(pts
 			(xy 96.52 101.6) (xy 96.52 127)
 		)
 		(stroke
@@ -3101,7 +3133,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 236.22) (xy 182.88 236.22)
+			(xy 132.08 236.22) (xy 157.48 236.22)
 		)
 		(stroke
 			(width 0)
@@ -4066,7 +4098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "080589f2-03da-4885-8f55-5bce5cb4dbd0")
-		(property "Reference" "SW92"
+		(property "Reference" "SW94"
 			(at 254 195.58 0)
 			(effects
 				(font
@@ -4118,7 +4150,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW92")
+					(reference "SW94")
 					(unit 1)
 				)
 			)
@@ -4134,7 +4166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "099121e4-a13c-45b2-928a-4c56dbc7a576")
-		(property "Reference" "D76"
+		(property "Reference" "D77"
 			(at 185.42 154.9399 90)
 			(effects
 				(font
@@ -4206,7 +4238,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D76")
+					(reference "D77")
 					(unit 1)
 				)
 			)
@@ -4379,7 +4411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ef5144a-0b9a-4001-b997-5044eabdd88c")
-		(property "Reference" "D85"
+		(property "Reference" "D86"
 			(at 236.22 129.5399 90)
 			(effects
 				(font
@@ -4451,7 +4483,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D85")
+					(reference "D86")
 					(unit 1)
 				)
 			)
@@ -4536,7 +4568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12ebf843-004f-4b21-b5b2-b20b8d608b28")
-		(property "Reference" "D90"
+		(property "Reference" "D91"
 			(at 261.62 129.5399 90)
 			(effects
 				(font
@@ -4608,7 +4640,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D90")
+					(reference "D91")
 					(unit 1)
 				)
 			)
@@ -4847,7 +4879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20c977a3-d8ea-4b25-81b0-02db30a60a6c")
-		(property "Reference" "D83"
+		(property "Reference" "D84"
 			(at 210.82 205.7399 90)
 			(effects
 				(font
@@ -4919,7 +4951,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D83")
+					(reference "D84")
 					(unit 1)
 				)
 			)
@@ -5093,7 +5125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2aaf1dcf-427f-4558-a44e-fb1c42ee372e")
-		(property "Reference" "SW87"
+		(property "Reference" "SW88"
 			(at 228.6 170.18 0)
 			(effects
 				(font
@@ -5145,7 +5177,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW87")
+					(reference "SW88")
 					(unit 1)
 				)
 			)
@@ -5161,7 +5193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b8af2a4-042e-43d9-83dd-5c5fb6f025ca")
-		(property "Reference" "D86"
+		(property "Reference" "D87"
 			(at 236.22 154.9399 90)
 			(effects
 				(font
@@ -5233,7 +5265,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D86")
+					(reference "D87")
 					(unit 1)
 				)
 			)
@@ -5249,7 +5281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ba18995-b25b-45be-88bf-8764633378b9")
-		(property "Reference" "D89"
+		(property "Reference" "D90"
 			(at 236.22 231.1399 90)
 			(effects
 				(font
@@ -5321,7 +5353,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D89")
+					(reference "D90")
 					(unit 1)
 				)
 			)
@@ -5426,7 +5458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e159ae6-5574-4818-a88e-126328485919")
-		(property "Reference" "SW81"
+		(property "Reference" "SW82"
 			(at 203.2 144.78 0)
 			(effects
 				(font
@@ -5478,7 +5510,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW81")
+					(reference "SW82")
 					(unit 1)
 				)
 			)
@@ -5495,7 +5527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "334e0fb6-2e13-45f0-b98c-717237456d3d")
-		(property "Reference" "SW82"
+		(property "Reference" "SW83"
 			(at 203.2 170.18 0)
 			(effects
 				(font
@@ -5547,7 +5579,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW82")
+					(reference "SW83")
 					(unit 1)
 				)
 			)
@@ -5564,7 +5596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "335f54d0-5cbd-49a5-b676-60d7fa186f6d")
-		(property "Reference" "SW77"
+		(property "Reference" "SW78"
 			(at 177.8 170.18 0)
 			(effects
 				(font
@@ -5616,7 +5648,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW77")
+					(reference "SW78")
 					(unit 1)
 				)
 			)
@@ -5808,7 +5840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3817e40d-29ba-49a5-9a51-a7655be52cc5")
-		(property "Reference" "D75"
+		(property "Reference" "D76"
 			(at 185.42 129.5399 90)
 			(effects
 				(font
@@ -5880,7 +5912,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D75")
+					(reference "D76")
 					(unit 1)
 				)
 			)
@@ -6141,7 +6173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "472673b4-af2d-4a14-a658-0e17b616731f")
-		(property "Reference" "D92"
+		(property "Reference" "D94"
 			(at 261.62 205.7399 90)
 			(effects
 				(font
@@ -6213,7 +6245,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D92")
+					(reference "D94")
 					(unit 1)
 				)
 			)
@@ -6299,7 +6331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49d445fe-6b9b-4143-938b-9bace0dbee39")
-		(property "Reference" "SW79"
+		(property "Reference" "SW80"
 			(at 177.8 220.98 0)
 			(effects
 				(font
@@ -6351,7 +6383,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW79")
+					(reference "SW80")
 					(unit 1)
 				)
 			)
@@ -6520,7 +6552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5045ae3f-bd55-4888-b11e-8037ceaf1af2")
-		(property "Reference" "SW78"
+		(property "Reference" "SW79"
 			(at 177.8 195.58 0)
 			(effects
 				(font
@@ -6572,7 +6604,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW78")
+					(reference "SW79")
 					(unit 1)
 				)
 			)
@@ -6588,7 +6620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5485b696-4549-4d63-addd-68d9b8152b1a")
-		(property "Reference" "D79"
+		(property "Reference" "D80"
 			(at 185.42 231.1399 90)
 			(effects
 				(font
@@ -6660,7 +6692,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D79")
+					(reference "D80")
 					(unit 1)
 				)
 			)
@@ -6677,7 +6709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54c0edb6-aa11-47b9-8099-a15685becdd1")
-		(property "Reference" "SW86"
+		(property "Reference" "SW87"
 			(at 228.6 144.78 0)
 			(effects
 				(font
@@ -6729,7 +6761,71 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW86")
+					(reference "SW87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:Mark")
+		(at 304.8 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56ce165a-7fda-4b73-96da-fd9dbac1b7f9")
+		(property "Reference" "M7"
+			(at 307.34 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mark"
+			(at 307.34 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
+			(at 304.8 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RKD01_Assemble_R"
+				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
+					(reference "M7")
 					(unit 1)
 				)
 			)
@@ -6990,7 +7086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60a3d6b4-1b84-418d-9895-54c57df0f361")
-		(property "Reference" "D82"
+		(property "Reference" "D83"
 			(at 210.82 180.3399 90)
 			(effects
 				(font
@@ -7062,7 +7158,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D82")
+					(reference "D83")
 					(unit 1)
 				)
 			)
@@ -7144,7 +7240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61b98a02-0dc5-4c5b-a524-175f6d0290e1")
-		(property "Reference" "D78"
+		(property "Reference" "D79"
 			(at 185.42 205.7399 90)
 			(effects
 				(font
@@ -7216,7 +7312,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D78")
+					(reference "D79")
 					(unit 1)
 				)
 			)
@@ -7321,7 +7417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63c95d86-60c0-44e2-9124-ffdfe0bbee0d")
-		(property "Reference" "SW91"
+		(property "Reference" "SW92"
 			(at 254 144.78 0)
 			(effects
 				(font
@@ -7373,7 +7469,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW91")
+					(reference "SW92")
 					(unit 1)
 				)
 			)
@@ -7390,7 +7486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6795ad0d-47ba-4e13-a944-540ce065f2f9")
-		(property "Reference" "SW75"
+		(property "Reference" "SW76"
 			(at 177.8 119.38 0)
 			(effects
 				(font
@@ -7442,7 +7538,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW75")
+					(reference "SW76")
 					(unit 1)
 				)
 			)
@@ -7616,7 +7712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ef353f6-f7a0-4dbb-94ae-4400f059d114")
-		(property "Reference" "SW76"
+		(property "Reference" "SW77"
 			(at 177.8 144.78 0)
 			(effects
 				(font
@@ -7668,7 +7764,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW76")
+					(reference "SW77")
 					(unit 1)
 				)
 			)
@@ -8134,7 +8230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "781da0f2-4525-4dd4-a1a7-1aa9260cdf24")
-		(property "Reference" "SW88"
+		(property "Reference" "SW89"
 			(at 228.6 195.58 0)
 			(effects
 				(font
@@ -8186,7 +8282,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW88")
+					(reference "SW89")
 					(unit 1)
 				)
 			)
@@ -8203,7 +8299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80d2eb0d-fb98-49ff-98e0-9472ee4f9557")
-		(property "Reference" "SW84"
+		(property "Reference" "SW85"
 			(at 203.2 220.98 0)
 			(effects
 				(font
@@ -8255,7 +8351,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW84")
+					(reference "SW85")
 					(unit 1)
 				)
 			)
@@ -8271,7 +8367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80e4b299-d6a5-4e47-a1f1-5bac71f20b2e")
-		(property "Reference" "D93"
+		(property "Reference" "D95"
 			(at 261.62 231.1399 90)
 			(effects
 				(font
@@ -8343,7 +8439,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D93")
+					(reference "D95")
 					(unit 1)
 				)
 			)
@@ -8428,7 +8524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84fe4ab0-e8c4-45b7-8f1f-01174b707855")
-		(property "Reference" "D80"
+		(property "Reference" "D81"
 			(at 210.82 129.5399 90)
 			(effects
 				(font
@@ -8500,7 +8596,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D80")
+					(reference "D81")
 					(unit 1)
 				)
 			)
@@ -8585,7 +8681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c89b9c5-e7fe-47b9-b724-efb77e5bb8e0")
-		(property "Reference" "D77"
+		(property "Reference" "D78"
 			(at 185.42 180.3399 90)
 			(effects
 				(font
@@ -8657,7 +8753,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D77")
+					(reference "D78")
 					(unit 1)
 				)
 			)
@@ -8806,7 +8902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90664daf-03c8-425f-a5a2-27519029be77")
-		(property "Reference" "D84"
+		(property "Reference" "D85"
 			(at 210.82 231.1399 90)
 			(effects
 				(font
@@ -8878,7 +8974,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D84")
+					(reference "D85")
 					(unit 1)
 				)
 			)
@@ -9316,7 +9412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa12250a-28c4-4500-aab5-77583e44098e")
-		(property "Reference" "D81"
+		(property "Reference" "D82"
 			(at 210.82 154.9399 90)
 			(effects
 				(font
@@ -9388,7 +9484,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D81")
+					(reference "D82")
 					(unit 1)
 				)
 			)
@@ -9604,7 +9700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aee7d50a-c84c-4e73-bf61-70ed742c508c")
-		(property "Reference" "SW80"
+		(property "Reference" "SW81"
 			(at 203.2 119.38 0)
 			(effects
 				(font
@@ -9656,7 +9752,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW80")
+					(reference "SW81")
 					(unit 1)
 				)
 			)
@@ -9915,7 +10011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b71e4d31-892f-42f0-9079-ab4e08666219")
-		(property "Reference" "SW93"
+		(property "Reference" "SW95"
 			(at 254 220.98 0)
 			(effects
 				(font
@@ -9967,7 +10063,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW93")
+					(reference "SW95")
 					(unit 1)
 				)
 			)
@@ -9984,7 +10080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb4fd178-c8b4-41dc-ad6f-bc6abfa27e80")
-		(property "Reference" "SW83"
+		(property "Reference" "SW84"
 			(at 203.2 195.58 0)
 			(effects
 				(font
@@ -10036,7 +10132,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW83")
+					(reference "SW84")
 					(unit 1)
 				)
 			)
@@ -10053,7 +10149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc1dd036-2850-4bac-8729-86495ee82ff3")
-		(property "Reference" "SW89"
+		(property "Reference" "SW90"
 			(at 228.6 220.98 0)
 			(effects
 				(font
@@ -10105,7 +10201,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW89")
+					(reference "SW90")
 					(unit 1)
 				)
 			)
@@ -10279,7 +10375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2ef3f4d-4a72-41ce-9617-ff00c5be5571")
-		(property "Reference" "SW90"
+		(property "Reference" "SW91"
 			(at 254 119.38 0)
 			(effects
 				(font
@@ -10331,7 +10427,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW90")
+					(reference "SW91")
 					(unit 1)
 				)
 			)
@@ -10923,6 +11019,94 @@
 	)
 	(symbol
 		(lib_id "Device:D")
+		(at 157.48 232.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc21c732-32f2-4114-97d4-eb5b21de223a")
+		(property "Reference" "D75"
+			(at 160.02 231.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 160.02 233.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+			(at 157.48 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 157.48 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 157.48 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c550ffe0-3679-40ac-81e5-8f03b4015cd2")
+		)
+		(pin "2"
+			(uuid "06dae4b3-aa42-4d69-a6b6-fc5dcecff912")
+		)
+		(instances
+			(project "RKD01_Assemble_R"
+				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
+					(reference "D75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
 		(at 233.68 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10931,7 +11115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd7ca63a-f6df-46ff-8671-ad2b827512cd")
-		(property "Reference" "D87"
+		(property "Reference" "D88"
 			(at 236.22 180.3399 90)
 			(effects
 				(font
@@ -11003,7 +11187,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D87")
+					(reference "D88")
 					(unit 1)
 				)
 			)
@@ -11020,7 +11204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6f22dc6-9acd-40a5-9b2e-1659f108209e")
-		(property "Reference" "SW85"
+		(property "Reference" "SW86"
 			(at 228.6 119.38 0)
 			(effects
 				(font
@@ -11072,7 +11256,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "SW85")
+					(reference "SW86")
 					(unit 1)
 				)
 			)
@@ -11161,6 +11345,70 @@
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
 					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:Mark")
+		(at 317.5 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e76f835e-739a-4491-a750-b8068bc6b241")
+		(property "Reference" "M8"
+			(at 320.04 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mark"
+			(at 320.04 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
+			(at 317.5 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RKD01_Assemble_R"
+				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
+					(reference "M8")
 					(unit 1)
 				)
 			)
@@ -11393,6 +11641,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 152.4 228.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec0aa35e-8c3b-4ee2-94d2-9434639c2426")
+		(property "Reference" "SW75"
+			(at 152.4 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 152.4 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbd_SW:Choc_Hotswap_1u"
+			(at 152.4 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 152.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae827bb0-b95e-4dff-9d01-70a9022547c7")
+		)
+		(pin "2"
+			(uuid "4a5de7a2-ea2e-4f8a-badd-3061244bbf03")
+		)
+		(instances
+			(project "RKD01_Assemble_R"
+				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
+					(reference "SW75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 233.68 207.01 90)
 		(unit 1)
@@ -11402,7 +11719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3c2c858-01b6-4f1a-9fb4-f17c8cc95902")
-		(property "Reference" "D88"
+		(property "Reference" "D89"
 			(at 236.22 205.7399 90)
 			(effects
 				(font
@@ -11474,7 +11791,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D88")
+					(reference "D89")
 					(unit 1)
 				)
 			)
@@ -11836,7 +12153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faad3dd7-9040-48cc-85a2-d0fab5fec9b2")
-		(property "Reference" "D91"
+		(property "Reference" "D92"
 			(at 261.62 154.9399 90)
 			(effects
 				(font
@@ -11908,7 +12225,7 @@
 		(instances
 			(project "RKD01_Assemble_R"
 				(path "/19f536aa-aef0-4c4e-9294-f05dcbf6eea3"
-					(reference "D91")
+					(reference "D92")
 					(unit 1)
 				)
 			)
