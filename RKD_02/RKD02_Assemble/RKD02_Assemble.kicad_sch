@@ -2030,12 +2030,6 @@
 		(uuid "6a6fa63a-1ddb-47f5-865f-5fabcffa6b3a")
 	)
 	(junction
-		(at 388.62 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ac0d9ac-3765-422a-a7f6-7e0fff947035")
-	)
-	(junction
 		(at 165.1 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2250,12 +2244,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6da5245-2e00-4399-b023-bdaf11f879df")
-	)
-	(junction
-		(at 373.38 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba0135fc-a942-4061-81d5-41428b4f17af")
 	)
 	(junction
 		(at 220.98 185.42)
@@ -2589,16 +2577,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 185.42) (xy 398.78 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "024b2de6-05dd-42b3-80b0-e8a2f3742ebd")
-	)
-	(wire
-		(pts
 			(xy 189.23 74.93) (xy 165.1 74.93)
 		)
 		(stroke
@@ -2856,16 +2834,6 @@
 			(type default)
 		)
 		(uuid "2d062276-5c9a-41c5-8105-d9af34354cb7")
-	)
-	(wire
-		(pts
-			(xy 388.62 152.4) (xy 388.62 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "304381c0-d7ed-4793-aa08-7ebddec6314a")
 	)
 	(wire
 		(pts
@@ -3619,7 +3587,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 177.8) (xy 388.62 203.2)
+			(xy 388.62 152.4) (xy 388.62 203.2)
 		)
 		(stroke
 			(width 0)
@@ -5765,75 +5733,6 @@
 			(project "RKD02_Assemble"
 				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
 					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 393.7 177.8 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bd431b7-89ef-4a40-a5c7-d5923620d338")
-		(property "Reference" "SW88"
-			(at 393.7 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 393.7 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Parts:ResetSW"
-			(at 393.7 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 393.7 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 393.7 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90b9da3b-6aed-41db-a5c0-97c821d8e374")
-		)
-		(pin "2"
-			(uuid "532b9d55-6b41-48f8-b039-1991c5db2eea")
-		)
-		(instances
-			(project "RKD02_Assemble"
-				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
-					(reference "SW88")
 					(unit 1)
 				)
 			)
@@ -9450,94 +9349,6 @@
 			(project "RKD02_Assemble"
 				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
 					(reference "D57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 398.78 181.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61b05270-5688-4243-a251-f00de43fe7b2")
-		(property "Reference" "D88"
-			(at 401.32 180.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 401.32 182.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
-			(at 398.78 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 398.78 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 398.78 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 398.78 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 398.78 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53873e59-66f5-4168-be0d-364424c51722")
-		)
-		(pin "2"
-			(uuid "a1408728-a780-4776-a0ba-f650eb6a3426")
-		)
-		(instances
-			(project "RKD02_Assemble"
-				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
-					(reference "D88")
 					(unit 1)
 				)
 			)
