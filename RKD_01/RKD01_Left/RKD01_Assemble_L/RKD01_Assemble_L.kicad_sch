@@ -69,6 +69,144 @@
 				)
 			)
 		)
+		(symbol "BrownSugar_KBD:OLED"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "OL"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "OLED"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OLED_0_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "OLED_1_1"
+				(pin bidirectional line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "BrownSugar_KBD:ProMicro"
 			(pin_names
 				(offset 1.016)
@@ -1959,6 +2097,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 48.26) (xy 177.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292c328d-5760-4ede-88b4-7e1ee654ceee")
+	)
+	(wire
+		(pts
 			(xy 104.14 53.34) (xy 114.3 53.34)
 		)
 		(stroke
@@ -2199,6 +2347,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 48.26) (xy 177.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6799b19a-0139-484c-a363-bd8a11285129")
+	)
+	(wire
+		(pts
 			(xy 121.92 101.6) (xy 121.92 127)
 		)
 		(stroke
@@ -2236,6 +2394,16 @@
 			(type default)
 		)
 		(uuid "768b88f6-a416-4529-8142-35a36389f3b5")
+	)
+	(wire
+		(pts
+			(xy 177.8 45.72) (xy 177.8 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "769fdcca-a828-48dc-8c47-8dc1e2f00e03")
 	)
 	(wire
 		(pts
@@ -2486,6 +2654,16 @@
 			(type default)
 		)
 		(uuid "a24c68c2-a3c7-45dc-a0e6-34bc67aeea16")
+	)
+	(wire
+		(pts
+			(xy 203.2 45.72) (xy 177.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e61bcd-6ce8-40d6-aa52-6c791c76fc68")
 	)
 	(wire
 		(pts
@@ -2931,6 +3109,28 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 203.2 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11401a16-090e-4d91-aa88-5313701b317f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.7072 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Row4"
 		(shape input)
 		(at 63.5 53.34 180)
@@ -3015,6 +3215,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 203.2 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ae99f76-129b-4fbb-b6cd-5f91743b11de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.6467 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8010,6 +8232,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 177.8 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa61bc1c-de67-4950-8afa-706b9f6819c1")
+		(property "Reference" "#PWR08"
+			(at 177.8 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 177.8 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 177.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c982bf9e-41fc-4c28-94bd-ff6c3c85bcb2")
+		)
+		(instances
+			(project "RKD01_Assemble_L"
+				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 152.4 152.4 0)
 		(mirror y)
@@ -8317,6 +8605,82 @@
 			(project "RKD01_Assemble_L"
 				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
 					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:OLED")
+		(at 210.82 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2ce0a59-43a6-44a7-9e6a-ee2207c8817b")
+		(property "Reference" "OL1"
+			(at 217.17 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OLED"
+			(at 217.17 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:OLED_center_module"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3759b86-a7b6-4e4c-a6af-7612a6429978")
+		)
+		(pin "2"
+			(uuid "5a7a6423-537c-444e-b58b-1dd29edb43ba")
+		)
+		(pin "3"
+			(uuid "2695ea98-872e-4859-912a-6b170256ee06")
+		)
+		(pin "4"
+			(uuid "4e54d710-5c9f-4f6d-93ec-b6ef2202cd3a")
+		)
+		(instances
+			(project ""
+				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
+					(reference "OL1")
 					(unit 1)
 				)
 			)
@@ -9188,6 +9552,72 @@
 			(project "RKD01_Assemble_L"
 				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
 					(reference "SW37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d25a7dce-47fb-4ebb-806e-2ef0bfe60543")
+		(property "Reference" "#PWR010"
+			(at 177.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edadd763-9a0b-4382-bde8-8ce9c450ec05")
+		)
+		(instances
+			(project "RKD01_Assemble_L"
+				(path "/6e5cd7dd-f51d-475f-ae62-052f0b2c3d71"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
