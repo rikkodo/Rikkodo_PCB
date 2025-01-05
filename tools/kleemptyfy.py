@@ -1,7 +1,8 @@
 #!python3
 
 """
-Keyboard Layout Editorの出力からLegend部分を空欄にする。
+[Keyboard Layout Editor]<https://www.keyboard-layout-editor.com/>
+の出力からLegend部分を空欄にする。
 対象は stdin
 Legend部分: "<"以外の文字>*", 空欄" ""
 """
