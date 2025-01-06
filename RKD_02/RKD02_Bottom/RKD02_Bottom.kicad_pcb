@@ -42,13 +42,13 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
+			(layerselection 0x00010f0_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -74,9 +74,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../../../Order/20241231/RKD02/Bottom/")
 		)
 	)
 	(net 0 "")
@@ -195,7 +195,7 @@
 		(property "Reference" "Ref**"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
-			(uuid "f118a42c-7123-4a46-9356-ff6b8771dd8e")
+			(uuid "42c1062b-4791-4d3c-814b-38a448c3307f")
 			(effects
 				(font
 					(size 1 1)
@@ -206,7 +206,7 @@
 		(property "Value" "Val**"
 			(at 0 3.2 0)
 			(layer "F.Fab")
-			(uuid "fe89f05f-5585-4e24-8ac0-f12ee3da18b9")
+			(uuid "75ed57fe-6080-480c-9ebd-4c34f36bc6a3")
 			(effects
 				(font
 					(size 1 1)
@@ -260,7 +260,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "e6943495-15e0-423f-9638-afd7eb8b5ec9")
+			(uuid "64791e85-564d-4ad0-98cb-43dc45b9609f")
 		)
 		(fp_circle
 			(center 0 0)
@@ -271,12 +271,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "c4ac1d34-e65e-46cf-92a9-92ac46f7ebc1")
+			(uuid "ca02cb2e-e488-4b70-9db0-79ee9413ec52")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.3 0 0)
 			(layer "F.Fab")
-			(uuid "19e4a416-ff7d-4582-ab0a-7725a34a3bdd")
+			(uuid "dcebcb03-0cbf-4304-b2da-b140ad16e342")
 			(effects
 				(font
 					(size 1 1)
@@ -289,7 +289,7 @@
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "9d81452a-91e0-4a90-8794-ccbec45e8ce7")
+			(uuid "a744218d-b7d1-410e-9394-b2dde109c565")
 		)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
@@ -301,7 +301,7 @@
 		(property "Reference" "Ref**"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
-			(uuid "f118a42c-7123-4a46-9356-ff6b8771dd8e")
+			(uuid "ea32b8f7-13f1-4791-bd6c-b856f3e4ae90")
 			(effects
 				(font
 					(size 1 1)
@@ -312,7 +312,7 @@
 		(property "Value" "Val**"
 			(at 0 3.2 0)
 			(layer "F.Fab")
-			(uuid "fe89f05f-5585-4e24-8ac0-f12ee3da18b9")
+			(uuid "58bf1527-dd25-401c-8df8-491198e9a83b")
 			(effects
 				(font
 					(size 1 1)
@@ -366,7 +366,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "e6943495-15e0-423f-9638-afd7eb8b5ec9")
+			(uuid "1dd4c2e5-611c-414e-9b16-246bf8b01469")
 		)
 		(fp_circle
 			(center 0 0)
@@ -377,12 +377,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "c4ac1d34-e65e-46cf-92a9-92ac46f7ebc1")
+			(uuid "5bac9ed4-b84c-45be-b7f9-6a0684970e61")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.3 0 0)
 			(layer "F.Fab")
-			(uuid "19e4a416-ff7d-4582-ab0a-7725a34a3bdd")
+			(uuid "b81f46d8-ea87-48b3-9598-dbc7afadc0ed")
 			(effects
 				(font
 					(size 1 1)
@@ -395,7 +395,7 @@
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "9d81452a-91e0-4a90-8794-ccbec45e8ce7")
+			(uuid "d74331ca-1c8f-4402-addc-6ac015db19ae")
 		)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
@@ -407,7 +407,7 @@
 		(property "Reference" "Ref**"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
-			(uuid "f118a42c-7123-4a46-9356-ff6b8771dd8e")
+			(uuid "6cee08f0-44b0-4d5b-9280-f4e16fe7de37")
 			(effects
 				(font
 					(size 1 1)
@@ -418,7 +418,7 @@
 		(property "Value" "Val**"
 			(at 0 3.2 0)
 			(layer "F.Fab")
-			(uuid "fe89f05f-5585-4e24-8ac0-f12ee3da18b9")
+			(uuid "8e15a25d-9d96-4a89-952e-88a042d3b82f")
 			(effects
 				(font
 					(size 1 1)
@@ -472,7 +472,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "e6943495-15e0-423f-9638-afd7eb8b5ec9")
+			(uuid "9158392c-155d-4b92-8c0c-07558720b49f")
 		)
 		(fp_circle
 			(center 0 0)
@@ -483,12 +483,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "c4ac1d34-e65e-46cf-92a9-92ac46f7ebc1")
+			(uuid "e332096c-08ec-44e2-8276-f745b685f593")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.3 0 0)
 			(layer "F.Fab")
-			(uuid "19e4a416-ff7d-4582-ab0a-7725a34a3bdd")
+			(uuid "e22189cc-29b9-4eb0-ad08-df1d3f4a1733")
 			(effects
 				(font
 					(size 1 1)
@@ -501,7 +501,7 @@
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "9d81452a-91e0-4a90-8794-ccbec45e8ce7")
+			(uuid "f7c5e085-fa52-457e-acdb-688ae2e400be")
 		)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
@@ -513,7 +513,7 @@
 		(property "Reference" "Ref**"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
-			(uuid "f118a42c-7123-4a46-9356-ff6b8771dd8e")
+			(uuid "69476d93-8387-4675-aa8b-95992ae5f73b")
 			(effects
 				(font
 					(size 1 1)
@@ -524,7 +524,7 @@
 		(property "Value" "Val**"
 			(at 0 3.2 0)
 			(layer "F.Fab")
-			(uuid "fe89f05f-5585-4e24-8ac0-f12ee3da18b9")
+			(uuid "e220a8c1-0268-44a7-82e3-ec59483a5d72")
 			(effects
 				(font
 					(size 1 1)
@@ -578,7 +578,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "e6943495-15e0-423f-9638-afd7eb8b5ec9")
+			(uuid "83e870e1-9b8c-468b-b097-85cd443fce40")
 		)
 		(fp_circle
 			(center 0 0)
@@ -589,12 +589,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "c4ac1d34-e65e-46cf-92a9-92ac46f7ebc1")
+			(uuid "125384c4-3af6-4de4-9d8d-9dceffc1abf8")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.3 0 0)
 			(layer "F.Fab")
-			(uuid "19e4a416-ff7d-4582-ab0a-7725a34a3bdd")
+			(uuid "a96387a4-806d-490d-8efb-f812f732a55d")
 			(effects
 				(font
 					(size 1 1)
@@ -607,7 +607,7 @@
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "9d81452a-91e0-4a90-8794-ccbec45e8ce7")
+			(uuid "953144da-1b6a-4740-81e2-9220c866d813")
 		)
 	)
 	(footprint "Rikkodo_FootPrint:rkd_Point_Screw_Hall"
@@ -866,7 +866,7 @@
 		(property "Reference" "Ref**"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
-			(uuid "f118a42c-7123-4a46-9356-ff6b8771dd8e")
+			(uuid "741de929-e6c3-4b80-881a-31467114f225")
 			(effects
 				(font
 					(size 1 1)
@@ -877,7 +877,7 @@
 		(property "Value" "Val**"
 			(at 0 3.2 0)
 			(layer "F.Fab")
-			(uuid "fe89f05f-5585-4e24-8ac0-f12ee3da18b9")
+			(uuid "4e1a3a94-e773-4f4d-b5da-d15997a9a588")
 			(effects
 				(font
 					(size 1 1)
@@ -931,7 +931,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "e6943495-15e0-423f-9638-afd7eb8b5ec9")
+			(uuid "b789f8c7-f03b-457a-9652-9056bf121495")
 		)
 		(fp_circle
 			(center 0 0)
@@ -942,12 +942,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "c4ac1d34-e65e-46cf-92a9-92ac46f7ebc1")
+			(uuid "e577bd09-01b9-47f2-90dd-e5933cdc20a7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.3 0 0)
 			(layer "F.Fab")
-			(uuid "19e4a416-ff7d-4582-ab0a-7725a34a3bdd")
+			(uuid "f9972d85-1e5d-48d5-9107-1c3d8e847ae1")
 			(effects
 				(font
 					(size 1 1)
@@ -960,7 +960,7 @@
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "9d81452a-91e0-4a90-8794-ccbec45e8ce7")
+			(uuid "2a7fdcf8-8917-40c0-b5a3-209841136699")
 		)
 	)
 	(footprint "Rikkodo_FootPrint:rkd_Guard_Screw_Hall"
@@ -1110,7 +1110,7 @@
 		(property "Reference" "Ref**"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
-			(uuid "f118a42c-7123-4a46-9356-ff6b8771dd8e")
+			(uuid "8c64f905-939a-4d21-89f9-b989ecd41d85")
 			(effects
 				(font
 					(size 1 1)
@@ -1121,7 +1121,7 @@
 		(property "Value" "Val**"
 			(at 0 3.2 0)
 			(layer "F.Fab")
-			(uuid "fe89f05f-5585-4e24-8ac0-f12ee3da18b9")
+			(uuid "ffaf84ed-a914-42f0-b5ec-67dfb7b374e9")
 			(effects
 				(font
 					(size 1 1)
@@ -1175,7 +1175,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "e6943495-15e0-423f-9638-afd7eb8b5ec9")
+			(uuid "8b44f233-7e83-42c3-8f6f-c5903122ca47")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1186,12 +1186,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "c4ac1d34-e65e-46cf-92a9-92ac46f7ebc1")
+			(uuid "771f9c80-5ceb-4e00-bfb3-3b4a02ed221b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.3 0 0)
 			(layer "F.Fab")
-			(uuid "19e4a416-ff7d-4582-ab0a-7725a34a3bdd")
+			(uuid "d196b1a6-6b8e-406c-b07e-48dcbd3d36c4")
 			(effects
 				(font
 					(size 1 1)
@@ -1204,7 +1204,7 @@
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "9d81452a-91e0-4a90-8794-ccbec45e8ce7")
+			(uuid "7ea983cb-ac2f-446c-b748-e1b2b6381eec")
 		)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
@@ -1216,7 +1216,7 @@
 		(property "Reference" "Ref**"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
-			(uuid "f118a42c-7123-4a46-9356-ff6b8771dd8e")
+			(uuid "9d2c346d-0191-4286-8899-84b58909a397")
 			(effects
 				(font
 					(size 1 1)
@@ -1227,7 +1227,7 @@
 		(property "Value" "Val**"
 			(at 0 3.2 0)
 			(layer "F.Fab")
-			(uuid "fe89f05f-5585-4e24-8ac0-f12ee3da18b9")
+			(uuid "5c03071f-d29f-47fa-a6fb-08fe116794cb")
 			(effects
 				(font
 					(size 1 1)
@@ -1281,7 +1281,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "e6943495-15e0-423f-9638-afd7eb8b5ec9")
+			(uuid "8c8af0f0-bcaf-41f5-8d20-4a77fc53cc54")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1292,12 +1292,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "c4ac1d34-e65e-46cf-92a9-92ac46f7ebc1")
+			(uuid "91f36183-f47a-435d-9c94-2d1754e3adb9")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.3 0 0)
 			(layer "F.Fab")
-			(uuid "19e4a416-ff7d-4582-ab0a-7725a34a3bdd")
+			(uuid "95e3c653-469e-4ed6-939d-2b3653ec6b4a")
 			(effects
 				(font
 					(size 1 1)
@@ -1310,7 +1310,7 @@
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "9d81452a-91e0-4a90-8794-ccbec45e8ce7")
+			(uuid "6d4d2b81-4310-4814-a07d-94b29597c62a")
 		)
 	)
 	(gr_circle
@@ -1514,5 +1514,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e9c838b3-4911-42ca-ba88-2e1e01ece65b")
+	)
+	(gr_text "RKD02_v1.0"
+		(at 185.7375 164.30625 0)
+		(layer "B.SilkS")
+		(uuid "38217740-95f7-4685-a858-3ed676e99555")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
 	)
 )
