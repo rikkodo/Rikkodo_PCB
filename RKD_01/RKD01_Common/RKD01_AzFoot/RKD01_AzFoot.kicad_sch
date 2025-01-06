@@ -552,6 +552,26 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 77.47) (xy 170.18 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b4f3e60-caad-4629-a02b-eebee10e0acf")
+	)
+	(wire
+		(pts
+			(xy 170.18 81.28) (xy 187.96 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413d537f-1b64-467b-b7a6-19e07efa3eb3")
+	)
+	(wire
+		(pts
 			(xy 125.73 83.82) (xy 143.51 83.82)
 		)
 		(stroke
@@ -582,6 +602,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 76.2) (xy 187.96 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b817886-eeab-4283-af06-363d36ddedf1")
+	)
+	(wire
+		(pts
 			(xy 139.7 76.2) (xy 143.51 76.2)
 		)
 		(stroke
@@ -602,6 +632,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 81.28) (xy 170.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c324ea-bd15-4b10-9471-3ea17d046fc3")
+	)
+	(wire
+		(pts
 			(xy 92.71 77.47) (xy 96.52 77.47)
 		)
 		(stroke
@@ -609,6 +649,26 @@
 			(type default)
 		)
 		(uuid "ac5a7db3-9f46-4bc3-b271-23927b0dfdb4")
+	)
+	(wire
+		(pts
+			(xy 170.18 78.74) (xy 187.96 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c42505-6669-4ef3-b1f2-e1fbd1c04ab6")
+	)
+	(wire
+		(pts
+			(xy 184.15 73.66) (xy 187.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cecd50fd-2824-4008-8bf8-731b35a59960")
 	)
 	(wire
 		(pts
@@ -639,6 +699,50 @@
 			(type default)
 		)
 		(uuid "fed1a451-874e-40d9-b562-f5bdf9100aef")
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 184.15 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02abf8ae-26e6-4453-99d7-c0042bb56073")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.5967 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 184.15 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28bf3283-3c5e-4bb7-a790-d8bc0f370e49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.6572 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SCL"
 		(shape input)
@@ -994,6 +1098,71 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 170.18 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "707ae53b-5e0d-4e75-a32d-46a8d0c13d36")
+		(property "Reference" "#PWR07"
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 170.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 170.18 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16757eb8-d1d4-4ba6-a360-83ecb5e0826e")
+		)
+		(instances
+			(project "RKD01_AzFoot"
+				(path "/7698d9f7-e456-4dfc-bf5a-bdf10b95cde3"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 125.73 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1181,6 +1350,72 @@
 			(project ""
 				(path "/7698d9f7-e456-4dfc-bf5a-bdf10b95cde3"
 					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac669b1d-3c3d-49de-85cb-027331d625f5")
+		(property "Reference" "#PWR08"
+			(at 170.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b0cede6-20ea-470e-883a-02de512fae4e")
+		)
+		(instances
+			(project "RKD01_AzFoot"
+				(path "/7698d9f7-e456-4dfc-bf5a-bdf10b95cde3"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -1389,6 +1624,82 @@
 			(project "RKD01AzHoot"
 				(path "/7698d9f7-e456-4dfc-bf5a-bdf10b95cde3"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:OLED")
+		(at 195.58 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf876bc3-eafc-4dd5-a698-e7ccc9b408c2")
+		(property "Reference" "P2"
+			(at 201.93 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "pointing"
+			(at 201.93 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_Parts:OLED"
+			(at 195.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14e692d6-1164-401a-9b9f-81cacc5c552d")
+		)
+		(pin "4"
+			(uuid "a57c05a0-f6f2-490c-beb3-4301c3b7d275")
+		)
+		(pin "2"
+			(uuid "053ce392-6fde-4322-be03-2c827fd5ad76")
+		)
+		(pin "3"
+			(uuid "c4b2fd75-e865-42d6-ad02-43776f6ffa39")
+		)
+		(instances
+			(project "RKD01_AzFoot"
+				(path "/7698d9f7-e456-4dfc-bf5a-bdf10b95cde3"
+					(reference "P2")
 					(unit 1)
 				)
 			)
