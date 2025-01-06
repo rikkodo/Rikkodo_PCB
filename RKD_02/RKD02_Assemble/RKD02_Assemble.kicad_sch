@@ -370,127 +370,6 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "RPi_Pico:Pico"
 			(pin_names
 				(offset 1.016)
@@ -1806,6 +1685,12 @@
 		(uuid "02e1db4f-f13e-46cf-a248-bc6771563c6d")
 	)
 	(junction
+		(at 101.6 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "035b5050-0f64-40ff-9146-87227fe1e9b9")
+	)
+	(junction
 		(at 297.18 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1884,12 +1769,6 @@
 		(uuid "255a0e90-72be-4279-b24b-097d437a2ac6")
 	)
 	(junction
-		(at 177.8 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25899908-10d1-442f-8c34-9cff9b5a52ab")
-	)
-	(junction
 		(at 144.78 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1920,22 +1799,10 @@
 		(uuid "2f182a0a-d4d1-45c4-8206-74fb67e99985")
 	)
 	(junction
-		(at 152.4 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30cd1e59-fd87-49fe-a9ec-7dcf6ce16a3c")
-	)
-	(junction
 		(at 337.82 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31158e7e-31da-43c4-839e-0488209b63b7")
-	)
-	(junction
-		(at 25.4 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32fe89e7-88f2-40d7-ace0-48542e074450")
 	)
 	(junction
 		(at 347.98 134.62)
@@ -2046,12 +1913,6 @@
 		(uuid "5f0873aa-f7a4-4817-8945-0a5bbb12a6ac")
 	)
 	(junction
-		(at 25.4 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f628075-d724-4c17-89f6-c814a41c9bf3")
-	)
-	(junction
 		(at 83.82 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2092,12 +1953,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a6fa63a-1ddb-47f5-865f-5fabcffa6b3a")
-	)
-	(junction
-		(at 165.1 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c423a3a-a233-4c45-a319-021a5f576a2c")
 	)
 	(junction
 		(at 312.42 127)
@@ -2148,6 +2003,12 @@
 		(uuid "74650dbe-4b4e-4cae-9135-76bcafac53d9")
 	)
 	(junction
+		(at 25.4 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78751217-3b88-4ff5-88ee-3d9356f5aaa2")
+	)
+	(junction
 		(at 312.42 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2190,12 +2051,6 @@
 		(uuid "9032da45-5dea-4e77-b4d6-5230d443f254")
 	)
 	(junction
-		(at 152.4 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "904d8a8b-9b87-46c8-b066-ba829f531a68")
-	)
-	(junction
 		(at 261.62 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2236,6 +2091,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b236ede-bf7f-4217-9e70-526ee48c85e7")
+	)
+	(junction
+		(at 25.4 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9eb671d0-b551-4993-8e28-dadd4acd4edb")
 	)
 	(junction
 		(at 271.78 160.02)
@@ -2302,12 +2163,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b59b8381-87aa-44e4-8844-1c754ff5d418")
-	)
-	(junction
-		(at 101.6 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6da5245-2e00-4399-b023-bdaf11f879df")
 	)
 	(junction
 		(at 220.98 185.42)
@@ -2406,6 +2261,12 @@
 		(uuid "cdd36dbc-4137-4125-979d-24cd65919fc7")
 	)
 	(junction
+		(at 25.4 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf31f9f5-d8ca-458c-8b08-1cce52be3fe7")
+	)
+	(junction
 		(at 220.98 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2488,12 +2349,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7367c1d-1fd0-40a6-9281-a3cd19a8cdf6")
-	)
-	(junction
-		(at 25.4 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8619965-084c-4fad-8f85-d840263ef1fc")
 	)
 	(junction
 		(at 236.22 152.4)
@@ -2695,16 +2550,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 71.12) (xy 45.72 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09e7686b-82fb-4af9-801d-cb7ab331aff2")
-	)
-	(wire
-		(pts
 			(xy 38.1 60.96) (xy 45.72 60.96)
 		)
 		(stroke
@@ -2732,6 +2577,16 @@
 			(type default)
 		)
 		(uuid "0f593dbc-489b-4823-bac7-9adf49235cdd")
+	)
+	(wire
+		(pts
+			(xy 25.4 71.12) (xy 45.72 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9e6787-23a2-4247-90bd-367c61e94c20")
 	)
 	(wire
 		(pts
@@ -2782,6 +2637,16 @@
 			(type default)
 		)
 		(uuid "16b4e484-a4b0-46c2-98f9-f91d9f2ba1d9")
+	)
+	(wire
+		(pts
+			(xy 81.28 33.02) (xy 101.6 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ce3986-2698-41fd-8288-16ff5588a4bb")
 	)
 	(wire
 		(pts
@@ -2875,16 +2740,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 45.72) (xy 45.72 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aca1dc9-6001-4d25-bea3-2ab51c82f7e4")
-	)
-	(wire
-		(pts
 			(xy 119.38 160.02) (xy 144.78 160.02)
 		)
 		(stroke
@@ -2942,16 +2797,6 @@
 			(type default)
 		)
 		(uuid "390ccc00-e5c0-48ba-ba10-2ad455c2038e")
-	)
-	(wire
-		(pts
-			(xy 25.4 45.72) (xy 25.4 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bd20f58-50bb-455a-97e7-44e64e444c58")
 	)
 	(wire
 		(pts
@@ -3045,6 +2890,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 33.02) (xy 25.4 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d45226-6316-4aea-b39f-6c37e5eaee88")
+	)
+	(wire
+		(pts
 			(xy 363.22 177.8) (xy 363.22 203.2)
 		)
 		(stroke
@@ -3062,16 +2917,6 @@
 			(type default)
 		)
 		(uuid "4d5500e0-1b95-41e4-af31-b3677e99a15d")
-	)
-	(wire
-		(pts
-			(xy 25.4 58.42) (xy 25.4 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dbabc38-5b2c-4c7b-8e52-deabee6c983a")
 	)
 	(wire
 		(pts
@@ -3145,6 +2990,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 58.42) (xy 45.72 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586ff4fe-5713-4bf3-9c5a-008f107f9651")
+	)
+	(wire
+		(pts
 			(xy 236.22 152.4) (xy 236.22 177.8)
 		)
 		(stroke
@@ -3175,16 +3030,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 33.02) (xy 101.6 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e05e892-3a70-4eb0-a8b6-cb6f3cae414c")
-	)
-	(wire
-		(pts
 			(xy 119.38 185.42) (xy 144.78 185.42)
 		)
 		(stroke
@@ -3202,16 +3047,6 @@
 			(type default)
 		)
 		(uuid "61dec6bd-6f72-43b0-94a1-0c4c5ddc3206")
-	)
-	(wire
-		(pts
-			(xy 25.4 33.02) (xy 25.4 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6245272c-0fef-4668-891d-b8f0f1793170")
 	)
 	(wire
 		(pts
@@ -3305,26 +3140,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 33.02) (xy 25.4 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c0fef01-0cb3-4d7b-a7ad-63823449e2aa")
-	)
-	(wire
-		(pts
-			(xy 152.4 50.8) (xy 167.64 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c11db2b-2c00-4a1a-b233-e4b636b8a88a")
-	)
-	(wire
-		(pts
 			(xy 373.38 160.02) (xy 398.78 160.02)
 		)
 		(stroke
@@ -3332,6 +3147,16 @@
 			(type default)
 		)
 		(uuid "6fadcd99-7634-48b5-8aaa-a6900731f45b")
+	)
+	(wire
+		(pts
+			(xy 25.4 45.72) (xy 45.72 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71207b3b-bf98-4811-9e0d-bf4988e90018")
 	)
 	(wire
 		(pts
@@ -3415,6 +3240,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 33.02) (xy 101.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c71d45-f26c-4180-9901-482276c7d991")
+	)
+	(wire
+		(pts
 			(xy 160.02 152.4) (xy 160.02 177.8)
 		)
 		(stroke
@@ -3475,16 +3310,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 58.42) (xy 45.72 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8333a368-4bb4-4396-8890-09e45b50d162")
-	)
-	(wire
-		(pts
 			(xy 261.62 114.3) (xy 261.62 127)
 		)
 		(stroke
@@ -3502,6 +3327,16 @@
 			(type default)
 		)
 		(uuid "83d269d3-4945-429f-978a-23a621cce661")
+	)
+	(wire
+		(pts
+			(xy 25.4 33.02) (xy 25.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849570c5-3919-4cfb-b842-596a5bafc1a8")
 	)
 	(wire
 		(pts
@@ -3562,26 +3397,6 @@
 			(type default)
 		)
 		(uuid "8bd6b48b-0327-4bc3-83b5-d3ea5b218a31")
-	)
-	(wire
-		(pts
-			(xy 177.8 50.8) (xy 177.8 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c648fc1-0595-4f13-b7e0-c2b9ce3b78c4")
-	)
-	(wire
-		(pts
-			(xy 165.1 38.1) (xy 165.1 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cf88198-a4b6-44b8-a88d-32e30d4edbc3")
 	)
 	(wire
 		(pts
@@ -3655,23 +3470,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 33.02) (xy 101.6 58.42)
+			(xy 25.4 45.72) (xy 25.4 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b3be18d-5cf8-4f99-899f-466ed3f0f4d7")
-	)
-	(wire
-		(pts
-			(xy 152.4 38.1) (xy 152.4 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bed36c2-68c4-4b03-bb26-0f246870795e")
+		(uuid "9bffea0f-8795-41b4-aee2-52a4950f2978")
 	)
 	(wire
 		(pts
@@ -3835,17 +3640,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 59.69) (xy 154.94 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b13b8db5-5a80-4f99-8ad7-0746e3993763")
-	)
-	(wire
-		(pts
-			(xy 165.1 59.69) (xy 165.1 74.93)
+			(xy 165.1 38.1) (xy 165.1 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3955,7 +3750,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 50.8) (xy 152.4 59.69)
+			(xy 152.4 38.1) (xy 152.4 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3982,6 +3777,16 @@
 			(type default)
 		)
 		(uuid "c83fd26f-643c-4217-99da-7d54360ee0e7")
+	)
+	(wire
+		(pts
+			(xy 25.4 101.6) (xy 25.4 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c861299f-ba7a-4408-b917-5cb953057a8f")
 	)
 	(wire
 		(pts
@@ -4015,16 +3820,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 71.12) (xy 25.4 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc16fbe4-f0d4-4898-92aa-347eda7514f2")
-	)
-	(wire
-		(pts
 			(xy 83.82 127) (xy 83.82 152.4)
 		)
 		(stroke
@@ -4032,6 +3827,16 @@
 			(type default)
 		)
 		(uuid "cc24e1a5-90f7-4db4-967d-9fbd70a1c5c8")
+	)
+	(wire
+		(pts
+			(xy 25.4 58.42) (xy 25.4 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0c73ff-4ab4-4efa-b874-3f2978c22998")
 	)
 	(wire
 		(pts
@@ -4365,17 +4170,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 59.69) (xy 165.1 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed886083-ff1b-4543-8166-9c091d37b704")
-	)
-	(wire
-		(pts
-			(xy 177.8 38.1) (xy 177.8 50.8)
+			(xy 177.8 38.1) (xy 177.8 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4435,16 +4230,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 77.47) (xy 152.4 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4148972-b638-43ae-9be2-a79e402705bf")
-	)
-	(wire
-		(pts
 			(xy 337.82 203.2) (xy 337.82 228.6)
 		)
 		(stroke
@@ -4482,16 +4267,6 @@
 			(type default)
 		)
 		(uuid "f818ab75-8f96-4867-9c09-b1d8a8410cc1")
-	)
-	(wire
-		(pts
-			(xy 175.26 50.8) (xy 177.8 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f95f08c1-7c6c-4229-98bc-f54113d3e7e6")
 	)
 	(wire
 		(pts
@@ -4555,7 +4330,7 @@
 			)
 		)
 	)
-	(global_label "col1"
+	(global_label "col2"
 		(shape input)
 		(at 38.1 50.8 180)
 		(fields_autoplaced yes)
@@ -4665,7 +4440,7 @@
 			)
 		)
 	)
-	(global_label "col7"
+	(global_label "col12"
 		(shape input)
 		(at 88.9 66.04 0)
 		(fields_autoplaced yes)
@@ -4677,7 +4452,7 @@
 		)
 		(uuid "2731268f-3c4d-406b-9b32-e38011228cbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.9975 66.04 0)
+			(at 97.207 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,7 +4462,7 @@
 			)
 		)
 	)
-	(global_label "col8"
+	(global_label "col11"
 		(shape input)
 		(at 88.9 63.5 0)
 		(fields_autoplaced yes)
@@ -4699,7 +4474,7 @@
 		)
 		(uuid "2dbd87de-0851-49e4-a7ae-4d04fcd34150")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.9975 63.5 0)
+			(at 97.207 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,7 +4572,7 @@
 			)
 		)
 	)
-	(global_label "col11"
+	(global_label "col8"
 		(shape input)
 		(at 88.9 50.8 0)
 		(fields_autoplaced yes)
@@ -4809,7 +4584,7 @@
 		)
 		(uuid "627c6b76-bab3-4167-872e-017d95b3ddd5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.207 50.8 0)
+			(at 95.9975 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,7 +4704,7 @@
 			)
 		)
 	)
-	(global_label "col2"
+	(global_label "col3"
 		(shape input)
 		(at 38.1 53.34 180)
 		(fields_autoplaced yes)
@@ -4973,7 +4748,7 @@
 			)
 		)
 	)
-	(global_label "col3"
+	(global_label "col1"
 		(shape input)
 		(at 38.1 55.88 180)
 		(fields_autoplaced yes)
@@ -5127,7 +4902,7 @@
 			)
 		)
 	)
-	(global_label "col6"
+	(global_label "col13"
 		(shape input)
 		(at 88.9 68.58 0)
 		(fields_autoplaced yes)
@@ -5139,7 +4914,7 @@
 		)
 		(uuid "ab3e2cc4-1fcb-45a0-b097-b68d83df2737")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.9975 68.58 0)
+			(at 97.207 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +4924,7 @@
 			)
 		)
 	)
-	(global_label "col12"
+	(global_label "col7"
 		(shape input)
 		(at 88.9 48.26 0)
 		(fields_autoplaced yes)
@@ -5161,7 +4936,7 @@
 		)
 		(uuid "b4fbccc1-c55a-420e-854b-f609e47d8d25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.207 48.26 0)
+			(at 95.9975 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +5056,7 @@
 			)
 		)
 	)
-	(global_label "col10"
+	(global_label "col9"
 		(shape input)
 		(at 88.9 55.88 0)
 		(fields_autoplaced yes)
@@ -5293,7 +5068,7 @@
 		)
 		(uuid "dacca6f2-cbe0-432b-b818-9fefc500d919")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.207 55.88 0)
+			(at 95.9975 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5303,7 +5078,7 @@
 			)
 		)
 	)
-	(global_label "col13"
+	(global_label "col6"
 		(shape input)
 		(at 88.9 43.18 0)
 		(fields_autoplaced yes)
@@ -5315,7 +5090,7 @@
 		)
 		(uuid "e1eb8a8b-11d9-4a94-a455-5e431ad5701f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.207 43.18 0)
+			(at 95.9975 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5210,7 @@
 			)
 		)
 	)
-	(global_label "col9"
+	(global_label "col10"
 		(shape input)
 		(at 88.9 60.96 0)
 		(fields_autoplaced yes)
@@ -5447,7 +5222,7 @@
 		)
 		(uuid "f2fefa9c-2735-4e7d-bc76-2bd7fbe1f997")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.9975 60.96 0)
+			(at 97.207 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5467,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 119.38 207.01 0)
 			(effects
 				(font
@@ -5747,74 +5522,6 @@
 			(project "RKD02_Assemble"
 				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
 					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 158.75 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f556104-46f1-406c-b885-bd872dda5c81")
-		(property "Reference" "R1"
-			(at 158.75 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 158.75 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 158.75 61.468 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 158.75 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c34f3a9-c9b9-463b-bc87-8af63ccfc93d")
-		)
-		(pin "2"
-			(uuid "6623463a-dfdd-4ef7-a9e1-8cd3c26b71d7")
-		)
-		(instances
-			(project ""
-				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5917,7 +5624,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 271.78 181.61 0)
 			(effects
 				(font
@@ -6005,7 +5712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 43.18 181.61 0)
 			(effects
 				(font
@@ -6093,7 +5800,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 119.38 156.21 0)
 			(effects
 				(font
@@ -6388,7 +6095,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 347.98 232.41 0)
 			(effects
 				(font
@@ -6611,7 +6318,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 144.78 207.01 0)
 			(effects
 				(font
@@ -6699,7 +6406,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 271.78 232.41 0)
 			(effects
 				(font
@@ -6787,7 +6494,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 170.18 156.21 0)
 			(effects
 				(font
@@ -7151,7 +6858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 220.98 232.41 0)
 			(effects
 				(font
@@ -7515,7 +7222,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 119.38 232.41 0)
 			(effects
 				(font
@@ -7603,7 +7310,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 322.58 232.41 0)
 			(effects
 				(font
@@ -7691,7 +7398,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 68.58 156.21 0)
 			(effects
 				(font
@@ -7821,70 +7528,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BrownSugar_KBD:Mark")
-		(at 312.42 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40a87095-c973-4721-80db-30c09a713971")
-		(property "Reference" "M3"
-			(at 314.96 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Mark"
-			(at 314.96 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
-			(at 312.42 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 312.42 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "RKD02_Assemble"
-				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
-					(reference "M3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 165.1 228.6 0)
 		(mirror y)
@@ -7954,70 +7597,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BrownSugar_KBD:Mark")
-		(at 326.39 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "412fbfa8-da8b-4e42-8881-2e98d394fbac")
-		(property "Reference" "M4"
-			(at 328.93 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Mark"
-			(at 328.93 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
-			(at 326.39 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 326.39 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 326.39 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "RKD02_Assemble"
-				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
-					(reference "M4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 144.78 156.21 90)
 		(unit 1)
@@ -8045,7 +7624,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 144.78 156.21 0)
 			(effects
 				(font
@@ -8271,7 +7850,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 93.98 207.01 0)
 			(effects
 				(font
@@ -8566,7 +8145,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 93.98 130.81 0)
 			(effects
 				(font
@@ -8723,7 +8302,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 271.78 130.81 0)
 			(effects
 				(font
@@ -9013,7 +8592,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 43.18 232.41 0)
 			(effects
 				(font
@@ -9101,7 +8680,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 246.38 130.81 0)
 			(effects
 				(font
@@ -9255,7 +8834,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 220.98 156.21 0)
 			(effects
 				(font
@@ -9343,7 +8922,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 373.38 156.21 0)
 			(effects
 				(font
@@ -9500,7 +9079,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 246.38 156.21 0)
 			(effects
 				(font
@@ -9561,6 +9140,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 25.4 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62e3472e-d486-491d-a77e-d6748bb35613")
+		(property "Reference" "#PWR01"
+			(at 25.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb2d17c7-1782-47fd-b2df-d64293e7b5ac")
+		)
+		(instances
+			(project "RKD02_Assemble"
+				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 322.58 207.01 90)
 		(unit 1)
@@ -9588,7 +9233,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 322.58 207.01 0)
 			(effects
 				(font
@@ -9676,7 +9321,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 347.98 130.81 0)
 			(effects
 				(font
@@ -9764,7 +9409,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 246.38 207.01 0)
 			(effects
 				(font
@@ -9852,7 +9497,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 68.58 130.81 0)
 			(effects
 				(font
@@ -9940,7 +9585,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 170.18 232.41 0)
 			(effects
 				(font
@@ -10235,7 +9880,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 246.38 232.41 0)
 			(effects
 				(font
@@ -10392,7 +10037,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 119.38 181.61 0)
 			(effects
 				(font
@@ -10809,7 +10454,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 119.38 130.81 0)
 			(effects
 				(font
@@ -11035,7 +10680,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 398.78 156.21 0)
 			(effects
 				(font
@@ -11123,7 +10768,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 220.98 181.61 0)
 			(effects
 				(font
@@ -11211,7 +10856,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 144.78 181.61 0)
 			(effects
 				(font
@@ -11437,7 +11082,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 246.38 181.61 0)
 			(effects
 				(font
@@ -11525,7 +11170,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 68.58 181.61 0)
 			(effects
 				(font
@@ -11655,70 +11300,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BrownSugar_KBD:Mark")
-		(at 342.9 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e055751-af75-477e-880b-bee1d8eb9cf9")
-		(property "Reference" "M5"
-			(at 345.44 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Mark"
-			(at 345.44 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
-			(at 342.9 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 342.9 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "RKD02_Assemble"
-				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
-					(reference "M5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 241.3 177.8 0)
 		(mirror y)
@@ -11815,7 +11396,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 271.78 207.01 0)
 			(effects
 				(font
@@ -12242,7 +11823,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 93.98 181.61 0)
 			(effects
 				(font
@@ -12330,7 +11911,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 322.58 130.81 0)
 			(effects
 				(font
@@ -12698,7 +12279,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 373.38 232.41 0)
 			(effects
 				(font
@@ -12786,7 +12367,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 144.78 232.41 0)
 			(effects
 				(font
@@ -12910,70 +12491,6 @@
 			(project "RKD02_Assemble"
 				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
 					(reference "SW79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BrownSugar_KBD:Mark")
-		(at 356.87 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fb3d7f0-377e-4d93-bbf0-584687c83103")
-		(property "Reference" "M6"
-			(at 359.41 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Mark"
-			(at 359.41 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
-			(at 356.87 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 356.87 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 356.87 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "RKD02_Assemble"
-				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
-					(reference "M6")
 					(unit 1)
 				)
 			)
@@ -13145,7 +12662,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 144.78 130.81 0)
 			(effects
 				(font
@@ -13233,7 +12750,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 68.58 207.01 0)
 			(effects
 				(font
@@ -13321,7 +12838,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 170.18 130.81 0)
 			(effects
 				(font
@@ -13409,7 +12926,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 43.18 156.21 0)
 			(effects
 				(font
@@ -13566,7 +13083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 93.98 232.41 0)
 			(effects
 				(font
@@ -13654,7 +13171,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 93.98 156.21 0)
 			(effects
 				(font
@@ -13811,7 +13328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 398.78 232.41 0)
 			(effects
 				(font
@@ -13899,7 +13416,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 297.18 181.61 0)
 			(effects
 				(font
@@ -13960,72 +13477,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 25.4 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae6c418c-6065-4f8f-a209-4c4a61e2716c")
-		(property "Reference" "#PWR01"
-			(at 25.4 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37ab6095-4d2f-4749-a2f0-54cef786162f")
-		)
-		(instances
-			(project ""
-				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 373.38 181.61 90)
 		(unit 1)
@@ -14053,7 +13504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 373.38 181.61 0)
 			(effects
 				(font
@@ -14274,7 +13725,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 373.38 130.81 0)
 			(effects
 				(font
@@ -14500,7 +13951,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 170.18 181.61 0)
 			(effects
 				(font
@@ -14726,7 +14177,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 297.18 207.01 0)
 			(effects
 				(font
@@ -14949,7 +14400,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 220.98 130.81 0)
 			(effects
 				(font
@@ -15106,7 +14557,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 170.18 207.01 0)
 			(effects
 				(font
@@ -15329,7 +14780,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 347.98 207.01 0)
 			(effects
 				(font
@@ -15417,7 +14868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 347.98 156.21 0)
 			(effects
 				(font
@@ -15505,7 +14956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 271.78 156.21 0)
 			(effects
 				(font
@@ -15593,7 +15044,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 43.18 207.01 0)
 			(effects
 				(font
@@ -15681,7 +15132,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 347.98 181.61 0)
 			(effects
 				(font
@@ -16042,7 +15493,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 297.18 130.81 0)
 			(effects
 				(font
@@ -16097,74 +15548,6 @@
 			(project "RKD02_Assemble"
 				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
 					(reference "D66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.45 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d82f8501-928d-40c0-a7f0-91c04112b07a")
-		(property "Reference" "R2"
-			(at 171.45 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 171.45 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 171.45 52.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.45 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dda3ab91-72e6-4e98-8abf-30b124cc93e0")
-		)
-		(pin "1"
-			(uuid "b1ec298f-0912-41c8-a1a6-bda590e873f7")
-		)
-		(instances
-			(project ""
-				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -16336,7 +15719,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 43.18 130.81 0)
 			(effects
 				(font
@@ -16424,7 +15807,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 220.98 207.01 0)
 			(effects
 				(font
@@ -16512,7 +15895,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 68.58 232.41 0)
 			(effects
 				(font
@@ -16600,7 +15983,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 398.78 130.81 0)
 			(effects
 				(font
@@ -16895,7 +16278,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 373.38 207.01 0)
 			(effects
 				(font
@@ -16983,7 +16366,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 322.58 156.21 0)
 			(effects
 				(font
@@ -17071,7 +16454,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 322.58 181.61 0)
 			(effects
 				(font
@@ -17159,7 +16542,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 398.78 207.01 0)
 			(effects
 				(font
@@ -17316,7 +16699,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 297.18 232.41 0)
 			(effects
 				(font
@@ -17473,7 +16856,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kbd_Parts:Diode_TH_SMD"
+		(property "Footprint" "kbd_Parts:Diode_SMD"
 			(at 297.18 156.21 0)
 			(effects
 				(font
