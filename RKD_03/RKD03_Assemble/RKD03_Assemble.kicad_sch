@@ -691,210 +691,6 @@
 				)
 			)
 		)
-		(symbol "OPL_Connector:GROVE-CONNECTOR-DIP_4P-2.0_"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -6.35 6.35 0)
-				(effects
-					(font
-						(size 1.143 1.143)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "GROVE-CONNECTOR-DIP_4P-2.0_"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.143 1.143)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SKU" "320110033"
-				(at 0.762 3.81 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*HW4-2.0*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GROVE-CONNECTOR-DIP_4P-2.0__1_0"
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -5.08) (xy -1.27 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 5.08) (xy 3.81 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GROVE-CONNECTOR-DIP_4P-2.0__1_1"
-				(pin bidirectional inverted_clock
-					(at -3.81 3.81 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional inverted
-					(at -3.81 1.27 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional inverted
-					(at -3.81 -1.27 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional inverted
-					(at -3.81 -3.81 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "RPi_Pico:Pico"
 			(pin_names
 				(offset 1.016)
@@ -2468,12 +2264,6 @@
 		(uuid "6a393c3b-7c8b-4ba0-9d02-6124297d3695")
 	)
 	(junction
-		(at 142.24 266.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78d8985b-059d-4b87-aac7-e72b18416b6f")
-	)
-	(junction
 		(at 127 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2544,12 +2334,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf355ee5-d509-4d5d-aced-5ec45dd2aca1")
-	)
-	(junction
-		(at 152.4 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1142379-6d7e-403f-b94c-29b5564ebd33")
 	)
 	(junction
 		(at 137.16 194.31)
@@ -2730,16 +2514,6 @@
 			(type default)
 		)
 		(uuid "267087c5-c67b-4c2e-a219-fd13724be443")
-	)
-	(wire
-		(pts
-			(xy 152.4 259.08) (xy 157.48 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27181c5b-740c-44b4-bd11-e6abf99c6fb9")
 	)
 	(wire
 		(pts
@@ -3263,16 +3037,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 266.7) (xy 167.64 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad19e4cb-f98f-4dcc-aa8d-896b3443a05c")
-	)
-	(wire
-		(pts
 			(xy 337.82 109.22) (xy 337.82 134.62)
 		)
 		(stroke
@@ -3520,16 +3284,6 @@
 			(type default)
 		)
 		(uuid "f7dbcae1-278a-44a9-b33d-4e62a436934a")
-	)
-	(wire
-		(pts
-			(xy 152.4 233.68) (xy 152.4 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbdcd615-41bd-4c31-b75e-d16a35730559")
 	)
 	(wire
 		(pts
@@ -3925,28 +3679,6 @@
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape input)
-		(at 123.19 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "59c017fe-0a0b-4258-b4a4-ef74d3b9f821")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.6367 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Col4"
 		(shape input)
 		(at 152.4 170.18 180)
@@ -4167,28 +3899,6 @@
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape input)
-		(at 123.19 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ac7192fc-f390-46e0-a26a-da9c7b227c64")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.6972 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RE5_A"
 		(shape input)
 		(at 162.56 208.28 90)
@@ -4383,28 +4093,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3v3"
-		(shape input)
-		(at 123.19 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d63eb7d4-c4d1-4d47-8b4e-a3764750120e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.8182 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4806,91 +4494,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OPL_Connector:GROVE-CONNECTOR-DIP_4P-2.0_")
-		(at 127 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0efe67ef-9832-48f4-8474-0f651eebe1d1")
-		(property "Reference" "J1"
-			(at 132.08 125.73 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GROVE-CONNECTOR-DIP_4P-2.0_"
-			(at 132.08 128.27 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "OPL_Connector:GROVE-HW4-2.0"
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "320110033"
-			(at 127.762 123.19 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f49d50c5-9401-496f-bcf7-216bb65d79e9")
-		)
-		(pin "2"
-			(uuid "d02dfa63-0b84-4c8c-b2ec-85b39842717e")
-		)
-		(pin "3"
-			(uuid "2761bd80-fbf9-49d2-b4b5-42f21a5abef3")
-		)
-		(pin "4"
-			(uuid "8c321481-6482-43a7-a455-c4446e068d22")
-		)
-		(instances
-			(project ""
-				(path "/32b3db6f-ec5a-43c8-b598-c76dc9760296"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 111.76 190.5 90)
 		(unit 1)
@@ -5004,7 +4607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW:Choc_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Choc_v2_Hotswap_1u"
 			(at 86.36 254 0)
 			(effects
 				(font
@@ -5205,7 +4808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW:Choc_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Choc_v2_Hotswap_1u"
 			(at 55.88 181.61 0)
 			(effects
 				(font
@@ -5274,7 +4877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW:Choc_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Choc_v2_Hotswap_1u"
 			(at 157.48 181.61 0)
 			(effects
 				(font
@@ -5311,75 +4914,6 @@
 			(project "RKD03_Assemble"
 				(path "/32b3db6f-ec5a-43c8-b598-c76dc9760296"
 					(reference "SW13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 162.56 259.08 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e96458d-e32a-4a1b-9256-8d22274f4947")
-		(property "Reference" "SW15"
-			(at 162.56 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 162.56 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW:Choc_Hotswap_1u"
-			(at 162.56 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 162.56 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8863bba1-bb0d-46a1-89c3-3a96a762b630")
-		)
-		(pin "2"
-			(uuid "2ed2ba84-5623-4c91-877c-6a318c682f4e")
-		)
-		(instances
-			(project "RKD03_Assemble"
-				(path "/32b3db6f-ec5a-43c8-b598-c76dc9760296"
-					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -6525,7 +6059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW:Choc_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Choc_v2_Hotswap_1u"
 			(at 81.28 181.61 0)
 			(effects
 				(font
@@ -6681,7 +6215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW:Choc_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Choc_v2_Hotswap_1u"
 			(at 132.08 181.61 0)
 			(effects
 				(font
@@ -7131,7 +6665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_RPi_Pico_TH"
 			(at 66.04 50.8 90)
 			(effects
 				(font
@@ -7707,7 +7241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW:Choc_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Choc_v2_Hotswap_2u"
 			(at 137.16 254 0)
 			(effects
 				(font
@@ -7884,72 +7418,6 @@
 			(project "RKD03_Assemble"
 				(path "/32b3db6f-ec5a-43c8-b598-c76dc9760296"
 					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 123.19 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9c732fd-6ab8-4878-ae70-e3f648da0fc3")
-		(property "Reference" "#PWR014"
-			(at 123.19 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87eadfeb-170a-4b03-a527-b509aab39b5e")
-		)
-		(instances
-			(project "RKD03_Assemble"
-				(path "/32b3db6f-ec5a-43c8-b598-c76dc9760296"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8136,7 +7604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW:Choc_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Choc_v2_Hotswap_1u"
 			(at 106.68 181.61 0)
 			(effects
 				(font
@@ -8205,7 +7673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW:Choc_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Choc_v2_Hotswap_1u"
 			(at 111.76 254 0)
 			(effects
 				(font
@@ -8399,94 +7867,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 167.64 262.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5128ee3-9502-4f2c-800d-135cc452529e")
-		(property "Reference" "D15"
-			(at 170.18 261.6199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 170.18 264.1599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "kbd_Parts:Diode_SMD"
-			(at 167.64 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 167.64 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 167.64 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 167.64 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6007a228-949c-40be-b0ec-be18a3d51203")
-		)
-		(pin "1"
-			(uuid "43752167-4a08-414c-909d-cf55fdc9da36")
-		)
-		(instances
-			(project "RKD03_Assemble"
-				(path "/32b3db6f-ec5a-43c8-b598-c76dc9760296"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 60.96 259.08 0)
 		(mirror y)
@@ -8513,7 +7893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW:Choc_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Choc_v2_Hotswap_1u"
 			(at 60.96 254 0)
 			(effects
 				(font
