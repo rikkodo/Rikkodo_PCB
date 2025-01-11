@@ -610,6 +610,218 @@
 			(uuid "953144da-1b6a-4740-81e2-9220c866d813")
 		)
 	)
+	(footprint "kbd_Hole:m2_Screw_Hole"
+		(layer "F.Cu")
+		(uuid "6dce6349-9c00-462e-9602-587b188f2d3f")
+		(at 295.275 190.5)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "Ref**"
+			(at 0 -3.2 0)
+			(layer "F.Fab")
+			(uuid "9d2c346d-0191-4286-8899-84b58909a397")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Val**"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "5c03071f-d29f-47fa-a6fb-08fe116794cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffadd854-40a1-4ecc-b587-2977f64370ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9b2805b-f8dc-432a-9a35-83c07e2f7c3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a610ee0-2d04-466a-a374-c1a892e29555")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "8c8af0f0-bcaf-41f5-8d20-4a77fc53cc54")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "91f36183-f47a-435d-9c94-2d1754e3adb9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "95e3c653-469e-4ed6-939d-2b3653ec6b4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6d4d2b81-4310-4814-a07d-94b29597c62a")
+		)
+	)
+	(footprint "kbd_Hole:m2_Screw_Hole"
+		(layer "F.Cu")
+		(uuid "74b4a141-1af0-432c-a1bd-03f378597461")
+		(at 285.75 95.25)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "Ref**"
+			(at 0 -3.2 0)
+			(layer "F.Fab")
+			(uuid "9d2c346d-0191-4286-8899-84b58909a397")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Val**"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "5c03071f-d29f-47fa-a6fb-08fe116794cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffadd854-40a1-4ecc-b587-2977f64370ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9b2805b-f8dc-432a-9a35-83c07e2f7c3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a610ee0-2d04-466a-a374-c1a892e29555")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "8c8af0f0-bcaf-41f5-8d20-4a77fc53cc54")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "91f36183-f47a-435d-9c94-2d1754e3adb9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "95e3c653-469e-4ed6-939d-2b3653ec6b4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6d4d2b81-4310-4814-a07d-94b29597c62a")
+		)
+	)
 	(footprint "Rikkodo_FootPrint:rkd_Point_Screw_Hall"
 		(layer "F.Cu")
 		(uuid "c20d7830-66aa-4272-a72a-60c670866621")
