@@ -186,6 +186,110 @@
 			(uuid "046350d8-8012-4cbd-882f-22f18ecf11a1")
 		)
 	)
+	(footprint "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
+		(layer "F.Cu")
+		(uuid "10b7abe9-fdf1-4b92-b368-1e26f64c4b75")
+		(at 92.8687 83.3438 180)
+		(property "Reference" "REF**"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "46a442e1-0533-4ed8-80ab-7a0039bb66b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_EC11-Hole"
+			(at 0 10 0)
+			(layer "F.Fab")
+			(uuid "4a95b937-6e3c-4f45-b712-5f2811d8e518")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb1d5544-a17c-439c-912f-8400115dded2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14cca9bf-f02c-4544-a6e9-f6604f8a1ea2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "caa8442b-fbca-44cc-bf61-86711cde9719")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start 7.1 9)
+			(end -7.1 9)
+			(stroke
+				(width 0.08)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "69841731-f0f3-43e1-bbb0-71c27b04fc47")
+		)
+		(fp_line
+			(start 7.1 -8.5)
+			(end 7.1 9)
+			(stroke
+				(width 0.08)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "42d5b7ee-2b14-49fb-8ded-ca92ed5a0834")
+		)
+		(fp_line
+			(start -7.1 9)
+			(end -7.1 -8.5)
+			(stroke
+				(width 0.08)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "236891dd-c7c8-4063-87e6-4ea4adbda2b0")
+		)
+		(fp_line
+			(start -7.1 -8.5)
+			(end 7.1 -8.5)
+			(stroke
+				(width 0.08)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1d92c6c1-e6c5-4654-b384-45d64ced3686")
+		)
+	)
 	(footprint "Rikkodo_FootPrint:rkd_KeyHall_3x15"
 		(layer "F.Cu")
 		(uuid "16850fa5-bd8e-4bcf-a326-5f840151230b")
@@ -702,156 +806,6 @@
 			(uuid "65b3f41f-1e47-42fc-a472-2937a9fed13e")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_1u"
-		(layer "F.Cu")
-		(uuid "3096898b-fa80-4c67-9649-f3e4b04dd041")
-		(at 92.8688 83.3437 -90)
-		(property "Reference" "SW8"
-			(at 7 8.1 -90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "01c3321c-e85a-465e-85f8-618795fff953")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "RotaryEncoder_Switch"
-			(at -7.4 -8.1 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7e3dd7bd-ac48-4823-ace0-977a446d838b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89a137f5-e5e8-4b6a-9d8c-f40a12bf5003")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d4bd365c-84d3-478d-b62e-6110d557aee8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8ba7f6ff-477d-4de9-8e86-ecf6c7e8ba11")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "RotaryEncoder*Switch*")
-		(path "/b771b1ee-6ea1-42c8-8724-63a66286d570")
-		(sheetname "ルート")
-		(sheetfile "RKD03_Assemble.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start -7.05 7.05)
-			(end -7.05 -7.05)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "91408521-740d-4a18-9c2f-d1d186407a26")
-		)
-		(fp_line
-			(start 7.05 7.05)
-			(end -7.05 7.05)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "dc98d2b6-26eb-4f37-b984-39cb44ee6dd0")
-		)
-		(fp_line
-			(start -7.05 -7.05)
-			(end 7.05 -7.05)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "f28e0388-9af2-4e7b-bc8d-b9a40c9ace3d")
-		)
-		(fp_line
-			(start 7.05 -7.05)
-			(end 7.05 7.05)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "5bfee358-4859-435c-ad18-170c172acf79")
-		)
-		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "272dd43c-5a56-4f01-8304-11229ab9116d")
-		)
-		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5883ae20-f574-409a-b435-12a214913f2a")
-		)
-		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d50c963c-9741-4674-a08a-92a044233614")
-		)
-		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "83762ec8-9bf3-4aee-b724-db6d562f3b5c")
-		)
-	)
 	(footprint "Rikkodo_FootPrint:rkd_KeyHall_3x15"
 		(layer "F.Cu")
 		(uuid "339e280c-c5bc-41ab-bcb6-2f2f4ad54e03")
@@ -961,15 +915,14 @@
 			(uuid "0ba1a6c9-82de-485c-a2eb-35786a03d718")
 		)
 	)
-	(footprint "kbd_SW_Hole:SW_Hole_1u"
+	(footprint "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
 		(layer "F.Cu")
-		(uuid "34a8a3ed-4d14-4bcd-bd4b-6b6a3f9ac056")
-		(at 73.8188 83.3437 -90)
-		(property "Reference" "SW5"
-			(at 7 8.1 -90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "65c4d8c1-2734-47f6-97ac-e2cdcc9a958f")
+		(uuid "3800820e-181d-40c7-826a-0142c5d69af1")
+		(at 54.76875 83.34375 180)
+		(property "Reference" "REF**"
+			(at 0 0 360)
+			(layer "F.Fab")
+			(uuid "3cdce8e6-b058-43c7-97d9-ba56d6ae8d84")
 			(effects
 				(font
 					(size 1 1)
@@ -977,11 +930,10 @@
 				)
 			)
 		)
-		(property "Value" "RotaryEncoder_Switch"
-			(at -7.4 -8.1 -90)
+		(property "Value" "RotaryEncoder_EC11-Hole"
+			(at 0 10 360)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "8a3479ea-06a0-4a2d-bf2e-3d6c56bbc1d3")
+			(uuid "0e6b2b99-5ef3-42e4-b06f-a2f33d624415")
 			(effects
 				(font
 					(size 1 1)
@@ -989,11 +941,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 -90)
+		(property "Footprint" "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "daea1c10-6b7b-4b84-89bf-d8dabc2f25ce")
+			(uuid "4bfd4e3e-8bb3-4905-9b05-19a506a85fd4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,10 +954,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "35093708-e176-4051-b218-a93dc3a8ee05")
+			(uuid "51b6411e-18d7-4ede-9f87-867e1d36f600")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,11 +965,11 @@
 				)
 			)
 		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 0 0 -90)
+		(property "Description" ""
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "796d8039-4cf2-45a0-ac1f-c67158032792")
+			(uuid "807947f3-ba58-4fa8-bc5d-ff12792d57e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1025,90 +977,46 @@
 				)
 			)
 		)
-		(property ki_fp_filters "RotaryEncoder*Switch*")
-		(path "/f5743c20-dc97-48c4-bac7-6780d89cf31e")
-		(sheetname "ルート")
-		(sheetfile "RKD03_Assemble.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -7.05 7.05)
-			(end -7.05 -7.05)
+			(start 7.1 9)
+			(end -7.1 9)
 			(stroke
-				(width 0.15)
+				(width 0.08)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "757b7c31-5e4c-4cd9-929c-f4f46b831a90")
+			(uuid "e13fa35b-206c-4f93-a395-17c5cb3bcb23")
 		)
 		(fp_line
-			(start 7.05 7.05)
-			(end -7.05 7.05)
+			(start 7.1 -8.5)
+			(end 7.1 9)
 			(stroke
-				(width 0.15)
+				(width 0.08)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "9c2dc9cf-7192-4191-a154-779e19c270c9")
+			(uuid "6175fd60-1ce5-446c-b44f-5ce99f90df1d")
 		)
 		(fp_line
-			(start -7.05 -7.05)
-			(end 7.05 -7.05)
+			(start -7.1 9)
+			(end -7.1 -8.5)
 			(stroke
-				(width 0.15)
+				(width 0.08)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "1e19f5e3-6f72-41b6-896c-57d1484c3ec7")
+			(uuid "a1080496-848a-4997-8ebd-736cb149008e")
 		)
 		(fp_line
-			(start 7.05 -7.05)
-			(end 7.05 7.05)
+			(start -7.1 -8.5)
+			(end 7.1 -8.5)
 			(stroke
-				(width 0.15)
+				(width 0.08)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "278caf36-b4ab-4912-bba9-837515d46dec")
-		)
-		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e47878ea-4e05-41f0-92c5-d3cfce9cfb42")
-		)
-		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3520d2a2-0117-495c-94fa-e640de490fe2")
-		)
-		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cc908d7b-6fa4-4dfb-9c22-2235dcf6ae84")
-		)
-		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c4ac9b65-2880-494a-9252-f4aaced91975")
+			(uuid "66d9c2f7-bf7a-4482-9d76-ec4060a71f52")
 		)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
@@ -1472,6 +1380,214 @@
 			(uuid "cba79252-bec3-4300-8647-95258bac768c")
 		)
 	)
+	(footprint "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
+		(layer "F.Cu")
+		(uuid "6a95dd27-3f42-467b-bdc0-9f9746d44111")
+		(at 73.8187 83.3438 180)
+		(property "Reference" "REF**"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c15394d8-26e3-488c-8a03-cfbb09ceef9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_EC11-Hole"
+			(at 0 10 0)
+			(layer "F.Fab")
+			(uuid "54d8b29d-9151-444c-826a-ca96bde11807")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acb0d341-fabe-465b-a82c-2117d4514046")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e258863-844d-4487-9a4a-fc1becf8e0a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ac486ed-c56f-4b59-a1c2-87be4758b987")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start 7.1 9)
+			(end -7.1 9)
+			(stroke
+				(width 0.08)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e99e6580-8ef8-49f4-8420-94fd840cdf81")
+		)
+		(fp_line
+			(start 7.1 -8.5)
+			(end 7.1 9)
+			(stroke
+				(width 0.08)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c613b92d-5baa-4b93-8588-295714a7c5c2")
+		)
+		(fp_line
+			(start -7.1 9)
+			(end -7.1 -8.5)
+			(stroke
+				(width 0.08)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e12a1aa3-7779-4760-af73-dfb4b8c4ff35")
+		)
+		(fp_line
+			(start -7.1 -8.5)
+			(end 7.1 -8.5)
+			(stroke
+				(width 0.08)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "847a5c8a-6a7d-4f0b-a5a6-66a12c90c6dc")
+		)
+	)
+	(footprint "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
+		(layer "F.Cu")
+		(uuid "6bbde366-ff49-4c90-abbc-59cf60d31aa7")
+		(at 130.9687 83.3438 180)
+		(property "Reference" "REF**"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e130f7a8-879b-42e5-ac05-11d9e3465e3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_EC11-Hole"
+			(at 0 10 0)
+			(layer "F.Fab")
+			(uuid "9c9be6a0-253e-41a3-b5c8-70531c09b052")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd732639-1194-447a-a700-97ab7d997a5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "210fe1e4-f184-4140-891d-7ce71bb754ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "194131f3-63ca-40e0-95bf-07040116aaf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start 7.1 9)
+			(end -7.1 9)
+			(stroke
+				(width 0.08)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "73b656b4-78d4-4713-b973-c25456cdfc57")
+		)
+		(fp_line
+			(start 7.1 -8.5)
+			(end 7.1 9)
+			(stroke
+				(width 0.08)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "07637695-1e45-43d9-aee8-e8577f45ca75")
+		)
+		(fp_line
+			(start -7.1 9)
+			(end -7.1 -8.5)
+			(stroke
+				(width 0.08)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "02fc615c-f65c-4442-b00a-6a0f7da48315")
+		)
+		(fp_line
+			(start -7.1 -8.5)
+			(end 7.1 -8.5)
+			(stroke
+				(width 0.08)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8fada3b9-a8d0-45fd-8937-0f3ca54c1615")
+		)
+	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
 		(uuid "71e95891-91b5-482f-81d1-a0120b51e9dd")
@@ -1725,6 +1841,110 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(uuid "05e4978f-999b-460e-9fa6-164b6055f26c")
+		)
+	)
+	(footprint "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
+		(layer "F.Cu")
+		(uuid "8d8ad8ab-fbfd-4b5c-bc27-319ba88e99ec")
+		(at 111.91865 83.34385 180)
+		(property "Reference" "REF**"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "496bbf03-4265-42fc-bd6b-17664b8a563b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_EC11-Hole"
+			(at 0 10 0)
+			(layer "F.Fab")
+			(uuid "b981c9a8-e697-463e-8bc0-a356f354643d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba2ca427-17f6-4171-a63b-5a6aba92585b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ed44e75-e9b6-4570-924c-79be9b514535")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26bb2a14-96a6-4bad-aefc-1db7d994690c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start 7.1 9)
+			(end -7.1 9)
+			(stroke
+				(width 0.08)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d07ce3de-adab-4fb2-a6a5-09a944616529")
+		)
+		(fp_line
+			(start 7.1 -8.5)
+			(end 7.1 9)
+			(stroke
+				(width 0.08)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "19041134-f5c5-49e8-86dd-94d41bc1062c")
+		)
+		(fp_line
+			(start -7.1 9)
+			(end -7.1 -8.5)
+			(stroke
+				(width 0.08)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "80bd7fac-669e-4c46-a5e1-ae93f4861aab")
+		)
+		(fp_line
+			(start -7.1 -8.5)
+			(end 7.1 -8.5)
+			(stroke
+				(width 0.08)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6c29d010-5983-4116-a3a7-1398047a1cf4")
 		)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
@@ -2136,156 +2356,6 @@
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
-		(uuid "c37cb542-eefe-48f2-be51-e2078ed63531")
-		(at 130.9688 83.3437 -90)
-		(property "Reference" "SW14"
-			(at 7 8.1 -90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b3fce658-7ffd-4ce8-a2ba-c7d20cfe803b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "RotaryEncoder_Switch"
-			(at -7.4 -8.1 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0b7f67f4-a6fb-4a56-b602-1aad351d73e8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1b0b0cb9-dd9c-45bd-a6f9-c22c0e9ac906")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c40064cd-ab82-48db-a463-c934790c6425")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ca920ddf-9977-4e45-9455-7f0b6a6e50ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "RotaryEncoder*Switch*")
-		(path "/607d2916-6a06-4ea1-b28c-6341cf2f359b")
-		(sheetname "ルート")
-		(sheetfile "RKD03_Assemble.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start -7.05 7.05)
-			(end -7.05 -7.05)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "cd3c878c-f47b-4a61-a2c0-55085bd5945a")
-		)
-		(fp_line
-			(start 7.05 7.05)
-			(end -7.05 7.05)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "2d65f513-5450-413e-b3fb-93ac49ecb02d")
-		)
-		(fp_line
-			(start -7.05 -7.05)
-			(end 7.05 -7.05)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "368b872f-866d-4189-8c4c-acb9e08ee97f")
-		)
-		(fp_line
-			(start 7.05 -7.05)
-			(end 7.05 7.05)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "65cee29e-fe79-45df-90ce-a9a8e786c45e")
-		)
-		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "52412e9b-83fd-4e48-8c88-ef0360f6b265")
-		)
-		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "678ee5ef-6e42-43a5-81b2-3f88148424d0")
-		)
-		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d838c4ba-f70a-4c20-b8d7-c5ebd4da065e")
-		)
-		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "136ff675-dfc3-4693-aaff-59be388aab69")
-		)
-	)
-	(footprint "kbd_SW_Hole:SW_Hole_1u"
-		(layer "F.Cu")
 		(uuid "e7a962ee-b9f5-453a-8046-7e44b81394df")
 		(at 111.9188 64.2937)
 		(property "Reference" "SW10"
@@ -2431,306 +2501,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "54e3fa62-22eb-42da-ba9b-ee0bc0c5a36f")
-		)
-	)
-	(footprint "kbd_SW_Hole:SW_Hole_1u"
-		(layer "F.Cu")
-		(uuid "f96682cd-af1d-4ee3-9759-e4e3ed390424")
-		(at 54.7688 83.3437 -90)
-		(property "Reference" "SW2"
-			(at 7 8.1 -90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c17a7bf8-1999-4ae8-a7cf-78779072f3e1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "RotaryEncoder_Switch"
-			(at -7.4 -8.1 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8e423ab1-2965-4146-9442-b5f25980a864")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6472af30-05bc-45b2-b594-42bd941cce5d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a609d7f-ab6a-4291-a31d-99e694bc9a6f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1f65ddfb-4507-42b5-83c0-7b4b88091a15")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "RotaryEncoder*Switch*")
-		(path "/e44b1fc6-52ed-48c0-b04c-51c75aab19bb")
-		(sheetname "ルート")
-		(sheetfile "RKD03_Assemble.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start -7.05 7.05)
-			(end -7.05 -7.05)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "6d901d37-457f-4e2b-9a06-dd284a1510bd")
-		)
-		(fp_line
-			(start 7.05 7.05)
-			(end -7.05 7.05)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "86ac4458-c96f-4b61-a3aa-3a818f002ec0")
-		)
-		(fp_line
-			(start -7.05 -7.05)
-			(end 7.05 -7.05)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "96cf558b-c99f-4b3a-a416-03fd64abfa54")
-		)
-		(fp_line
-			(start 7.05 -7.05)
-			(end 7.05 7.05)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "54e7af82-1c0e-4239-89a4-f7fff655fd8f")
-		)
-		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3e7da254-e795-4c00-9368-0e93d808a590")
-		)
-		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "54a1f779-1853-4c33-baed-293122491e90")
-		)
-		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "23071efc-ce68-4912-b413-13b086842ff5")
-		)
-		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cc9ee9ff-e560-404b-84c5-a58336c83b26")
-		)
-	)
-	(footprint "kbd_SW_Hole:SW_Hole_1u"
-		(layer "F.Cu")
-		(uuid "fa0075f7-4822-4029-af3a-a4b0e97c5a86")
-		(at 111.9188 83.3437 -90)
-		(property "Reference" "SW11"
-			(at 7 8.1 -90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ff47bc83-94ab-49c2-ba7e-ff241194eb89")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "RotaryEncoder_Switch"
-			(at -7.4 -8.1 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "297abd15-6666-4cf8-9c1d-f2f92642162d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d0971cf8-7db2-484a-8a02-daba632b6c67")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7297f4e4-83dc-4395-b1c9-1cecc5914fe8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a49a6bee-c68f-45be-afb9-2304d26d7cff")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "RotaryEncoder*Switch*")
-		(path "/66b83eb5-cfe5-4458-814e-4dc2dc938a5a")
-		(sheetname "ルート")
-		(sheetfile "RKD03_Assemble.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start -7.05 7.05)
-			(end -7.05 -7.05)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "2b43addc-7c8c-49dc-9d23-a3538995a945")
-		)
-		(fp_line
-			(start 7.05 7.05)
-			(end -7.05 7.05)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "3d013cf9-0411-4ef7-8e46-78d686a3d72b")
-		)
-		(fp_line
-			(start -7.05 -7.05)
-			(end 7.05 -7.05)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "b7e5ba03-52ff-401b-ab51-a597e679d474")
-		)
-		(fp_line
-			(start 7.05 -7.05)
-			(end 7.05 7.05)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "5deb5bbe-e94c-474c-996f-29dc96e63c0f")
-		)
-		(fp_line
-			(start -9.525 9.525)
-			(end 9.525 9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "41a9337c-88cd-41b7-b0fc-5b16a0d3beb5")
-		)
-		(fp_line
-			(start 9.525 9.525)
-			(end 9.525 -9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3af0f4e7-831a-4651-aba7-193f17b5e528")
-		)
-		(fp_line
-			(start -9.525 -9.525)
-			(end -9.525 9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9356d5e2-bbd4-497c-9983-ff2e398c5284")
-		)
-		(fp_line
-			(start 9.525 -9.525)
-			(end -9.525 -9.525)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "02e20ac7-75f7-4673-b9c4-98aa7e43a348")
 		)
 	)
 	(footprint "Rikkodo_FootPrint:rkd_KeyHall_3x15"
