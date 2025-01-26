@@ -3165,7 +3165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_ChocV2_Hotswap_2u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_2u"
 			(at 81.28 228.6 0)
 			(effects
 				(font
@@ -3184,6 +3184,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 81.28 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 81.28 233.68 0)
 			(effects
 				(font
@@ -3300,7 +3309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_ChocV2_Hotswap_2u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_2u"
 			(at 157.48 228.6 0)
 			(effects
 				(font
@@ -3319,6 +3328,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 157.48 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 157.48 233.68 0)
 			(effects
 				(font
@@ -3369,7 +3387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_ChocV1V2_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_1u"
 			(at 86.36 254 0)
 			(effects
 				(font
@@ -3388,6 +3406,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 86.36 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 86.36 259.08 0)
 			(effects
 				(font
@@ -3544,6 +3571,79 @@
 		)
 	)
 	(symbol
+		(lib_id "BrownSugar_KBD:Mark")
+		(at 231.14 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d803993-752d-4740-91e7-96aa0cf6da15")
+		(property "Reference" "M2"
+			(at 233.68 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mark"
+			(at 233.68 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
+			(at 231.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
+			(at 231.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/32b3db6f-ec5a-43c8-b598-c76dc9760296"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 162.56 259.08 0)
 		(mirror y)
@@ -3570,7 +3670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_ChocV1V2_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_1u"
 			(at 162.56 254 0)
 			(effects
 				(font
@@ -3589,6 +3689,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 162.56 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 162.56 259.08 0)
 			(effects
 				(font
@@ -3665,6 +3774,15 @@
 				(hide yes)
 			)
 		)
+		(property "SKU" ""
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "406d6ec0-9c99-4037-bafd-6559216a106b")
 		)
@@ -3733,6 +3851,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 151.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 151.13 87.63 0)
 			(effects
 				(font
@@ -3835,6 +3962,15 @@
 				(hide yes)
 			)
 		)
+		(property "SKU" ""
+			(at 66.04 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "505cf588-de2d-4d1e-aecf-49167173119d")
 		)
@@ -3895,6 +4031,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 177.8 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 177.8 139.7 0)
 			(effects
 				(font
@@ -3989,6 +4134,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 111.76 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 111.76 237.49 0)
 			(effects
 				(font
@@ -4199,6 +4353,15 @@
 				(hide yes)
 			)
 		)
+		(property "SKU" ""
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2dcc5b4c-f125-4957-ac7a-9312314a069a")
 		)
@@ -4285,6 +4448,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 162.56 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 162.56 237.49 0)
 			(effects
 				(font
@@ -4380,6 +4552,15 @@
 				(hide yes)
 			)
 		)
+		(property "SKU" ""
+			(at 116.84 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "54ecfc55-cb84-46db-8ccd-f46a2abdda39")
 		)
@@ -4390,6 +4571,79 @@
 			(project "RKD03_Assemble"
 				(path "/32b3db6f-ec5a-43c8-b598-c76dc9760296"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BrownSugar_KBD:Mark")
+		(at 254 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ce8f1e5-9d45-49e6-b405-8ce8f8196e50")
+		(property "Reference" "M3"
+			(at 256.54 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mark"
+			(at 256.54 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
+			(at 254 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
+			(at 254 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/32b3db6f-ec5a-43c8-b598-c76dc9760296"
+					(reference "M3")
 					(unit 1)
 				)
 			)
@@ -4460,6 +4714,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 137.16 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 137.16 237.49 0)
 			(effects
 				(font
@@ -4555,6 +4818,15 @@
 				(hide yes)
 			)
 		)
+		(property "SKU" ""
+			(at 91.44 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "66e81b40-eeb0-43be-b361-89cdd78841b2")
 		)
@@ -4615,6 +4887,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 177.8 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 177.8 165.1 0)
 			(effects
 				(font
@@ -4783,6 +5064,15 @@
 				(hide yes)
 			)
 		)
+		(property "SKU" ""
+			(at 86.36 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "61d6d0ba-952c-4e64-abcd-c6f98d1d19b7")
 		)
@@ -4871,6 +5161,15 @@
 				(hide yes)
 			)
 		)
+		(property "SKU" ""
+			(at 60.96 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "91e4c7de-fdcc-4fcf-9d39-2affee3f57f5")
 		)
@@ -4931,6 +5230,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 66.04 50.8 0)
 			(effects
 				(font
@@ -5216,6 +5524,15 @@
 				(hide yes)
 			)
 		)
+		(property "SKU" ""
+			(at 142.24 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4e90e16c-2bea-4197-999f-bc7f847d6bea")
 		)
@@ -5258,7 +5575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_ChocV2_Hotswap_2u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_2u"
 			(at 106.68 228.6 0)
 			(effects
 				(font
@@ -5277,6 +5594,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 106.68 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 106.68 233.68 0)
 			(effects
 				(font
@@ -5327,7 +5653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_ChocV2_Hotswap_2u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_2u"
 			(at 132.08 228.6 0)
 			(effects
 				(font
@@ -5346,6 +5672,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 132.08 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 132.08 233.68 0)
 			(effects
 				(font
@@ -5396,7 +5731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_ChocV1V2_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_1u"
 			(at 137.16 254 0)
 			(effects
 				(font
@@ -5415,6 +5750,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 137.16 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 137.16 259.08 0)
 			(effects
 				(font
@@ -5557,6 +5901,15 @@
 				(hide yes)
 			)
 		)
+		(property "SKU" ""
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "8aedbc57-8e5b-484e-b44a-b96e6614ee13")
 		)
@@ -5671,7 +6024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_ChocV1V2_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_1u"
 			(at 111.76 254 0)
 			(effects
 				(font
@@ -5690,6 +6043,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 111.76 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 111.76 259.08 0)
 			(effects
 				(font
@@ -5758,6 +6120,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 177.8 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 177.8 114.3 0)
 			(effects
 				(font
@@ -5860,6 +6231,15 @@
 				(hide yes)
 			)
 		)
+		(property "SKU" ""
+			(at 167.64 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6007a228-949c-40be-b0ec-be18a3d51203")
 		)
@@ -5902,7 +6282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_ChocV1V2_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_1u"
 			(at 60.96 254 0)
 			(effects
 				(font
@@ -5921,6 +6301,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 60.96 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 60.96 259.08 0)
 			(effects
 				(font
@@ -6037,7 +6426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_ChocV2_Hotswap_2u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_2u"
 			(at 55.88 228.6 0)
 			(effects
 				(font
@@ -6056,6 +6445,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 55.88 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 55.88 233.68 0)
 			(effects
 				(font
@@ -6125,6 +6523,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 231.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" ""
 			(at 231.14 124.46 0)
 			(effects
 				(font

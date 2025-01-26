@@ -188,113 +188,6 @@
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
-		(uuid "655235f8-43b5-468f-ae41-d421b1328cf7")
-		(at 83.34375 26.19375)
-		(descr "Mounting Hole 2.2mm, no annular, M2")
-		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "M5"
-			(at 0 -3.2 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "81bbcbc8-a7c9-48cf-8884-13a6c7146d2b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Mark"
-			(at 0 3.2 0)
-			(layer "F.Fab")
-			(uuid "a990fea1-18fe-46d2-b53a-70804f8ae1b0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e36de48d-bfef-4898-b48a-5d716e7a8b79")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1a8e4c8b-1a7b-435f-aa41-9303f2d6864a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "40280d60-d5d9-47ea-8a45-158c68fbb062")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 2.2 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "02fec724-e2c6-4dc6-a440-ebb17dfe572e")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.45 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "773cd193-ae1b-4259-8e3e-5ba77ac92fb0")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0.3 0 0)
-			(layer "F.Fab")
-			(uuid "c2fcb7c4-ba27-48a8-897f-a452b4fe0d7d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 2.2 2.2)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(uuid "d6bae601-1b98-4271-b7a6-2fe6f145562d")
-		)
-	)
-	(footprint "kbd_Hole:m2_Screw_Hole"
-		(layer "F.Cu")
 		(uuid "685b2997-9b71-4882-8c15-9cf10bd360ec")
 		(at 83.34375 35.71875)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
@@ -400,8 +293,8 @@
 		)
 	)
 	(gr_line
-		(start 40.48125 23.8125)
-		(end 40.48125 38.1)
+		(start 45.24375 26.19375)
+		(end 45.24375 36.909375)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -453,8 +346,8 @@
 		(uuid "59f56c94-244d-49d0-b90d-1e6064c2cfaa")
 	)
 	(gr_line
-		(start 40.48125 23.8125)
-		(end 78.58125 23.8125)
+		(start 45.24375 26.19375)
+		(end 72.628125 26.19375)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -474,8 +367,8 @@
 		(uuid "887ae90e-ba47-43dc-b04f-07e8cf940f1f")
 	)
 	(gr_line
-		(start 78.58125 23.8125)
-		(end 78.58125 38.1)
+		(start 72.628125 26.19375)
+		(end 72.628125 36.909375)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -484,8 +377,8 @@
 		(uuid "8d6a19b8-93c2-48c7-b7a2-e6f7239e88ab")
 	)
 	(gr_line
-		(start 40.48125 23.8125)
-		(end 23.8125 23.8125)
+		(start 45.24375 26.19375)
+		(end 29.765625 26.19375)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -494,8 +387,8 @@
 		(uuid "8fb223ca-b1aa-47ff-b46f-c567c6c9a60a")
 	)
 	(gr_line
-		(start 23.8125 38.1)
-		(end 40.48125 38.1)
+		(start 29.765625 36.909375)
+		(end 45.24375 36.909375)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -504,8 +397,8 @@
 		(uuid "8fcff79b-d7ea-4e68-8c9e-33dddcbf5458")
 	)
 	(gr_line
-		(start 23.8125 38.1)
-		(end 23.8125 23.8125)
+		(start 29.765625 36.909375)
+		(end 29.765625 26.19375)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -544,8 +437,8 @@
 		(uuid "da13bc86-2ad1-4d86-8e5a-7c4c47410988")
 	)
 	(gr_line
-		(start 78.58125 38.1)
-		(end 40.48125 38.1)
+		(start 72.628125 36.909375)
+		(end 45.24375 36.909375)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -553,7 +446,7 @@
 		(layer "Edge.Cuts")
 		(uuid "f151f6d1-bd14-4545-aad4-6c98999d197f")
 	)
-	(gr_text "RKD_Guard v1.0"
+	(gr_text "RKD_GuardOled v1.0"
 		(at 71.4375 21.43125 0)
 		(layer "B.SilkS")
 		(uuid "eb9c8690-ad52-489a-a58f-54b812cc44ca")
