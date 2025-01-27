@@ -34,6 +34,8 @@ kotoh [koktoh の雑記帳 【開発者向け】 TRRS ジャックの配線っ�
 
 Yoshimasa Niwa [Zenn 自作キーボードを自作した話](https://zenn.dev/niw/articles/my_first_keyboard_60)
 
+@aikawa_YO [Qiita 回路図～プログラムまで自作するキーボード](https://qiita.com/aikawa_YO/items/a31353d88b8b73f51e8b)
+
 ## 部品
 
 |部品|数|
