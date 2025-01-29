@@ -10724,7 +10724,7 @@
 	(footprint "kbd_Parts:OLED"
 		(layer "F.Cu")
 		(uuid "5d552c7f-d24c-44c9-a41d-565e5e3d98f0")
-		(at 114.3 40.7987 90)
+		(at 108.346875 34.76625 90)
 		(descr "Connecteur 6 pins")
 		(tags "CONN DEV")
 		(property "Reference" "OL2"
@@ -10738,7 +10738,7 @@
 				)
 			)
 		)
-		(property "Value" "OLED_FL"
+		(property "Value" "OLED"
 			(at 3.6 3.3 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -15987,6 +15987,128 @@
 			)
 		)
 	)
+	(footprint "kbd_Hole:m2_Screw_Hole"
+		(layer "F.Cu")
+		(uuid "d4c6f85a-99eb-467c-92fa-8c8d96f9f235")
+		(at 64.29375 51.196875)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "M4"
+			(at 0 -3.2 0)
+			(layer "F.Fab")
+			(uuid "3eb51cdd-c52d-4942-a93e-3d6468b7d5ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Mark"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "1df4bd33-87e9-4696-b1fc-66a5bcac0f81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "460cc272-83d7-460c-aacd-fac74cfcc6ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc79c158-fee3-4637-96d6-ff63b547f80b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97faa127-934e-4333-80f8-aa42b0fee18a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SKU" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4367aa6-0a20-4ef1-83dd-0b7cb8bd7fa8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/438bc7f4-e1f7-41c5-9ecf-498932cc2378")
+		(sheetname "ルート")
+		(sheetfile "RKD03_Assemble.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "82b5febc-6981-45a2-b2e0-9a92598a0e83")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "034dae0b-9652-4fd6-a252-a8df802b7e62")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "86c57223-4513-4a47-b1c4-84efb62b6003")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "83b29fe3-3aa2-4acb-8d96-4daf42120b21")
+		)
+	)
 	(footprint "kbd_Parts:Diode_SMD"
 		(layer "F.Cu")
 		(uuid "d9e97147-3858-43e4-87a0-22964deb1420")
@@ -16645,6 +16767,128 @@
 			(rotate
 				(xyz 0 0 180)
 			)
+		)
+	)
+	(footprint "kbd_Hole:m2_Screw_Hole"
+		(layer "F.Cu")
+		(uuid "f327b2cf-5eab-4caf-b14d-a5204fe4c4af")
+		(at 121.44375 51.196875)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "M5"
+			(at 0 -3.2 0)
+			(layer "F.Fab")
+			(uuid "cb03e239-7c23-4f93-a748-1525d226a44a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Mark"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "ae250ee8-811d-432e-b1ac-47bc2dae1766")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e87593a-cab2-4e4c-8c70-15f04db1b7f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "109a6e3e-34ca-4193-a34a-3f26e0f86c5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bdb92b5-5ca3-46ee-9dc8-eca2d9f85e82")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SKU" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7539e63b-10af-4eb1-8997-3efaebd4af22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e98fb92a-d2fa-4ac6-8646-7a6b9bc6e16b")
+		(sheetname "ルート")
+		(sheetfile "RKD03_Assemble.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "6419a0c6-e885-422f-b571-aba2798b872d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "1c91fb91-5a81-4121-a6ba-c2cdff69afe6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "ad8fe38a-7a9e-4680-bc82-5be9023c792b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "f023131e-0e77-4717-b066-007622254093")
 		)
 	)
 	(footprint "kbd_Parts:Diode_SMD"
@@ -21557,14 +21801,6 @@
 		(uuid "65c5e3be-5c61-4944-836a-11b8a70a040a")
 	)
 	(segment
-		(start 108.2675 32.2262)
-		(end 97.0813 32.2262)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 12)
-		(uuid "b981be2e-e6b5-4142-bbde-534cf5c76cd7")
-	)
-	(segment
 		(start 97.0813 32.2262)
 		(end 67.7863 32.2262)
 		(width 0.25)
@@ -21573,12 +21809,12 @@
 		(uuid "c19964cd-36d2-4df8-9d54-799160f199aa")
 	)
 	(segment
-		(start 114.3 38.2587)
-		(end 108.2675 32.2262)
+		(start 108.346875 32.22625)
+		(end 108.346825 32.2262)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 12)
-		(uuid "c359c485-db1c-4f9b-9d38-fb93563c387f")
+		(uuid "c4f37208-22ca-4cb6-adab-452406ce366a")
 	)
 	(segment
 		(start 67.7863 32.2262)
@@ -21587,6 +21823,14 @@
 		(layer "F.Cu")
 		(net 12)
 		(uuid "cf5dd83f-8345-4fb9-ace8-7b188132c2c9")
+	)
+	(segment
+		(start 108.346825 32.2262)
+		(end 97.0813 32.2262)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "dcab4c1e-5d97-40f0-92cb-3abeff79e272")
 	)
 	(segment
 		(start 61.3979 41.1546)
@@ -21669,6 +21913,14 @@
 		(uuid "009e541a-ab08-4a0d-a54f-b731eda30635")
 	)
 	(segment
+		(start 112.6688 46.695275)
+		(end 111.91875 45.945225)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 13)
+		(uuid "0351ac10-79dc-4f10-a1c5-9f73da0aa598")
+	)
+	(segment
 		(start 93.6188 47.005425)
 		(end 92.690575 46.0772)
 		(width 0.5)
@@ -21683,14 +21935,6 @@
 		(layer "B.Cu")
 		(net 13)
 		(uuid "0feb0385-9fd2-4d9a-b5f8-93add3744908")
-	)
-	(segment
-		(start 111.91875 35.55995)
-		(end 114.3 33.1787)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 13)
-		(uuid "11d217cf-6a86-4724-8085-1b228ca83e83")
 	)
 	(segment
 		(start 98.343 28.4079)
@@ -21725,14 +21969,6 @@
 		(uuid "395846f9-1280-49c2-8d5b-7a02c09b1627")
 	)
 	(segment
-		(start 112.6688 46.695275)
-		(end 111.91875 45.945225)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 13)
-		(uuid "3f57f6b3-f1cb-409b-adc3-ed42f9f7987d")
-	)
-	(segment
 		(start 75.4063 45.857675)
 		(end 74.5688 46.695175)
 		(width 0.5)
@@ -21757,14 +21993,6 @@
 		(uuid "482c9a93-fb33-45e5-a0ff-654ac00151b6")
 	)
 	(segment
-		(start 111.91875 45.945225)
-		(end 111.91875 35.55995)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 13)
-		(uuid "48ce8985-ff1c-4001-b44a-76f48c34d03b")
-	)
-	(segment
 		(start 112.6688 48.596975)
 		(end 112.6688 46.695275)
 		(width 0.5)
@@ -21773,12 +22001,28 @@
 		(uuid "569e8a2c-472f-4fad-836d-10737a4f4457")
 	)
 	(segment
+		(start 111.91875 45.945225)
+		(end 111.91875 30.718125)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 13)
+		(uuid "642e0309-6091-4a34-8c12-a35f5dd42d25")
+	)
+	(segment
 		(start 97.0813 27.1462)
 		(end 98.343 28.4079)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 13)
 		(uuid "66588785-a55e-4df4-8f23-72c106a03b48")
+	)
+	(segment
+		(start 111.91875 30.718125)
+		(end 108.346875 27.14625)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 13)
+		(uuid "6e2dec3a-e312-4f7f-8e26-2ce02f2789dd")
 	)
 	(segment
 		(start 112.6674 46.696675)
@@ -21877,20 +22121,12 @@
 		(uuid "dfee3c5b-2329-4a8b-bf69-c5ea81f446f4")
 	)
 	(segment
-		(start 114.3 40.7987)
-		(end 103.1138 40.7987)
+		(start 108.346875 34.76625)
+		(end 107.824325 34.2437)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 14)
-		(uuid "5bf27405-e4c0-4d48-ab7f-3542e2abc3ad")
-	)
-	(segment
-		(start 103.1138 40.7987)
-		(end 97.0813 34.7662)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 14)
-		(uuid "6b0a9f61-6c60-484f-aa48-51f85b0d9fa1")
+		(uuid "3bd1bbe0-6d21-4d2a-8c21-89c2b1e9de41")
 	)
 	(segment
 		(start 66.6734 38.1016)
@@ -21907,6 +22143,22 @@
 		(layer "F.Cu")
 		(net 14)
 		(uuid "a0a23f6d-64da-490c-b040-11750cd80e15")
+	)
+	(segment
+		(start 107.824325 34.2437)
+		(end 97.6038 34.2437)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 14)
+		(uuid "b11944ba-0ae0-4521-9cdb-1f7f984ad277")
+	)
+	(segment
+		(start 97.6038 34.2437)
+		(end 97.0813 34.7662)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 14)
+		(uuid "bee04dcb-7028-4bae-9b54-6b1249c6d4a0")
 	)
 	(via
 		(at 66.6734 38.1016)
@@ -22909,6 +23161,14 @@
 		(uuid "13896a65-ba5f-4425-afa3-1f09c74915e2")
 	)
 	(segment
+		(start 108.292625 29.632)
+		(end 108.346875 29.68625)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "260af846-915b-4d37-9089-6906bcc9b740")
+	)
+	(segment
 		(start 52.5463 22.0662)
 		(end 55.483225 25.003125)
 		(width 0.5)
@@ -22917,28 +23177,12 @@
 		(uuid "49c7f1b4-8e4e-43c7-a71c-9228a9b07b08")
 	)
 	(segment
-		(start 108.2133 29.632)
-		(end 114.3 35.7187)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 25)
-		(uuid "4b28caf5-edf7-443c-a4c5-e060bbe1b66f")
-	)
-	(segment
 		(start 97.0813 29.6862)
 		(end 97.1355 29.632)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 25)
-		(uuid "b4ce1bc9-034b-4216-8430-f3e407e64c72")
-	)
-	(segment
-		(start 97.1355 29.632)
-		(end 108.2133 29.632)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 25)
-		(uuid "c356cdd3-13d7-48db-b262-62c2d2bf22ed")
+		(uuid "b1f69468-0948-48e1-a43d-5f2299f7a822")
 	)
 	(segment
 		(start 92.398225 25.003125)
@@ -22947,6 +23191,14 @@
 		(layer "F.Cu")
 		(net 25)
 		(uuid "cc40182d-3fe1-4c4e-b585-59734da2f6a3")
+	)
+	(segment
+		(start 97.1355 29.632)
+		(end 108.292625 29.632)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "e04a4c06-0654-4d9a-85e9-b0f5e5ff958b")
 	)
 	(segment
 		(start 82.5938 48.596975)
