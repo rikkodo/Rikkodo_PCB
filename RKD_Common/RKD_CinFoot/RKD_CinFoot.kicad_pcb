@@ -186,7 +186,7 @@
 			(uuid "92ccc0ff-f3ef-4ef3-b976-d37ab0c438c2")
 		)
 	)
-	(footprint "kbd_Hole:m2_Spacer_Hole_hex"
+	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "8f928ca0-d50b-4876-94d0-1f1bf628d050")
 		(at 121.44375 51.196875)
@@ -195,7 +195,7 @@
 		(property "Reference" "Ref**"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
-			(uuid "ef9751b9-6599-4a27-896e-1caad3602b7e")
+			(uuid "c0eb51b7-a971-4f6e-937c-916da6b2b4e8")
 			(effects
 				(font
 					(size 1 1)
@@ -206,7 +206,7 @@
 		(property "Value" "Val**"
 			(at 0 3.2 0)
 			(layer "F.Fab")
-			(uuid "249867e7-e7a2-4242-ac3a-bd9cab2aa2bc")
+			(uuid "cb2492ad-01d4-4260-ae4d-51414640eea3")
 			(effects
 				(font
 					(size 1 1)
@@ -214,11 +214,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
+		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c19103f6-cd29-457b-a297-7eda6399fe6a")
+			(uuid "388e8572-7d9f-41c9-bbc3-1a305597feda")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -230,7 +230,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "21eff0c2-b778-4ad4-a34a-e5f3225110a9")
+			(uuid "915c7fa6-1014-47e9-a4f0-b9b8644812a2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -242,7 +242,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef8bbd8c-9796-4aca-b012-e123c6b97fd5")
+			(uuid "333a2a7f-5e06-4c67-a243-8435b130549e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -251,68 +251,48 @@
 			)
 		)
 		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_line
-			(start -2.4 0)
-			(end -1.2 2.15)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
 			(stroke
-				(width 0.1)
+				(width 0.15)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "89637079-8242-489b-87b9-6e338a790d48")
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "5f6e95f2-f279-467c-86b2-513b954e3c30")
 		)
-		(fp_line
-			(start -1.2 -2.15)
-			(end -2.4 0)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "b33464f5-1ca6-4048-b285-c167a2583907")
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "c30b35fa-2fe9-4609-95b8-2d3cffb6e5ff")
 		)
-		(fp_line
-			(start -1.2 2.15)
-			(end 1.2 2.15)
-			(stroke
-				(width 0.1)
-				(type solid)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "e95ec486-b567-4f10-a0c5-88bc90d6879f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
 			)
-			(layer "Edge.Cuts")
-			(uuid "8c4224dc-732c-4d35-a7ab-61bfdddc64e3")
 		)
-		(fp_line
-			(start 1.2 -2.15)
-			(end -1.2 -2.15)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "0ef113e7-44c9-4287-9d94-243fd0fb2d43")
-		)
-		(fp_line
-			(start 1.2 2.15)
-			(end 2.4 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "1a606531-a2e2-42fd-a8d2-ea5eb73e8b1c")
-		)
-		(fp_line
-			(start 2.4 0)
-			(end 1.2 -2.15)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "704080b2-cbad-4d48-b2c3-274c17ac6f92")
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7366636b-d5c5-4581-b5b6-cd2132e2aa2f")
 		)
 	)
-	(footprint "kbd_Hole:m2_Spacer_Hole_hex"
+	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "972cda69-268f-4c8b-93b6-0a64053bc3ab")
 		(at 64.29375 51.196875)
@@ -321,7 +301,7 @@
 		(property "Reference" "Ref**"
 			(at 0 -3.2 0)
 			(layer "F.Fab")
-			(uuid "f9668e88-d075-4c24-92e2-e27c78d01bef")
+			(uuid "bb8f14e7-bb82-4e2a-bc59-4defe559e7fe")
 			(effects
 				(font
 					(size 1 1)
@@ -332,7 +312,7 @@
 		(property "Value" "Val**"
 			(at 0 3.2 0)
 			(layer "F.Fab")
-			(uuid "ee3e5ba4-ed6b-4971-84d4-6798d11fa9e5")
+			(uuid "eb0b94bd-aab3-4d7a-98ea-77f62344219e")
 			(effects
 				(font
 					(size 1 1)
@@ -340,11 +320,11 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_Hole:m2_Spacer_Hole_hex"
+		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "83a1110b-ab6d-42fc-aab9-afe3fb8788b7")
+			(uuid "96000f2b-7b95-4de2-8c74-2b671c8f62f6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -356,7 +336,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57c11bc2-20f4-4df4-bb3c-16d1f8edb507")
+			(uuid "312a2cf9-6416-41ea-95c5-36472d4aab10")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368,7 +348,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9fd2c5a1-5747-40e6-96bc-ab672d946383")
+			(uuid "76d4e9d7-14db-4936-93fd-e44570afa6d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -377,65 +357,45 @@
 			)
 		)
 		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_line
-			(start -2.4 0)
-			(end -1.2 2.15)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
 			(stroke
-				(width 0.1)
+				(width 0.15)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "b9030f8c-d070-44ad-bcc6-e123c0c3e5e3")
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "790fb1f1-814f-40fb-9e38-839ccbf8c46c")
 		)
-		(fp_line
-			(start -1.2 -2.15)
-			(end -2.4 0)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "792fe6b2-ae84-4544-9bc5-928476f640e1")
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "febd4395-00ba-4b67-8dd0-11aa1da775a8")
 		)
-		(fp_line
-			(start -1.2 2.15)
-			(end 1.2 2.15)
-			(stroke
-				(width 0.1)
-				(type solid)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "a55c5e8d-9752-4954-8f7a-f6912077dda3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
 			)
-			(layer "Edge.Cuts")
-			(uuid "25eb9dee-2ea6-4a98-bb90-71e95eba90a8")
 		)
-		(fp_line
-			(start 1.2 -2.15)
-			(end -1.2 -2.15)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "6f9a70a7-a3f9-4d56-ba7f-8259b61ae4d0")
-		)
-		(fp_line
-			(start 1.2 2.15)
-			(end 2.4 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "e81ccdba-d1dc-423d-ae95-8a156579f167")
-		)
-		(fp_line
-			(start 2.4 0)
-			(end 1.2 -2.15)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "33fa6953-476d-4158-b050-c0dbcb3d7f99")
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "f2c31987-5fcf-403f-b2b8-61d37c617a66")
 		)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
