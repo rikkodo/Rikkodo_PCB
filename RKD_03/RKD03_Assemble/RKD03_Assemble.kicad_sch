@@ -2966,6 +2966,28 @@
 		)
 		(uuid "ff765819-c05c-4a9f-8e55-452de6aca09d")
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 251.46 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01303c7d-36de-4767-8e3e-d861ca6e4696")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.9672 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3v3"
 		(shape input)
 		(at 210.82 66.04 180)
@@ -2979,6 +3001,28 @@
 		(uuid "032263a7-f624-48d3-8204-0d71a195d479")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 204.4482 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3v3"
+		(shape input)
+		(at 251.46 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04d92990-4abd-4b17-bb33-a05492b8de7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.0882 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3265,6 +3309,28 @@
 		(uuid "58592493-be9f-4c05-ae01-3d43347f0a9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 40.3158 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 251.46 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6392f910-d605-4f7f-b171-c1a58f4038f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.9067 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,6 +3649,97 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:Qwiic_Right_Angle")
+		(at 256.54 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "022cd567-27d5-4b50-863f-bcba0e40ad00")
+		(property "Reference" "J2"
+			(at 265.43 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Qwiic_RA"
+			(at 265.43 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_Black"
+			(at 256.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 256.54 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 pin JST 1mm polarized connector for I2C"
+			(at 256.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-13694"
+			(at 256.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3773dad3-403c-46da-9857-724b1a5c19c2")
+		)
+		(pin "NC1"
+			(uuid "5a9e99ac-8c08-4c59-9236-ed93d8bb5b9f")
+		)
+		(pin "2"
+			(uuid "5bf8ca98-b9dc-42ae-a1db-8ac3eee252f2")
+		)
+		(pin "NC2"
+			(uuid "3c263f51-dc12-42d4-9155-e966985f9a20")
+		)
+		(pin "3"
+			(uuid "62e4fbab-c9cf-4e6c-9564-2bda32d1be67")
+		)
+		(pin "4"
+			(uuid "e9b618da-c8b2-43a0-8d76-1b54c3a4ea51")
+		)
+		(instances
+			(project "RKD03_Assemble"
+				(path "/32b3db6f-ec5a-43c8-b598-c76dc9760296"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 81.28 233.68 0)
 		(mirror y)
@@ -3721,6 +3878,72 @@
 			(project "RKD03_Assemble"
 				(path "/32b3db6f-ec5a-43c8-b598-c76dc9760296"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ceb4303-9908-4dc0-bb83-cf4a6c830320")
+		(property "Reference" "#PWR02"
+			(at 251.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bb3ea66-b46a-4a6a-9a19-13a8d5327770")
+		)
+		(instances
+			(project "RKD03_Assemble"
+				(path "/32b3db6f-ec5a-43c8-b598-c76dc9760296"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

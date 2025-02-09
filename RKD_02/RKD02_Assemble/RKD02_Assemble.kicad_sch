@@ -4064,6 +4064,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 83.82) (xy 285.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1eed6d-57b0-439c-9255-1c6449857f49")
+	)
+	(wire
+		(pts
 			(xy 43.18 236.22) (xy 68.58 236.22)
 		)
 		(stroke
@@ -4244,6 +4254,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 81.28) (xy 285.75 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6168378-e862-404c-85e5-28a78c559e15")
+	)
+	(wire
+		(pts
 			(xy 228.6 80.01) (xy 228.6 81.28)
 		)
 		(stroke
@@ -4321,6 +4341,16 @@
 			(type default)
 		)
 		(uuid "cd0c73ff-4ab4-4efa-b874-3f2978c22998")
+	)
+	(wire
+		(pts
+			(xy 303.53 83.82) (xy 285.75 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda79abe-a8a8-4976-b8e0-f2aec8f54ff2")
 	)
 	(wire
 		(pts
@@ -4611,6 +4641,16 @@
 			(type default)
 		)
 		(uuid "e7738e18-96b1-4e11-9bf8-e2806f7a0f12")
+	)
+	(wire
+		(pts
+			(xy 285.75 81.28) (xy 285.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e848825b-e4e8-48c4-bb9a-d7a22b6957b5")
 	)
 	(wire
 		(pts
@@ -5013,6 +5053,28 @@
 		(uuid "3574501a-9ecb-4993-8da8-a373e8dbcec2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 51.3225 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 303.53 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36d1c025-88c8-4814-95c2-db77654041e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 297.0372 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5811,6 +5873,94 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 303.53 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5ee2abf-e0ff-4f90-a7d2-da8181d96e0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 296.9767 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 285.75 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0006cd3a-076e-457e-a42e-afa7d5991632")
+		(property "Reference" "#PWR013"
+			(at 285.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 285.75 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 285.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b93a7a89-8bb7-4391-aeb6-679d87778ceb")
+		)
+		(instances
+			(project "RKD02_Assemble"
+				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
+					(reference "#PWR013")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -8992,6 +9142,97 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:Qwiic_Right_Angle")
+		(at 308.61 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fe4b495-b109-492d-8a20-84f0a012c786")
+		(property "Reference" "J2"
+			(at 317.5 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Qwiic_RA"
+			(at 317.5 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_Black"
+			(at 308.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 308.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 pin JST 1mm polarized connector for I2C"
+			(at 308.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-13694"
+			(at 308.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "NC1"
+			(uuid "9f08a13c-7cc7-4ec6-bd5f-d660f9b33f7f")
+		)
+		(pin "NC2"
+			(uuid "ca508340-2cbe-409c-a893-ec7520de2708")
+		)
+		(pin "4"
+			(uuid "71d0cfa9-4e59-4728-a98d-2092ecdf88c0")
+		)
+		(pin "1"
+			(uuid "5a98a32b-ef46-4dc4-964c-a92a83d9325c")
+		)
+		(pin "2"
+			(uuid "9c2cc1ec-c96b-4950-822e-2307b28d45df")
+		)
+		(pin "3"
+			(uuid "23362cfa-43da-4080-bf51-dac2d0edb0d9")
+		)
+		(instances
+			(project "RKD02_Assemble"
+				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 38.1 152.4 0)
 		(mirror y)
@@ -11923,6 +12164,71 @@
 			(project "RKD02_Assemble"
 				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
 					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 285.75 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ab18adc-5571-489c-af02-7d5c729b37de")
+		(property "Reference" "#PWR012"
+			(at 285.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 285.75 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 285.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17a54841-e54d-4060-876c-36cdccf8869a")
+		)
+		(instances
+			(project "RKD02_Assemble"
+				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
