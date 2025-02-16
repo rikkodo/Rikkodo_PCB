@@ -12,12 +12,11 @@ if [ $# -ne 1 ]; then
     exit 1
 fi
 
-cp "$1" "$1.bak"
-
-# for i in $(seq 44 -1 11)
-for i in $(seq 11 44)
+# for i in $(seq 12 -1 9)
+for i in $(seq 12 20)
 do
-    j=$(($i-5))
+    j=$(($i-2))
     # echo $i $j
-    gsed -e 's/"SW'$i'"/"SW'$j'"/g' -e 's/"D'$i'"/"D'$j'"/g' -i $1
+    # gsed -e 's/"LED'$i'"/"LED'$j'"/g' -e 's/"D'$i'"/"D'$j'"/g' -i $1
+    gsed -e 's/"LED'$i'"/"LED'$j'"/g' -i.bak $1
 done
