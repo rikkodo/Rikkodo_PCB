@@ -1,4 +1,4 @@
-(footprint "rkd_RPi_Pico_TH"
+(footprint "rkd_RPi_Pico_TH_NODBG"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "rkd_RPi_Pico_TH"
+	(property "Value" "rkd_RPi_Pico_TH_NODBG"
 		(at 0 2.159 0)
 		(layer "F.Fab")
 		(uuid "f511dbd7-2827-4637-8fd3-ec284eacc2a7")
@@ -120,7 +120,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b1fe232d-2972-4801-b8e0-6acb714e5b8a")
+		(uuid "817aaed4-40de-489b-ae8e-88cc3eaf475e")
 	)
 	(fp_line
 		(start -10.5 -25.5)
@@ -742,44 +742,5 @@
 		)
 		(remove_unused_layers no)
 		(uuid "325f1825-a504-4b34-a3fc-825ca4bdebd5")
-	)
-	(pad "41" thru_hole oval
-		(at -2.54 23.9)
-		(size 1.7 1.7)
-		(drill 0.85)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(remove_unused_layers no)
-		(uuid "0e2da7e5-7b58-419e-ad31-58d932a40598")
-	)
-	(pad "42" thru_hole rect
-		(at 0 23.9)
-		(size 1.7 1.7)
-		(drill 0.85)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(remove_unused_layers no)
-		(uuid "d1f18220-e943-4452-af0e-3a21d4fd9cc6")
-	)
-	(pad "43" thru_hole oval
-		(at 2.54 23.9)
-		(size 1.7 1.7)
-		(drill 0.85)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(remove_unused_layers no)
-		(uuid "6f904494-4e3c-4089-a23d-9fbc3f091883")
 	)
 )
