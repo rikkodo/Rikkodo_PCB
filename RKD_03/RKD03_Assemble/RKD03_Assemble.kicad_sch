@@ -2470,12 +2470,6 @@
 		(uuid "1ad5292e-312e-48ed-92c6-2cc92df42a9d")
 	)
 	(junction
-		(at 152.4 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e8ed7a0-29ad-481b-8823-99987ca0388a")
-	)
-	(junction
 		(at 66.04 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2512,12 +2506,6 @@
 		(uuid "553e8f03-58b0-4183-a87b-e74eeabec3cb")
 	)
 	(junction
-		(at 91.44 266.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62ac035b-0ca6-409a-9901-7b72841b6edd")
-	)
-	(junction
 		(at 185.42 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2528,12 +2516,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a393c3b-7c8b-4ba0-9d02-6124297d3695")
-	)
-	(junction
-		(at 142.24 266.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78d8985b-059d-4b87-aac7-e72b18416b6f")
 	)
 	(junction
 		(at 127 233.68)
@@ -2588,12 +2570,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1334d21-f170-45ea-9cb9-6b311a24c385")
-	)
-	(junction
-		(at 76.2 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cefe0da7-c991-45bd-9345-81b0bdcc336c")
 	)
 	(junction
 		(at 101.6 233.68)
@@ -2781,16 +2757,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 259.08) (xy 157.48 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27181c5b-740c-44b4-bd11-e6abf99c6fb9")
-	)
-	(wire
-		(pts
 			(xy 170.18 165.1) (xy 170.18 190.5)
 		)
 		(stroke
@@ -2798,16 +2764,6 @@
 			(type default)
 		)
 		(uuid "27f36a09-e3a5-4234-9396-f279e8cd7aa2")
-	)
-	(wire
-		(pts
-			(xy 76.2 233.68) (xy 76.2 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a4855e6-acaa-4fa6-ac0d-75d78ffdb194")
 	)
 	(wire
 		(pts
@@ -2888,16 +2844,6 @@
 			(type default)
 		)
 		(uuid "487bcc79-95f1-44ba-8cd8-b16584ed4fea")
-	)
-	(wire
-		(pts
-			(xy 66.04 266.7) (xy 91.44 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48c1080e-1c81-4999-99ee-fad2a28c0c4c")
 	)
 	(wire
 		(pts
@@ -3021,16 +2967,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 259.08) (xy 81.28 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0cf179b-0331-4de3-8f9f-deaeccdaf6e1")
-	)
-	(wire
-		(pts
 			(xy 177.8 121.92) (xy 177.8 132.08)
 		)
 		(stroke
@@ -3058,26 +2994,6 @@
 			(type default)
 		)
 		(uuid "a9b8b149-3875-40b5-bff4-113a2f6aa6ba")
-	)
-	(wire
-		(pts
-			(xy 152.4 233.68) (xy 152.4 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acf9606c-3574-41d8-b623-754cc4cb7e27")
-	)
-	(wire
-		(pts
-			(xy 142.24 266.7) (xy 167.64 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad19e4cb-f98f-4dcc-aa8d-896b3443a05c")
 	)
 	(wire
 		(pts
@@ -3231,7 +3147,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 266.7) (xy 116.84 266.7)
+			(xy 66.04 266.7) (xy 116.84 266.7)
 		)
 		(stroke
 			(width 0)
@@ -4327,7 +4243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_2uW"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_2u"
 			(at 81.28 228.6 0)
 			(effects
 				(font
@@ -4589,84 +4505,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 86.36 259.08 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25b25b3a-0ef3-4f05-9453-090e7edc2f9a")
-		(property "Reference" "SW4"
-			(at 86.36 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 86.36 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_1u"
-			(at 86.36 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 86.36 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" ""
-			(at 86.36 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0443a1a4-f3f5-43ea-bff3-d2131a9dd896")
-		)
-		(pin "2"
-			(uuid "36e0f764-21e0-417f-b664-527302898d69")
-		)
-		(instances
-			(project "RKD03_Assemble"
-				(path "/32b3db6f-ec5a-43c8-b598-c76dc9760296"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 144.78 66.04 0)
 		(unit 1)
@@ -4866,84 +4704,6 @@
 			(project ""
 				(path "/32b3db6f-ec5a-43c8-b598-c76dc9760296"
 					(reference "M2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 162.56 259.08 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e96458d-e32a-4a1b-9256-8d22274f4947")
-		(property "Reference" "SW10"
-			(at 162.56 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 162.56 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_1u"
-			(at 162.56 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 162.56 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" ""
-			(at 162.56 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8863bba1-bb0d-46a1-89c3-3a96a762b630")
-		)
-		(pin "2"
-			(uuid "2ed2ba84-5623-4c91-877c-6a318c682f4e")
-		)
-		(instances
-			(project "RKD03_Assemble"
-				(path "/32b3db6f-ec5a-43c8-b598-c76dc9760296"
-					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -6353,102 +6113,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 91.44 262.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9be7cd34-e779-4725-8c20-68be3868a689")
-		(property "Reference" "D4"
-			(at 93.98 261.6199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 93.98 264.1599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "kbd_Parts:Diode_SMD"
-			(at 91.44 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 91.44 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 91.44 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 91.44 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" ""
-			(at 91.44 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "66e81b40-eeb0-43be-b361-89cdd78841b2")
-		)
-		(pin "1"
-			(uuid "dc2a6818-3296-4d25-a441-57a6d679b730")
-		)
-		(instances
-			(project "RKD03_Assemble"
-				(path "/32b3db6f-ec5a-43c8-b598-c76dc9760296"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Salicylic_kbd:LED_SK6812MINI-E")
 		(at 177.8 165.1 270)
 		(unit 1)
@@ -7329,7 +6993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_2uW"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_2u"
 			(at 106.68 228.6 0)
 			(effects
 				(font
@@ -7407,7 +7071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_2uW"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_2u"
 			(at 132.08 228.6 0)
 			(effects
 				(font
@@ -7485,7 +7149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_2u"
 			(at 137.16 254 0)
 			(effects
 				(font
@@ -7913,103 +7577,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 167.64 262.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5128ee3-9502-4f2c-800d-135cc452529e")
-		(property "Reference" "D10"
-			(at 170.18 261.6199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 170.18 264.1599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "kbd_Parts:Diode_SMD"
-			(at 167.64 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 167.64 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 167.64 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 167.64 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" ""
-			(at 167.64 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6007a228-949c-40be-b0ec-be18a3d51203")
-		)
-		(pin "1"
-			(uuid "43752167-4a08-414c-909d-cf55fdc9da36")
-		)
-		(instances
-			(project "RKD03_Assemble"
-				(path "/32b3db6f-ec5a-43c8-b598-c76dc9760296"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BrownSugar_KBD:Mark")
 		(at 252.73 151.13 0)
 		(unit 1)
@@ -8109,7 +7676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2byV1_Hotswap_2u"
 			(at 60.96 254 0)
 			(effects
 				(font
@@ -8253,7 +7820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_2uW"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_CherryChocV1V2_Hotswap_2u"
 			(at 55.88 228.6 0)
 			(effects
 				(font
