@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "19f536aa-aef0-4c4e-9294-f05dcbf6eea3")
 	(paper "A1")
 	(lib_symbols
@@ -92,7 +92,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -3.81) (xy 0 -3.81) (xy -1.27 -2.54) (xy -2.54 -3.81)
+						(xy 7.62 1.27) (xy 5.08 1.27) (xy 3.81 2.54) (xy 2.54 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -116,7 +116,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 1.27) (xy 5.08 1.27) (xy 3.81 2.54) (xy 2.54 1.27)
+						(xy 7.62 -3.81) (xy 0 -3.81) (xy -1.27 -2.54) (xy -2.54 -3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -147,7 +147,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 -3.81 180)
+					(at 10.16 1.27 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -156,7 +156,7 @@
 							)
 						)
 					)
-					(number "B"
+					(number "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -183,7 +183,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 1.27 180)
+					(at 10.16 -3.81 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -192,7 +192,7 @@
 							)
 						)
 					)
-					(number "D"
+					(number "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -201,10 +201,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -271,19 +274,19 @@
 			)
 			(symbol "Conn_01x04_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -304,8 +307,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -315,14 +318,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -398,6 +401,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Salicylic_kbd:LED_SK6812MINI-E"
 			(pin_names
@@ -463,42 +467,6 @@
 				)
 			)
 			(symbol "LED_SK6812MINI-E_1_1"
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -535,13 +503,54 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND1"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -632,12 +641,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND2"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -728,12 +742,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -824,12 +843,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VCC"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -901,7 +925,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -913,7 +937,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -944,12 +968,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VDD"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1021,7 +1050,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1033,7 +1062,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1064,7 +1093,28 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "LED"
+		(exclude_from_sim no)
+		(at 543.1926 284.1962 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c94da632-6330-4d19-a62b-1f74a6243c51")
+	)
+	(text "LED"
+		(exclude_from_sim no)
+		(at 342.646 273.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5d9ad8c-3b64-44c3-adf2-7cbc526fa897")
 	)
 	(junction
 		(at 477.52 386.08)
@@ -5995,26 +6045,6 @@
 			(type default)
 		)
 		(uuid "ff7dbf98-ff4b-4c83-8fb8-fc71a4a04160")
-	)
-	(text "LED"
-		(exclude_from_sim no)
-		(at 543.1926 284.1962 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c94da632-6330-4d19-a62b-1f74a6243c51")
-	)
-	(text "LED"
-		(exclude_from_sim no)
-		(at 342.646 273.558 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f5d9ad8c-3b64-44c3-adf2-7cbc526fa897")
 	)
 	(global_label "LED_LB"
 		(shape input)
@@ -15264,4 +15294,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
