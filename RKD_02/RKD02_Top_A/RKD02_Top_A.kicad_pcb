@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -9,41 +9,42 @@
 	(paper "A3")
 	(layers
 		(0 "F.Cu" signal)
-		(31 "B.Cu" signal)
-		(32 "B.Adhes" user "B.Adhesive")
-		(33 "F.Adhes" user "F.Adhesive")
-		(34 "B.Paste" user)
-		(35 "F.Paste" user)
-		(36 "B.SilkS" user "B.Silkscreen")
-		(37 "F.SilkS" user "F.Silkscreen")
-		(38 "B.Mask" user)
-		(39 "F.Mask" user)
-		(40 "Dwgs.User" user "User.Drawings")
-		(41 "Cmts.User" user "User.Comments")
-		(42 "Eco1.User" user "User.Eco1")
-		(43 "Eco2.User" user "User.Eco2")
-		(44 "Edge.Cuts" user)
-		(45 "Margin" user)
-		(46 "B.CrtYd" user "B.Courtyard")
-		(47 "F.CrtYd" user "F.Courtyard")
-		(48 "B.Fab" user)
-		(49 "F.Fab" user)
-		(50 "User.1" user)
-		(51 "User.2" user)
-		(52 "User.3" user)
-		(53 "User.4" user)
-		(54 "User.5" user)
-		(55 "User.6" user)
-		(56 "User.7" user)
-		(57 "User.8" user)
-		(58 "User.9" user)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+		(47 "User.5" user)
+		(49 "User.6" user)
+		(51 "User.7" user)
+		(53 "User.8" user)
+		(55 "User.9" user)
 	)
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00010f0_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x00000000_00000000_55555555_575555ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes no)
@@ -53,7 +54,6 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
 			(plotframeref no)
-			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -61,16 +61,20 @@
 			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plotreference yes)
-			(plotvalue yes)
-			(plotfptext yes)
+			(plot_black_and_white yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
@@ -104,18 +108,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aa235de6-bd33-4f9e-aec2-8dcd2c4bb9cd")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -228,6 +220,7 @@
 			(layer "F.Fab")
 			(uuid "97d8cfb9-b715-4412-b127-dc8dd29d4906")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -253,18 +246,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d5274f83-5b68-4d7b-b4c0-610b7513381a")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -377,6 +358,7 @@
 			(layer "F.Fab")
 			(uuid "a3616c76-c001-4bd6-bc57-735593c4fbbe")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -403,18 +385,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fb372f32-c021-4e4d-a50b-fbcc8d8543b3")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -451,7 +421,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "88fb5480-4b40-4b9b-a22c-2f99885e093e")
 		)
@@ -462,7 +432,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "784e333d-884b-4046-8d1e-b37011b83cac")
 		)
@@ -470,14 +440,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "7a9760d6-d06c-428d-8f1b-4771e41a6905")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -503,18 +469,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4029a99b-cbfd-46cc-b7b3-6ff46c7bed26")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -627,6 +581,7 @@
 			(layer "F.Fab")
 			(uuid "a12f2907-3488-40fb-9ef3-c0c0d7f631e2")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -652,18 +607,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b454b83f-427b-4680-8c71-061f07a3bdcb")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -700,7 +643,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "1f88846d-2f32-4ae4-b1c6-437f4f271d40")
 		)
@@ -711,7 +654,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "4139a83b-d3c3-4b1b-a759-fb10c30f6c42")
 		)
@@ -730,14 +673,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "7619305b-7d76-487a-9df0-ec5206a37b1d")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -763,18 +702,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "209efed8-a512-4d4b-bf13-04268bfeae54")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -887,6 +814,7 @@
 			(layer "F.Fab")
 			(uuid "de12d7c1-ec6a-4407-8ee7-f25f9552a3b8")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "Rikkodo_FootPrint:rkd_cutdot"
 		(layer "F.Cu")
@@ -911,19 +839,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "55ad8265-d9dc-491d-a07f-1dcd4548a41d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_cutdot"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "61441988-3c27-46c8-a943-48c0d0a18cab")
 			(effects
 				(font
 					(size 1 1)
@@ -1002,50 +917,31 @@
 			(at -0.893198 0.000356 180)
 			(size 0.5 0.5)
 			(drill 0.5)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "06716663-bf74-4146-a8d4-03967cfe3d56")
 		)
 		(pad "" np_thru_hole circle
 			(at -0.297886 0.000356 180)
 			(size 0.5 0.5)
 			(drill 0.5)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "1911d1c5-c4c7-449b-8730-66122db5a636")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.297426 0.000356 180)
 			(size 0.5 0.5)
 			(drill 0.5)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "34fb7cd2-1696-4d48-a5dc-d6fbf1952c5e")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.892738 0.000356 180)
 			(size 0.5 0.5)
 			(drill 0.5)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "0ba3f97c-d7ca-4fd5-b761-1bc0f54a3844")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -1071,18 +967,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05b4c755-82cc-4670-aad4-1809f3ca7d63")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1119,7 +1003,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "0e3e5e1e-cb04-4d10-8b62-2e02d27c41d7")
 		)
@@ -1130,7 +1014,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "f69115b8-b6fd-4c0e-93a7-7da6df5d6b75")
 		)
@@ -1149,14 +1033,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "40a29449-e5dd-42d5-a133-64a2b35a0fce")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -1183,18 +1063,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "00c94eee-dba1-47fc-8833-422cbf380c05")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1231,7 +1099,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "417fa790-e5eb-41fe-a7c0-1892958de828")
 		)
@@ -1242,7 +1110,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "d9d85226-75dc-40c2-afea-217bb67a7559")
 		)
@@ -1250,14 +1118,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "3c6c1d9e-700c-406d-8b9c-029e0a143918")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -1283,18 +1147,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c258b34-66d5-4377-980c-1ff11f93a291")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1407,6 +1259,7 @@
 			(layer "F.Fab")
 			(uuid "837556d1-b682-426b-9884-95fa328d4ad5")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -1432,18 +1285,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3d7cd910-ccec-4a29-9acd-f28e0a74ece3")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1556,6 +1397,7 @@
 			(layer "F.Fab")
 			(uuid "eac1f0a1-d7db-4af9-876f-b0abc4789102")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -1585,18 +1427,6 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05b4c755-82cc-4670-aad4-1809f3ca7d63")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -1629,7 +1459,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "cb14e183-8975-4ded-b676-1977f1eece33")
 		)
@@ -1640,7 +1470,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "c16032ae-c90c-4fa9-805c-69fe6ce9b659")
 		)
@@ -1659,14 +1489,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "510e4530-e1ae-4de2-93ef-ab52bf7c87f3")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -1696,18 +1522,6 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05b4c755-82cc-4670-aad4-1809f3ca7d63")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -1740,7 +1554,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "593e7a23-8751-49bb-924c-3a52f4447690")
 		)
@@ -1751,7 +1565,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "99b2c314-b10f-4195-b820-7c28ed10b1dc")
 		)
@@ -1770,14 +1584,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "3d7e6605-4a7f-4b1b-b108-dec18c97065b")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -1805,18 +1615,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "559830d8-8050-44fb-971f-1ac1c68d5324")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1853,7 +1651,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "efd55e88-3474-4bee-9400-b1b6e96375f6")
 		)
@@ -1864,7 +1662,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "eb66c88d-8369-4db6-90cd-949f4b566f1a")
 		)
@@ -1872,14 +1670,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "9487573c-7b8a-493c-8ea8-22762f4fc3ce")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -1905,18 +1699,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05b4c755-82cc-4670-aad4-1809f3ca7d63")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1953,7 +1735,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "e7573aef-3db0-43f1-a86c-5c6f672c6b23")
 		)
@@ -1964,7 +1746,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "90359ae2-b321-48fa-a8a8-268d75d4662b")
 		)
@@ -1983,14 +1765,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "f2fd92fb-134e-40dc-be23-8b8c2402a317")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -2016,18 +1794,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6f7ce3f7-ef02-4f44-b902-5a33a9f79e87")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2140,6 +1906,7 @@
 			(layer "F.Fab")
 			(uuid "c2dd5abb-fab2-4037-ba47-ff1edcb90de3")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "Rikkodo_FootPrint:rkd_cutdot"
 		(layer "F.Cu")
@@ -2164,19 +1931,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "88338a65-d6ab-4ed5-996c-b0836db28716")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_cutdot"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2e9f2e9d-6226-4f27-978b-a17c96836d9b")
 			(effects
 				(font
 					(size 1 1)
@@ -2255,50 +2009,31 @@
 			(at -0.893198 0.000356 90)
 			(size 0.5 0.5)
 			(drill 0.5)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "6fc1fc16-f0c8-42f8-b96e-f5a671dce098")
 		)
 		(pad "" np_thru_hole circle
 			(at -0.297886 0.000356 90)
 			(size 0.5 0.5)
 			(drill 0.5)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "46b8bbbf-c461-4e7f-a025-555b1dc1b601")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.297426 0.000356 90)
 			(size 0.5 0.5)
 			(drill 0.5)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "cf6aeed2-493e-45c3-ad15-213ebae16631")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.892738 0.000356 90)
 			(size 0.5 0.5)
 			(drill 0.5)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "9c85566d-84e3-42c1-bf21-c3f37c1cd2c8")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -2324,18 +2059,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ca94fea6-73e1-40ac-893f-29941825f34a")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2448,6 +2171,7 @@
 			(layer "F.Fab")
 			(uuid "43f26ae2-eed0-44f8-90e6-1e70cdc91a11")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -2473,18 +2197,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dcadd9f1-6327-4d7a-8f24-961779939426")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2597,6 +2309,7 @@
 			(layer "F.Fab")
 			(uuid "fe436827-8f32-4411-954b-08fca055a7ea")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -2622,18 +2335,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c9edb84f-4cba-489a-a52f-3acc2fa930f0")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2746,6 +2447,7 @@
 			(layer "F.Fab")
 			(uuid "45d31360-663f-404c-8ab7-9ff1b429d98a")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -2771,18 +2473,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "857eef43-929f-4c32-a98b-ce117aa52ffe")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2895,6 +2585,7 @@
 			(layer "F.Fab")
 			(uuid "9128ee5f-06b6-4fe9-b203-33724d3b66ce")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "Rikkodo_FootPrint:rkd_Top_GateronChocV2byV1_2u"
 		(layer "F.Cu")
@@ -2920,18 +2611,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Top_GateronChocV2byV1_2u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d50410ee-70ec-49cd-a944-b93a6339a42a")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3481,6 +3160,7 @@
 			(layer "F.Fab")
 			(uuid "b9487494-e116-4a47-859f-2d9b0f2654c3")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -3506,18 +3186,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2f249754-063b-4200-9604-aab8bcac512e")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3630,6 +3298,7 @@
 			(layer "F.Fab")
 			(uuid "edff7b68-8af0-44ab-ada6-79bdce3c1dc1")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -3655,18 +3324,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05b4c755-82cc-4670-aad4-1809f3ca7d63")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3703,7 +3360,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "627f828f-0986-4a0b-a9f3-d6c286d82556")
 		)
@@ -3714,7 +3371,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "cd933475-3481-410c-ba10-2e85e001b35e")
 		)
@@ -3733,14 +3390,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "9d18ed34-577c-4474-95e3-dbab3b24f1d3")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -3766,18 +3419,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6216b03d-f278-486e-8706-02b0ea877b78")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3890,6 +3531,7 @@
 			(layer "F.Fab")
 			(uuid "3824dbaa-75ff-49ba-968c-26e8a4f6149c")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -3915,18 +3557,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bdf8cbb6-309c-4b04-9b76-b6e91cba6593")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4036,6 +3666,7 @@
 			(layer "F.Fab")
 			(uuid "418b2de6-5c05-4e4d-b99b-46e32421f321")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1.5u"
 		(layer "F.Cu")
@@ -4061,18 +3692,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1.5u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ad846c7e-6505-4f37-b930-278cf93de143")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4185,6 +3804,7 @@
 			(layer "F.Fab")
 			(uuid "d40766f8-f9c4-4933-a424-4abab5b85b19")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -4211,18 +3831,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "865d1cec-32a9-414e-8ade-eb812ef352cb")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4259,7 +3867,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "9cde1743-ec37-4b20-9fd8-3c1d5353c91a")
 		)
@@ -4270,7 +3878,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "19735664-38bb-4906-a597-a6515605d7ab")
 		)
@@ -4278,14 +3886,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "b89c4818-8152-4eb3-9ddf-ce5c2de1dd2f")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -4311,18 +3915,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "28ce64a5-fafd-4a93-b7b3-ab1e22520abb")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4435,6 +4027,7 @@
 			(layer "F.Fab")
 			(uuid "9d96a5b0-73a7-4d8c-9cf5-f45d93c28b96")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -4460,18 +4053,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ffadd854-40a1-4ecc-b587-2977f64370ab")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4508,7 +4089,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "64791e85-564d-4ad0-98cb-43dc45b9609f")
 		)
@@ -4519,7 +4100,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "ca02cb2e-e488-4b70-9db0-79ee9413ec52")
 		)
@@ -4538,14 +4119,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "a744218d-b7d1-410e-9394-b2dde109c565")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -4571,18 +4148,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ade35816-d593-489c-b56a-003a0c05768e")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4695,6 +4260,7 @@
 			(layer "F.Fab")
 			(uuid "7481e119-5fc8-4351-95fa-3f4854d4e999")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1.25u"
 		(layer "F.Cu")
@@ -4720,18 +4286,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1.25u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1183a2c5-1f0c-4a8a-9eac-87bec1f168fd")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4844,6 +4398,7 @@
 			(layer "F.Fab")
 			(uuid "4f408d28-e6bb-42d6-8b23-8e0f5c3bd45f")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -4871,18 +4426,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "81b47937-de3a-4460-91e9-b1441f7684d8")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4919,7 +4462,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "7fd2f1bf-db73-44f1-a9a1-b7a51ce64f7f")
 		)
@@ -4930,7 +4473,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "78cf922f-12fd-4e71-be3b-acd98866bf03")
 		)
@@ -4938,14 +4481,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "1acb83c8-893a-4a28-8791-a1ea64fa88e1")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -4971,18 +4510,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "37597673-82d3-41d6-a98b-bff85e7935c1")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -5095,6 +4622,7 @@
 			(layer "F.Fab")
 			(uuid "3bc0d90f-32f8-4f99-8b14-7e66257566b4")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1.5u"
 		(layer "F.Cu")
@@ -5120,18 +4648,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1.5u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4d1d6dfd-f2be-4480-b3a8-5c191e7410ff")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -5244,6 +4760,7 @@
 			(layer "F.Fab")
 			(uuid "57233cff-dcb3-44aa-a9bd-4b0aa5e52c8c")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -5269,18 +4786,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4e9c25ca-e013-4789-b974-6232b1de982e")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -5393,6 +4898,7 @@
 			(layer "F.Fab")
 			(uuid "2df984ca-84d3-4e8b-8fe6-1e1e8b0776c6")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -5418,18 +4924,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e6fae367-d053-48d4-aebf-1682d32db2d2")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -5542,6 +5036,7 @@
 			(layer "F.Fab")
 			(uuid "61c40fa5-8b7e-4e53-a985-e544f906759f")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1.75u"
 		(layer "F.Cu")
@@ -5567,18 +5062,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1.75u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0fa26f9a-0677-46a9-9eb3-3f5e5288bb19")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -5691,6 +5174,7 @@
 			(layer "F.Fab")
 			(uuid "29b4b956-26f7-4844-b539-597b8ab07e6c")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -5716,18 +5200,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "02a78579-b445-4364-bc58-e25f0caba4b6")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -5840,6 +5312,7 @@
 			(layer "F.Fab")
 			(uuid "4efd7af8-3116-4774-8e62-35b42e16d006")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "Rikkodo_FootPrint:rkd_cutdot"
 		(layer "F.Cu")
@@ -5864,19 +5337,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6dce2bf-0141-413f-95cb-257275ed1b2e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_cutdot"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "931dc860-5c17-4270-9dcd-90e33ed39f84")
 			(effects
 				(font
 					(size 1 1)
@@ -5955,50 +5415,31 @@
 			(at -0.893198 0.000356 90)
 			(size 0.5 0.5)
 			(drill 0.5)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "8e93cac8-22ca-4197-928a-126f9611a6b3")
 		)
 		(pad "" np_thru_hole circle
 			(at -0.297886 0.000356 90)
 			(size 0.5 0.5)
 			(drill 0.5)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "244f622c-3aa4-47cd-ba5d-2e4cd62abb23")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.297426 0.000356 90)
 			(size 0.5 0.5)
 			(drill 0.5)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "d9092dd4-202e-4bb0-8ce1-5df94f768801")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.892738 0.000356 90)
 			(size 0.5 0.5)
 			(drill 0.5)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "2eb82195-7ef4-4078-9756-f984d7a005da")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -6024,18 +5465,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "97a944ca-3b06-40a5-b2c1-4b84f74aa38e")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -6148,6 +5577,7 @@
 			(layer "F.Fab")
 			(uuid "ca5ccc04-70f1-4a4b-9f8d-890cbcf56e2c")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -6173,18 +5603,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "faaf749c-0c1b-4c63-a0ab-87f199f2cef8")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -6297,6 +5715,7 @@
 			(layer "F.Fab")
 			(uuid "eafb0fd5-3ee9-4cb8-9ab0-f79e3fcbd8d6")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -6322,18 +5741,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1b99fb88-cbb6-46fa-b055-e70da9463b71")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -6446,6 +5853,7 @@
 			(layer "F.Fab")
 			(uuid "d4770922-dd03-4a5e-a7ab-ee3a39e7ef89")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -6471,18 +5879,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f5dcd924-5408-4782-9b94-3968b6af2e1c")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -6595,6 +5991,7 @@
 			(layer "F.Fab")
 			(uuid "70a83d8e-f360-4c27-8af3-be531cfde0d1")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1.25u"
 		(layer "F.Cu")
@@ -6620,18 +6017,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1.25u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5104b7db-dbbf-4eb2-81b3-0a1bca7235ee")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -6744,6 +6129,7 @@
 			(layer "F.Fab")
 			(uuid "9e263d1f-c10b-4fff-aa1c-089963c2b32d")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1.25u"
 		(layer "F.Cu")
@@ -6769,18 +6155,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1.25u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a9d59817-9ad2-40d9-97a8-85439528e75b")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -6893,6 +6267,7 @@
 			(layer "F.Fab")
 			(uuid "32950e4d-0cf7-4f05-bba1-8f00b387c936")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -6918,18 +6293,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d8425f72-1049-4c8f-8416-5808194a8fbe")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -7042,6 +6405,7 @@
 			(layer "F.Fab")
 			(uuid "363de973-4fcf-445c-810f-cd92fc32a92c")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -7067,18 +6431,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "58f00b22-2ded-44c4-96fc-ea9e7b5577c3")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -7191,6 +6543,7 @@
 			(layer "F.Fab")
 			(uuid "1d85daa9-84fd-4137-9173-9cbc6bf03d05")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -7216,18 +6569,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ffadd854-40a1-4ecc-b587-2977f64370ab")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -7264,7 +6605,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "617a48e8-dfb7-40d7-a50c-6b3ea9624501")
 		)
@@ -7275,7 +6616,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "a105e9cf-fa0e-4be1-b45a-bb85b34a329a")
 		)
@@ -7294,14 +6635,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "d0f400ca-5499-4841-adb5-0deff9d44fcb")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -7327,18 +6664,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6406bf2a-5de8-4ac3-8308-64e8c07cd281")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -7451,6 +6776,7 @@
 			(layer "F.Fab")
 			(uuid "529aeb87-b0e8-4068-b4f5-05fab37a0aa2")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -7476,18 +6802,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b3d47356-1ede-4fd0-887d-1af243a2d352")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -7600,6 +6914,7 @@
 			(layer "F.Fab")
 			(uuid "0ba6bc0e-5e18-4a19-bc5d-aadbfec4fdb0")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -7625,18 +6940,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c3118755-22df-4b9a-b6e6-5b74a52ca741")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -7749,6 +7052,7 @@
 			(layer "F.Fab")
 			(uuid "d6f6ea65-4b73-4f02-a848-a0ededec2cee")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1.5u"
 		(layer "F.Cu")
@@ -7774,18 +7078,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1.5u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "648ea045-c1b6-44d1-82dd-5e8f6c7d92a6")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -7898,6 +7190,7 @@
 			(layer "F.Fab")
 			(uuid "657ba51d-9e39-4af3-aa33-7931bb7b954d")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "Rikkodo_FootPrint:rkd_Top_GateronChocV2byV1_2u"
 		(layer "F.Cu")
@@ -7923,18 +7216,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Top_GateronChocV2byV1_2u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e8455b20-b104-4b2a-858e-4d4b7a8b4fe2")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -8484,6 +7765,7 @@
 			(layer "F.Fab")
 			(uuid "dc549d27-75c0-43e1-983e-971d6fe9b15f")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -8509,18 +7791,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "57826dfc-77df-4b84-b4d7-fd721e06321b")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -8633,6 +7903,7 @@
 			(layer "F.Fab")
 			(uuid "01ec55d7-3140-47f7-bc08-d68a5337bb2a")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -8660,18 +7931,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3155c8c2-3b5b-49ff-a3ab-b255dcafcf5a")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -8708,7 +7967,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "6f5e1f88-e914-422f-94bb-4d6efddb6b9e")
 		)
@@ -8719,7 +7978,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "55acc03c-625b-43be-bb45-260cf6ccd6f3")
 		)
@@ -8727,14 +7986,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "eb2073e9-a269-4567-bd39-0efa42ba8d09")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -8761,18 +8016,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a05b55f6-395b-4b64-a5c6-96d07cd84379")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -8809,7 +8052,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "0fda7f17-2829-4bf1-b7d3-efd5ece265ca")
 		)
@@ -8820,7 +8063,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "9de99b53-f0b9-4717-bb65-1c120ac9d8ad")
 		)
@@ -8828,14 +8071,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "ae315dae-806a-48eb-a8c4-78dae496edf0")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -8861,18 +8100,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1d493d44-3c4e-44b8-af43-c2ba17473d4f")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -8985,6 +8212,7 @@
 			(layer "F.Fab")
 			(uuid "7909bb2e-0e60-486c-bdca-fa1fb1f538d7")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -9010,18 +8238,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d9ae96c0-ce04-49ba-ab9d-6aa2ac992012")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -9134,6 +8350,7 @@
 			(layer "F.Fab")
 			(uuid "530e983e-bcfd-40ea-bceb-f8c3cb4b3799")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -9159,18 +8376,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7a11953b-1fca-4dc5-8ae0-bf35f466b20c")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -9283,6 +8488,7 @@
 			(layer "F.Fab")
 			(uuid "46b51c7a-f214-40ec-b9b3-cd6ffe7221ad")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -9308,18 +8514,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a94d4866-836e-4b01-a778-f9f2c5771e34")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -9432,6 +8626,7 @@
 			(layer "F.Fab")
 			(uuid "2ba8b4c2-f28d-4eae-acfa-0f1ddfe7fee5")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1.25u"
 		(layer "F.Cu")
@@ -9457,18 +8652,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1.25u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8979b511-0d4a-4142-9b34-7824d56b9cef")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -9581,6 +8764,7 @@
 			(layer "F.Fab")
 			(uuid "aa6215d9-5503-449b-aaf3-ad505b9f25a9")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -9606,18 +8790,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e54c5f20-ac1d-4700-a8de-fa774c582f73")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -9730,6 +8902,7 @@
 			(layer "F.Fab")
 			(uuid "50e0b2af-676e-4796-9eed-7d1c4e9e5de7")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -9755,18 +8928,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05b4c755-82cc-4670-aad4-1809f3ca7d63")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -9803,7 +8964,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "6ddd470a-a123-4480-b060-ad392bb6cfb0")
 		)
@@ -9814,7 +8975,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "0ecc5326-945f-4e3c-abe7-fd95a3c1b940")
 		)
@@ -9833,14 +8994,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "3c933a4c-1a6f-405f-8836-556d9b6d8506")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -9866,18 +9023,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3bc7141b-4c99-4847-9e6b-f8b933398171")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -9990,6 +9135,7 @@
 			(layer "F.Fab")
 			(uuid "87c62dd1-4dbd-4424-a7dc-98d904eca495")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1.25u"
 		(layer "F.Cu")
@@ -10015,18 +9161,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1.25u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "866f13f1-28ab-49d9-bef3-1c95b0d5f262")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -10139,6 +9273,7 @@
 			(layer "F.Fab")
 			(uuid "03233250-9a03-44ff-93f0-ca3f7367949c")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "Rikkodo_FootPrint:rkd_Top_GateronChocV2byV1_2u"
 		(layer "F.Cu")
@@ -10164,18 +9299,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Top_GateronChocV2byV1_2u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4401f157-ea0b-4f79-8ae9-5515b40c74a9")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -10725,6 +9848,7 @@
 			(layer "F.Fab")
 			(uuid "8aaa1b8b-87fd-449a-a21a-a5e752e0a7f0")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -10750,18 +9874,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ae9a8052-eb61-4e27-9ef5-ee5e0293e996")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -10874,6 +9986,7 @@
 			(layer "F.Fab")
 			(uuid "5c758bba-680c-482a-9386-14cef2647a28")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -10899,18 +10012,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bf071f36-dda6-4bb7-9c70-41fa15a9b66c")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -10947,7 +10048,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "7cb808c4-b661-4e25-9a84-b55a4e40f732")
 		)
@@ -10958,7 +10059,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "15032c58-b56e-4ddb-8606-4faf435db8d2")
 		)
@@ -10977,14 +10078,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "205c16f7-7fe5-4bbf-a6b0-241154cfba74")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -11010,18 +10107,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05b4c755-82cc-4670-aad4-1809f3ca7d63")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -11058,7 +10143,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "f9370af6-cb85-4d8f-af73-2152096de82f")
 		)
@@ -11069,7 +10154,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "714d6d48-0c2c-40c1-84cd-45c0077e63f0")
 		)
@@ -11088,14 +10173,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "0c46ef9b-931e-4382-9633-87d3e98f674c")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -11122,18 +10203,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "35f1c871-746f-4f1e-aa6e-d65c77f018fc")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -11170,7 +10239,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "86a05488-d843-439e-9983-dbd8b26afcb0")
 		)
@@ -11181,7 +10250,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "5ccdfd00-dc23-4b45-aedf-3d4d2bb2d0e3")
 		)
@@ -11189,14 +10258,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "7d1acc42-2193-4c5f-bbb3-adf4ca0fe567")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "Rikkodo_FootPrint:rkd_Top_GateronChocV2byV1_2u"
 		(layer "F.Cu")
@@ -11222,18 +10287,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Top_GateronChocV2byV1_2u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "270845a6-cfc2-43f9-84d0-971cc5bcbfc8")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -11783,6 +10836,7 @@
 			(layer "F.Fab")
 			(uuid "d41263c3-5772-4131-8a9c-d83fe843076f")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -11808,18 +10862,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "90e2fe61-9963-4039-9b0c-48d160051a27")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -11932,6 +10974,7 @@
 			(layer "F.Fab")
 			(uuid "c60a7387-adb4-46b1-91ea-1a8d444420e1")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -11957,18 +11000,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0e064689-25cd-447f-9d4a-97c30b599bd0")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12081,6 +11112,7 @@
 			(layer "F.Fab")
 			(uuid "45353fca-7b43-4e98-95d3-35ce31ec363a")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1.25u"
 		(layer "F.Cu")
@@ -12106,18 +11138,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1.25u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "26544865-78c6-4de0-87c2-835fddfabc2b")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12230,6 +11250,7 @@
 			(layer "F.Fab")
 			(uuid "60041da0-5a54-4141-bb15-a688657cf11d")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -12255,18 +11276,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f412c73f-627f-4005-86bc-088b0a419508")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12303,7 +11312,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "8bac9645-625c-4c9e-90eb-1542e954c48f")
 		)
@@ -12314,7 +11323,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "cf932b7f-9e2a-436f-96fe-e42cad7041c6")
 		)
@@ -12333,14 +11342,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "466737fa-ac7b-4750-a0c6-0b3dba8dcdf8")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -12366,18 +11371,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e72eacf4-d6ba-46c4-b2b1-5482ed67e97f")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12490,6 +11483,7 @@
 			(layer "F.Fab")
 			(uuid "526a1976-dd38-49a2-87ac-cbcfc6d131f9")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -12515,18 +11509,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "71d6522c-7eac-4a09-93a9-cf2af3e6594e")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12639,6 +11621,7 @@
 			(layer "F.Fab")
 			(uuid "cafbcefe-f9b5-4256-91fe-f222145bb5a9")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -12664,18 +11647,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "80da6c00-cb5c-41e1-a517-03c69d139144")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12788,6 +11759,7 @@
 			(layer "F.Fab")
 			(uuid "6c42c8e9-c91e-4f44-ae50-ea47a06a04a6")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -12813,18 +11785,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b51acce4-f1a9-4bdd-b813-ab422caa8f4b")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12861,7 +11821,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "f90076ee-d7e5-4c0d-b19f-ce676cf7dd48")
 		)
@@ -12872,7 +11832,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "91cc8545-5024-4da8-a4b9-d8f940900e9a")
 		)
@@ -12891,14 +11851,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "2b709d91-8ea9-4af8-b2df-9d2ea1c27af6")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -12924,18 +11880,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9d806c79-b6eb-4509-af39-dd5ed158260e")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -13048,6 +11992,7 @@
 			(layer "F.Fab")
 			(uuid "d90e9b20-9e6d-48b6-8fef-2db899a3f6a8")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -13073,18 +12018,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3d5bffff-28c3-442b-a7ae-2907b4f66001")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -13197,6 +12130,7 @@
 			(layer "F.Fab")
 			(uuid "40479619-ae7e-4257-8bec-9b66527961a7")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -13222,18 +12156,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "deee3fc2-9653-4b2f-b02c-45e2853da976")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -13346,6 +12268,7 @@
 			(layer "F.Fab")
 			(uuid "fe73fb35-8f90-46be-860a-f62dd05d431a")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -13371,18 +12294,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ffadd854-40a1-4ecc-b587-2977f64370ab")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -13419,7 +12330,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "da9a0f8a-1910-49b2-8766-e470310f2c4f")
 		)
@@ -13430,7 +12341,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "ec6562cd-9f0f-4860-ab1d-6cf33b7bb58b")
 		)
@@ -13449,14 +12360,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "88ae6bd9-08aa-49be-931a-98e8b8001a78")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -13482,18 +12389,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "74aae750-a6e1-4fe9-9066-cdf55dbf01fb")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -13606,6 +12501,7 @@
 			(layer "F.Fab")
 			(uuid "3ab4c31c-ab0f-4c18-a2e5-bcca70187b25")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -13631,18 +12527,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05b4c755-82cc-4670-aad4-1809f3ca7d63")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -13679,7 +12563,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "d190bcb4-c714-4984-a30d-81fb12875598")
 		)
@@ -13690,7 +12574,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "d12f6732-a1a2-4a4d-9e39-e27baab308e6")
 		)
@@ -13709,14 +12593,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "cc4f75d6-0081-4d5f-a908-7fb2150a5028")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -13742,18 +12622,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2b488bd3-dac0-4e63-a639-531ebebdb3d0")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -13866,6 +12734,7 @@
 			(layer "F.Fab")
 			(uuid "a790a36d-64ad-49a5-b587-9698394e677e")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -13891,18 +12760,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4c07b942-583d-4878-8ad9-556ed91d97e5")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -14015,6 +12872,7 @@
 			(layer "F.Fab")
 			(uuid "c15a9916-9c71-497a-b893-51b75cf734e9")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -14040,18 +12898,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cc2cccf5-72d9-4fdf-bcf0-7d3583aabe23")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -14164,6 +13010,7 @@
 			(layer "F.Fab")
 			(uuid "7282fc78-ec48-43f9-b677-d52be7683f62")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -14189,18 +13036,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bd93fdf5-2571-4058-be6b-6ba954f72fcc")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -14313,6 +13148,7 @@
 			(layer "F.Fab")
 			(uuid "a4116a72-e602-4268-9b20-8d2617d6af0f")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1.25u"
 		(layer "F.Cu")
@@ -14338,18 +13174,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1.25u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "00c8325c-11e1-48e5-85e6-9af5238bd315")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -14462,6 +13286,7 @@
 			(layer "F.Fab")
 			(uuid "edd640ef-7742-4c51-b524-147db0e39d94")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -14487,18 +13312,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "94c3c965-f6da-418f-8ea3-780917869672")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -14611,6 +13424,7 @@
 			(layer "F.Fab")
 			(uuid "e9087e32-ec5a-4bf6-9128-eabd9adf9983")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -14636,18 +13450,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5393eaf4-75d4-4b14-8e38-284e8bb1a1d5")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -14760,6 +13562,7 @@
 			(layer "F.Fab")
 			(uuid "688bd0d4-192b-4eae-9858-e9ba8b53d991")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -14785,18 +13588,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d30cc9f3-1f61-42d6-a9bb-a1dab1b384be")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -14909,6 +13700,7 @@
 			(layer "F.Fab")
 			(uuid "4ab1b783-77fe-4fe8-a654-43ca84b2d35d")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -14934,18 +13726,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1fef63d3-5522-4501-a7fa-49307c3295a5")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -15058,6 +13838,7 @@
 			(layer "F.Fab")
 			(uuid "14d7d96b-cbc8-4dad-af68-5e56be72d8ca")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -15083,18 +13864,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ffadd854-40a1-4ecc-b587-2977f64370ab")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -15131,7 +13900,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "57dfd34d-043e-47d8-bda6-adb5b886a878")
 		)
@@ -15142,7 +13911,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "4a181c83-ab4c-48c5-a8f1-43dce4410c8b")
 		)
@@ -15161,14 +13930,10 @@
 			(at 0 0)
 			(size 2.2 2.2)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "6af563e8-8a18-4833-9a16-eeed670f9da1")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -15194,18 +13959,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0562790d-21dc-4e9e-af5b-46b29bfc5066")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -15318,6 +14071,7 @@
 			(layer "F.Fab")
 			(uuid "6ba72775-ade8-4e91-a7f2-56e1b5c9fc8e")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "Rikkodo_FootPrint:rkd_LOGO"
 		(layer "B.Cu")
@@ -15343,20 +14097,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1ce6a2d7-7b06-4841-8697-e73816933e81")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_LOGO"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6a0eb542-65e8-4ab2-ae04-267b122b03b9")
 			(effects
 				(font
 					(size 1 1)
@@ -15514,6 +14254,7 @@
 				"eeb422e1-8207-47ea-ad20-8d1f78998605"
 			)
 		)
+		(embedded_fonts no)
 	)
 	(gr_circle
 		(center 19.05 95.25)
@@ -15522,7 +14263,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "04fe6608-b64c-4895-83cd-ebe4bfa900ef")
 	)
@@ -15533,7 +14274,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "21073d23-8c3f-4b12-a672-6e8028165576")
 	)
@@ -15544,7 +14285,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "21a5bb1f-7cbb-45e9-85aa-9d2b8f7ec8b4")
 	)
@@ -15555,7 +14296,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "3131cb78-fe83-4e00-9f34-51e212f00abb")
 	)
@@ -15566,7 +14307,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "31d883fe-3c07-434b-bbfe-f76e71fcc3f1")
 	)
@@ -15577,7 +14318,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "325af888-67be-43d1-b75b-06511f5a3c89")
 	)
@@ -15588,7 +14329,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "40ad1e43-7164-493e-94a0-127ce5621182")
 	)
@@ -15599,7 +14340,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "46486275-5458-4bee-9e19-07475ec8e3a9")
 	)
@@ -15610,7 +14351,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "855ae17d-19d5-4529-94f2-2e2c77fbb490")
 	)
@@ -15621,7 +14362,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "8f539b42-0669-4a6c-b257-3f6c04e439e4")
 	)
@@ -15632,7 +14373,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "9cc14eed-44a8-4fe5-a71b-3f7766b5d7c2")
 	)
@@ -15643,7 +14384,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "a3aacfb7-4ae8-46ed-8b40-48a741ac8da6")
 	)
@@ -15654,7 +14395,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "b1dad462-d764-4f8e-9ecc-27dbfca88837")
 	)
@@ -15665,7 +14406,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "b917e344-1287-414a-8261-629f81e1861b")
 	)
@@ -15676,7 +14417,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "c87360b2-4807-4c3c-b8fc-652e46cdc7c7")
 	)
@@ -15687,7 +14428,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "f2af6701-443b-44fa-bd68-0f28abc6e638")
 	)
@@ -15698,7 +14439,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "fb5e8efa-3f7e-4937-9031-c8b4eab1471d")
 	)
@@ -15709,7 +14450,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "ffdffefb-73d8-4fdd-9ada-f5e9a5b7a77d")
 	)
@@ -16441,4 +15182,5 @@
 			"8652c906-f18d-4d9d-b3bc-65ce616a686a" "8ebeb1aa-5986-4345-9cee-bc9d4c92cd5a"
 		)
 	)
+	(embedded_fonts no)
 )
