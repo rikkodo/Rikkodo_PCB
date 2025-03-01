@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -9,41 +9,42 @@
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
-		(31 "B.Cu" signal)
-		(32 "B.Adhes" user "B.Adhesive")
-		(33 "F.Adhes" user "F.Adhesive")
-		(34 "B.Paste" user)
-		(35 "F.Paste" user)
-		(36 "B.SilkS" user "B.Silkscreen")
-		(37 "F.SilkS" user "F.Silkscreen")
-		(38 "B.Mask" user)
-		(39 "F.Mask" user)
-		(40 "Dwgs.User" user "User.Drawings")
-		(41 "Cmts.User" user "User.Comments")
-		(42 "Eco1.User" user "User.Eco1")
-		(43 "Eco2.User" user "User.Eco2")
-		(44 "Edge.Cuts" user)
-		(45 "Margin" user)
-		(46 "B.CrtYd" user "B.Courtyard")
-		(47 "F.CrtYd" user "F.Courtyard")
-		(48 "B.Fab" user)
-		(49 "F.Fab" user)
-		(50 "User.1" user)
-		(51 "User.2" user)
-		(52 "User.3" user)
-		(53 "User.4" user)
-		(54 "User.5" user)
-		(55 "User.6" user)
-		(56 "User.7" user)
-		(57 "User.8" user)
-		(58 "User.9" user)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+		(47 "User.5" user)
+		(49 "User.6" user)
+		(51 "User.7" user)
+		(53 "User.8" user)
+		(55 "User.9" user)
 	)
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00010f0_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x00000000_00000000_55555555_575555ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes no)
@@ -53,7 +54,6 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
 			(plotframeref no)
-			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -61,16 +61,20 @@
 			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plotreference yes)
-			(plotvalue yes)
-			(plotfptext yes)
+			(plot_black_and_white yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
@@ -104,18 +108,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "db8e78c0-c9e2-48aa-9bad-ecba16ecc754")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -240,6 +232,7 @@
 			(layer "F.Fab")
 			(uuid "66ae1b9b-bc47-4d61-ae33-9f80a4d74e33")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -265,18 +258,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8a5f563b-c644-48bc-acc8-a148e7badcc6")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -401,6 +382,7 @@
 			(layer "F.Fab")
 			(uuid "b1769ccb-e52e-419b-a4c6-67cfab8ca161")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -426,18 +408,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8df9524c-0cd2-4fbc-a589-eb2d20d63410")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -562,6 +532,7 @@
 			(layer "F.Fab")
 			(uuid "a15b35ea-860e-4c85-a5cb-356900eab2de")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -587,18 +558,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "52623e31-06cb-460c-afe7-1326b1440898")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -723,6 +682,7 @@
 			(layer "F.Fab")
 			(uuid "b91f031f-9ce1-4942-b618-867f6895dccf")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "Rikkodo_FootPrint:rkd_KeyHall_6wx45_Cinderella"
 		(layer "F.Cu")
@@ -748,18 +708,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_KeyHall_6wx45_Cinderella"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4d820e93-6047-497f-83bb-1b3b386dc5f0")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -844,6 +792,7 @@
 			(layer "Edge.Cuts")
 			(uuid "b3e9520a-7888-4a81-8251-f37f8c8447b2")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -869,18 +818,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1ced528a-408a-4400-8c43-19d87b839ffb")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1005,6 +942,7 @@
 			(layer "F.Fab")
 			(uuid "c945a039-bd2d-48d1-863d-66a52cbb8daf")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
 		(layer "F.Cu")
@@ -1028,18 +966,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "73cabcb2-8a24-4f38-a504-df6990bab392")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1112,6 +1038,7 @@
 			(layer "Edge.Cuts")
 			(uuid "c5645447-150b-40f3-aa6a-227272c91367")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
 		(layer "F.Cu")
@@ -1135,18 +1062,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "92168fca-8374-40e1-9693-89d89e3ed0e6")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1219,6 +1134,7 @@
 			(layer "Edge.Cuts")
 			(uuid "669a7184-0cea-45f2-a7e8-a2c484c0f92a")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -1244,18 +1160,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "432c890f-824a-4187-8a45-a6e0b875db25")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1380,6 +1284,7 @@
 			(layer "F.Fab")
 			(uuid "c984a861-5b50-4730-a817-f0bcd0db2e10")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -1405,18 +1310,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e82a3c66-aa07-44fd-995e-a155c8194703")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1453,7 +1346,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "5900ed17-86bf-4c8f-9475-808d518276b2")
 		)
@@ -1464,7 +1357,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "7919e3a7-8d34-4bf2-af2b-ba9a3c52d750")
 		)
@@ -1486,6 +1379,7 @@
 			(layers "*.Cu" "*.Mask")
 			(uuid "99d4e819-4d21-4970-9918-8a3a1edd260a")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -1511,18 +1405,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "09f62afd-3ae0-44f0-ab3f-986bfcec2335")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1647,6 +1529,7 @@
 			(layer "F.Fab")
 			(uuid "a15e2506-a48c-4c9b-8b65-e3a995cb58ff")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -1672,18 +1555,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "12bf4fba-9d07-4a7e-a40a-45d46b92ad89")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1808,6 +1679,7 @@
 			(layer "F.Fab")
 			(uuid "e8c0edda-9d71-456e-a2a1-68b9b6414ee0")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -1833,18 +1705,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bd801f6c-e779-455c-a95c-c9712b8f415f")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1969,6 +1829,7 @@
 			(layer "F.Fab")
 			(uuid "6a4b5a48-b85b-4570-be53-7324f5ef6e55")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
 		(layer "F.Cu")
@@ -1992,18 +1853,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a984e68c-3ec2-4573-92b2-b2dd785cdf46")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2076,6 +1925,7 @@
 			(layer "Edge.Cuts")
 			(uuid "89077efa-5fd6-4faf-8e2c-e479a267c7a8")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -2101,18 +1951,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "711b9632-01af-454e-8c33-007ad04d2445")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2149,7 +1987,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "29be97da-89d0-486c-bff5-2b3b5107754c")
 		)
@@ -2160,7 +1998,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "af8c6f14-0335-469e-98a5-e32e5759c2e5")
 		)
@@ -2182,6 +2020,7 @@
 			(layers "*.Cu" "*.Mask")
 			(uuid "a537f21a-14e6-4839-b340-3123aacd5df5")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
 		(layer "F.Cu")
@@ -2205,18 +2044,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "BrownSugar_KBD:RotaryEncoder_EC11-Hole"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8edb68c4-cae4-4fee-a3f5-837e319d35b7")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2289,6 +2116,7 @@
 			(layer "Edge.Cuts")
 			(uuid "ddd3db84-56e2-4429-8cbf-d973bb53d830")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_SW_Hole:SW_Hole_1u"
 		(layer "F.Cu")
@@ -2314,18 +2142,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_SW_Hole:SW_Hole_1u"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a1108286-6476-4dbd-838f-ed258f588349")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2450,6 +2266,7 @@
 			(layer "F.Fab")
 			(uuid "6a9914ab-f639-4dbe-9a3c-1f171ceb653b")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -2475,18 +2292,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e796bd25-606c-4691-aaeb-b2c9d21637d0")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2523,7 +2328,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "d9ee75e0-03b2-4187-a03d-26c00f02677d")
 		)
@@ -2534,7 +2339,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "43a81d81-dc69-4d57-ab1d-cfa7c11f6ecc")
 		)
@@ -2556,6 +2361,7 @@
 			(layers "*.Cu" "*.Mask")
 			(uuid "8565183f-1e71-4bb9-8bf2-2722090e9ef1")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
@@ -2581,18 +2387,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "kbd_Hole:m2_Screw_Hole"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fb273459-27d1-4082-90e6-c874244f62a5")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2629,7 +2423,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "7112a494-8ad3-47f2-a588-ff1426150c03")
 		)
@@ -2640,7 +2434,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "e51ce727-bd88-43eb-81f1-bd67da344109")
 		)
@@ -2662,6 +2456,7 @@
 			(layers "*.Cu" "*.Mask")
 			(uuid "d2802ef6-e012-4ca6-a4a9-ecb819a67010")
 		)
+		(embedded_fonts no)
 	)
 	(gr_line
 		(start 140.493815 26.193749)
@@ -2680,7 +2475,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "47e4e50c-f5f2-4c21-9a0a-4e56c63d58b3")
 	)
@@ -2691,7 +2486,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "75b123b2-4fec-4111-8d39-de1fc6c2207a")
 	)
@@ -2702,7 +2497,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "798a0108-5567-4786-ac50-bc4b03dd13a0")
 	)
@@ -2713,7 +2508,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "7d0cdebd-f15a-4b14-a579-76c2e9217c7a")
 	)
@@ -2724,7 +2519,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "986b1e93-2f6a-4e5c-9e4c-3d0781ea27b7")
 	)
@@ -2765,7 +2560,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "f40ee500-9368-481b-ac3f-462ba0482b3a")
 	)
@@ -3189,4 +2984,5 @@
 			"e4cc87a4-c937-4851-9988-5d4900afdc07"
 		)
 	)
+	(embedded_fonts no)
 )
