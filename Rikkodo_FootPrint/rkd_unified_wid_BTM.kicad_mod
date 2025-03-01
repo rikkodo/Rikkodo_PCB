@@ -67,7 +67,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr smd board_only exclude_from_pos_files exclude_from_bom)
 	(fp_line
 		(start 16.5 0)
 		(end -16.5 0)
@@ -216,14 +216,24 @@
 		(at -16.5 0)
 		(size 2.2 2.2)
 		(drill 2.2)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "ddc3f632-af16-425b-8b1b-bd007c8898fb")
 	)
 	(pad "" np_thru_hole circle
 		(at 16.5 0)
 		(size 2.2 2.2)
 		(drill 2.2)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "1cfde551-0912-4f99-a714-880ee80003e7")
 	)
 )
