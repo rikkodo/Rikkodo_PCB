@@ -2679,12 +2679,6 @@
 		(uuid "937af55e-c20b-4695-bc8e-e25f4d0ab48d")
 	)
 	(junction
-		(at 101.6 267.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bd50d32-71f4-4d07-8481-52e7bf59f72a")
-	)
-	(junction
 		(at 203.2 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2773,6 +2767,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffab7604-7cbd-4ce2-a521-ebe80ffa5c93")
+	)
+	(no_connect
+		(at 82.55 35.56)
+		(uuid "a81f1a10-63e2-48d9-8a96-00c1260c4a13")
 	)
 	(no_connect
 		(at 317.5 182.88)
@@ -3527,16 +3525,6 @@
 			(type default)
 		)
 		(uuid "c0e5eacf-2dc9-42e9-81b6-c872e9853ac4")
-	)
-	(wire
-		(pts
-			(xy 101.6 267.97) (xy 106.68 267.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2639619-bd30-4b89-bedd-820f72e768d9")
 	)
 	(wire
 		(pts
@@ -4787,28 +4775,6 @@
 		(uuid "ee066c51-0da6-441c-b3e1-51c309f36f9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 69.2839 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GP15"
-		(shape input)
-		(at 82.55 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fd36b016-35f9-4085-84cd-a601096485cd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.6058 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
