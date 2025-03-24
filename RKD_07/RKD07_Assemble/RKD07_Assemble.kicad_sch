@@ -4130,6 +4130,16 @@
 		)
 		(uuid "1a8b99e7-cf22-41ce-ae24-f2b3896e632a")
 	)
+	(text "MOTION"
+		(exclude_from_sim no)
+		(at 424.688 198.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d558fe5-443a-4b29-bbf9-7739edba6dea")
+	)
 	(text "GND                                                                                 \nVCC                                                                                 \n3V3                                                                                 \nGP28                                                                                \nGP27                                                                                \nGP26                                                                                \nGP25                                                                                \nGP24                                                                                \nGP23                                                                                \nGP22                                                                                \nGP21                                                                                \nGP20                                                                                \nGP19                                                                                \nGP18                                                                                \nGP17                                                                                \nGP16                                                                                \nGP08                                                                                \nGP09                                                                                \nGP10                                                                                \nGP11                                                                                \nGP12                                                                                \nGP13                                                                                \nGP14                                                                                \nGP15                                                                                \n"
 		(exclude_from_sim no)
 		(at 296.164 156.718 0)
@@ -4139,6 +4149,16 @@
 			)
 		)
 		(uuid "482fac1d-3444-457a-bd23-14c1296c38f0")
+	)
+	(text "CS"
+		(exclude_from_sim no)
+		(at 426.212 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5be0a36f-9bc8-4adf-a9b3-e43d2394cc31")
 	)
 	(text "MOTION"
 		(exclude_from_sim no)
@@ -4953,6 +4973,10 @@
 		(uuid "3046c22d-fa8e-48b5-941b-65c63e689306")
 	)
 	(no_connect
+		(at 435.61 205.74)
+		(uuid "57c5878b-0a43-40ee-95ba-0121a655f773")
+	)
+	(no_connect
 		(at 90.17 80.01)
 		(uuid "5a4534d2-5ccf-47a0-8323-b1391bb8e522")
 	)
@@ -4999,6 +5023,10 @@
 	(no_connect
 		(at 90.17 62.23)
 		(uuid "ce55dd0a-a9cc-4357-9b0b-b8d7567d95c0")
+	)
+	(no_connect
+		(at 435.61 203.2)
+		(uuid "d4015d53-065d-4daa-98ca-23547f75ae7e")
 	)
 	(no_connect
 		(at 85.09 201.93)
@@ -5716,6 +5744,16 @@
 	)
 	(wire
 		(pts
+			(xy 453.39 200.66) (xy 435.61 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7038e5de-83b8-48af-9fe7-0459c27a55f4")
+	)
+	(wire
+		(pts
 			(xy 149.86 323.85) (xy 149.86 349.25)
 		)
 		(stroke
@@ -6403,6 +6441,16 @@
 			(type default)
 		)
 		(uuid "cefd7b27-a9a3-4772-bb4b-4e9a01f625d9")
+	)
+	(wire
+		(pts
+			(xy 453.39 198.12) (xy 435.61 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8b9bae-a28b-4c40-97de-88c6fe940a38")
 	)
 	(wire
 		(pts
@@ -7676,6 +7724,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA{slash}SCK_R"
+		(shape input)
+		(at 435.61 193.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4013a3ba-9fbc-4f94-ab6e-04d24dd8da06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 449.4809 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9502,6 +9572,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL{slash}TX_R"
+		(shape input)
+		(at 435.61 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db38b667-b42e-49c8-8d96-d43a59819924")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 447.848 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12029,6 +12121,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 453.39 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30f03533-cfd4-4daa-a87a-cde8ae9042cc")
+		(property "Reference" "#PWR034"
+			(at 453.39 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3v3_R"
+			(at 453.39 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 453.39 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 453.39 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 453.39 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba7b12fd-d2e0-4b5e-84a2-74b35eb196f5")
+		)
+		(instances
+			(project "RKD07_Assemble"
+				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 129.54 273.05 0)
 		(mirror y)
@@ -12296,6 +12454,86 @@
 			(project "RKD02_Assemble"
 				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
 					(reference "SW53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 430.53 200.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "341848c8-0261-47ae-9f84-955470e5b3b1")
+		(property "Reference" "J12"
+			(at 430.53 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 430.53 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal"
+			(at 430.53 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 430.53 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 430.53 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c53520d6-5bb6-4ac6-ae4a-a8fd29e12195")
+		)
+		(pin "2"
+			(uuid "c0b4966f-069c-493d-a397-169bff51fdbd")
+		)
+		(pin "3"
+			(uuid "7d637b51-d524-4132-90cf-71f07a58afcb")
+		)
+		(pin "4"
+			(uuid "3af893bf-a105-4514-94e0-f80689c6cb24")
+		)
+		(pin "5"
+			(uuid "ee41ad54-4816-47b2-9e07-ad004c95eb00")
+		)
+		(pin "6"
+			(uuid "07db2141-e94b-46c3-bc40-6cebc575c2d4")
+		)
+		(instances
+			(project "RKD07_Assemble"
+				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -19083,6 +19321,72 @@
 			(project "RKD02_Assemble"
 				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
 					(reference "SW70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 453.39 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1c391d1-e260-42be-a1e1-153b2f796a63")
+		(property "Reference" "#PWR035"
+			(at 453.39 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_R"
+			(at 453.39 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 453.39 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 453.39 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 453.39 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32c90e07-10b8-48c9-912b-852450d36114")
+		)
+		(instances
+			(project "RKD07_Assemble"
+				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
