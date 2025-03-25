@@ -361,6 +361,101 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "kbd_Hole:m2_Screw_Hole"
+		(layer "F.Cu")
+		(uuid "110d1b14-88ba-464e-983f-dae5aff97ce1")
+		(at 211.93125 126.20625)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "Ref**"
+			(at 0 -3.2 0)
+			(layer "F.Fab")
+			(uuid "65cc5e88-ac43-412a-b7f2-9beaf8b25937")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Val**"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "6a1cd473-dfd5-438b-bc8d-b925c9730c2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a90663dc-21ac-43d0-8603-b8cc4bb0fdbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc9d9573-1b8c-4687-8e56-3ee9718848e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "a7c6d340-5e62-45c3-b1b4-a49cf85f6a1b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e0de372c-dd26-4576-ab63-c4f144650b98")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "a780413a-c9a4-4a21-91e5-2f78c1b287a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e68325ce-2425-49f5-a38c-d6e6f053a3df")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Rikkodo_FootPrint:rkd_Point_Screw_Hall"
 		(layer "F.Cu")
 		(uuid "14591b7a-7f0c-4664-a21b-c8594fe366a3")
@@ -692,7 +787,7 @@
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "1aeec189-98ff-4dec-9e06-2128a111c540")
-		(at 202.40642 154.78138)
+		(at 202.40642 160.73451)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "Ref**"
@@ -977,7 +1072,7 @@
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "22c2d94f-35aa-4c09-b0bd-5977c2aae76c")
-		(at 214.3125 116.681348)
+		(at 211.93125 116.68125)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "Ref**"
@@ -2170,7 +2265,7 @@
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "7a0cc54d-af51-45bc-867d-92f2cc010da2")
-		(at 242.8875 116.68125)
+		(at 245.26875 116.68125)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "Ref**"
@@ -2265,7 +2360,7 @@
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "7ee80aa1-ad10-478f-a52c-cabc9831e8ba")
-		(at 202.40625 130.96875)
+		(at 202.40625 125.015625)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "Ref**"
@@ -4802,7 +4897,7 @@
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "cb522a7d-c26a-4203-a59b-b9c591046254")
-		(at 209.55 169.06875)
+		(at 211.93125 169.06875)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "Ref**"
@@ -5155,7 +5250,7 @@
 	(footprint "kbd_Hole:m2_Screw_Hole"
 		(layer "F.Cu")
 		(uuid "ddb34493-6cc7-4ebf-ae5a-128e3e4d192d")
-		(at 247.65 169.06875)
+		(at 245.26875 169.06875)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
 		(property "Reference" "Ref**"
@@ -6089,6 +6184,101 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "kbd_Hole:m2_Screw_Hole"
+		(layer "F.Cu")
+		(uuid "e8d9afeb-a62e-461d-b0e8-0ece4961739b")
+		(at 245.26875 126.20625)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "Ref**"
+			(at 0 -3.2 0)
+			(layer "F.Fab")
+			(uuid "206cb953-50e3-4ad6-a4e0-1f9ca2d7b4fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Val**"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "376aaf98-0f33-4ea6-b904-0ed3607e2af5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e027d2b4-d6fd-42de-a797-af2f82460566")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d02cb23-6ee1-42d8-a5e7-a918f92d4033")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "6bfe664f-a482-463f-9829-196997966fd1")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "89c51855-951b-46ae-8a72-97f16789771b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "4eb92d25-13ea-4c5d-aabc-304eb187865d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "463048a2-576b-4419-8532-7b4279c34e13")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Rikkodo_FootPrint:rkd_SekiBall_ScrewHall"
 		(layer "F.Cu")
 		(uuid "fc5706cc-1354-47e4-88f8-ff129759397a")
@@ -6379,17 +6569,6 @@
 		(uuid "f8956f60-0ebb-4b62-9c36-936f42665ca4")
 	)
 	(gr_circle
-		(center 202.40625 130.968745)
-		(end 203.596875 130.968745)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "04132e48-a842-4dd3-9628-e3ac1634abec")
-	)
-	(gr_circle
 		(center 180.975 116.681469)
 		(end 182.165625 116.681469)
 		(stroke
@@ -6465,6 +6644,17 @@
 		(fill no)
 		(layer "Cmts.User")
 		(uuid "4d5a7e83-2148-4b3a-9266-75222ae5b087")
+	)
+	(gr_circle
+		(center 228.600192 150.018876)
+		(end 228.600192 148.828251)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "4d68efdd-d6fe-4dea-bc5c-c1b83a984a0a")
 	)
 	(gr_circle
 		(center 78.58125 190.5)
@@ -6588,15 +6778,15 @@
 		(uuid "9e3b6cbb-42aa-4635-976e-be1080703cd5")
 	)
 	(gr_circle
-		(center 202.406419 154.78138)
-		(end 201.215794 154.78138)
+		(center 180.975344 169.068991)
+		(end 179.784719 169.068991)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "b286cde8-018a-4a1b-b10c-1dcd512e35f5")
+		(uuid "a4b9bcc6-49c9-4830-8385-aaa0a9468571")
 	)
 	(gr_circle
 		(center 180.975 95.25)
@@ -6619,6 +6809,17 @@
 		(fill no)
 		(layer "Cmts.User")
 		(uuid "bbc59b3a-c3d2-42cd-9f44-d8a2f046de54")
+	)
+	(gr_circle
+		(center 202.406594 160.746949)
+		(end 201.215969 160.746949)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "c37537b3-abb6-4979-aa6e-208b45e6f57b")
 	)
 	(gr_circle
 		(center 266.7 190.5)
@@ -6676,17 +6877,6 @@
 		(uuid "f497a97c-c375-4ca8-927c-42d2acf9070b")
 	)
 	(gr_circle
-		(center 202.40625 130.96875)
-		(end 203.596875 130.96875)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "f4dd26d2-262b-4e91-9c9c-8fbfd4b1ab18")
-	)
-	(gr_circle
 		(center 180.975 95.250005)
 		(end 182.165625 95.250005)
 		(stroke
@@ -6719,8 +6909,8 @@
 		(uuid "03d7d9dc-a268-4ea6-a2f3-a0ee3b5c6dc8")
 	)
 	(gr_line
-		(start 202.40625 159.543745)
-		(end 190.5 159.543745)
+		(start 197.643906 159.543745)
+		(end 185.737656 159.543745)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -6789,8 +6979,8 @@
 		(uuid "4260d8bf-f8d8-4867-aae8-541fe40bdeab")
 	)
 	(gr_line
-		(start 202.40625 169.068745)
-		(end 202.40625 159.543745)
+		(start 197.643906 169.068745)
+		(end 197.643906 159.543745)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -6913,8 +7103,8 @@
 		(uuid "b5d2c85d-02bf-49e5-b980-721e2abb34fe")
 	)
 	(gr_line
-		(start 190.5 169.068745)
-		(end 202.40625 169.068745)
+		(start 185.737656 169.068745)
+		(end 197.643906 169.068745)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -6984,8 +7174,8 @@
 		(uuid "d9536858-34e0-41ee-889a-7f7f32cfca53")
 	)
 	(gr_line
-		(start 190.5 159.543745)
-		(end 190.5 169.068745)
+		(start 185.737656 159.543745)
+		(end 185.737656 169.068745)
 		(stroke
 			(width 0.1)
 			(type solid)
