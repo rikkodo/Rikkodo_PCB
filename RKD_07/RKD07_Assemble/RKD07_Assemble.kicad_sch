@@ -4130,6 +4130,16 @@
 		)
 		(uuid "1a8b99e7-cf22-41ce-ae24-f2b3896e632a")
 	)
+	(text "Resist for i2c"
+		(exclude_from_sim no)
+		(at 169.926 129.794 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2516861b-984f-4df2-b323-119993e1bae1")
+	)
 	(text "Nogikesuy_TrackBall"
 		(exclude_from_sim no)
 		(at 374.396 211.582 0)
@@ -4787,6 +4797,12 @@
 		(uuid "c456a935-9ef2-486c-96fc-86bf4b952197")
 	)
 	(junction
+		(at 168.91 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5386e17-c972-40bd-9350-e12b19c2dfbc")
+	)
+	(junction
 		(at 440.69 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5357,6 +5373,16 @@
 			(type default)
 		)
 		(uuid "2939ff80-0d7b-4af2-90f6-1a029406991e")
+	)
+	(wire
+		(pts
+			(xy 179.07 146.05) (xy 179.07 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e6a3c4-7408-4345-a5fb-eed31f41474f")
 	)
 	(wire
 		(pts
@@ -6200,6 +6226,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 140.97) (xy 168.91 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f734ba-f173-4db2-8301-332b226bea4c")
+	)
+	(wire
+		(pts
 			(xy 356.87 285.75) (xy 374.65 285.75)
 		)
 		(stroke
@@ -6477,6 +6513,16 @@
 			(type default)
 		)
 		(uuid "d0037b57-dede-4598-ab4c-6713d5282e0f")
+	)
+	(wire
+		(pts
+			(xy 168.91 140.97) (xy 168.91 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d204fd59-f887-4d81-8a76-0219a91d0061")
 	)
 	(wire
 		(pts
@@ -7182,6 +7228,28 @@
 			)
 		)
 	)
+	(global_label "SDA{slash}SCK_L"
+		(shape input)
+		(at 179.07 153.67 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12f82ad9-4b29-43d1-86bd-f61a1273a53b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 167.299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ROW4_L"
 		(shape input)
 		(at 54.61 95.25 180)
@@ -7481,6 +7549,28 @@
 		(uuid "3280f815-0e82-4f7f-8722-954083068cca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 175.26 393.5404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL{slash}TX_L"
+		(shape input)
+		(at 168.91 153.67 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3299faf6-3218-4f2c-b8cf-5c8ffe114d21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.91 165.6661 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10228,6 +10318,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 179.07 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "070eaf9f-3d7d-4699-b0f4-65859fc8f971")
+		(property "Reference" "R4"
+			(at 181.61 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 181.61 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 177.292 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "967cd6b4-26c1-40b5-a2ff-bb789eb7b4bb")
+		)
+		(pin "1"
+			(uuid "5bd63e9a-6c4c-4c37-920f-b09a65b7f4a9")
+		)
+		(instances
+			(project "RKD07_Assemble"
+				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 369.57 328.93 0)
 		(mirror y)
@@ -10924,6 +11084,76 @@
 			(project "RKD02_Assemble"
 				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
 					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "156e19ae-dfd1-4dc0-bd1a-2a37ee8cd566")
+		(property "Reference" "R3"
+			(at 171.45 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 171.45 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 167.132 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "797e8893-8f5b-46c9-be86-68dc5f3c5f5c")
+		)
+		(pin "1"
+			(uuid "668d73dc-e379-404b-a3af-730655fc24df")
+		)
+		(instances
+			(project "RKD07_Assemble"
+				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -22749,6 +22979,72 @@
 			(project "RKD02_Assemble"
 				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 168.91 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d29814db-90cd-4a44-8706-3b241bd1c3ff")
+		(property "Reference" "#PWR038"
+			(at 168.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3v3_L"
+			(at 168.91 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93cd5cf9-6519-4090-b692-4f5b8c6458a0")
+		)
+		(instances
+			(project "RKD07_Assemble"
+				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
