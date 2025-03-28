@@ -5256,6 +5256,26 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 146.05) (xy 391.16 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "153696dc-e0dc-45f4-b51c-83cb53681070")
+	)
+	(wire
+		(pts
+			(xy 363.22 148.59) (xy 391.16 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158ff27c-34cd-4487-8a1f-dfe13fc6fc08")
+	)
+	(wire
+		(pts
 			(xy 48.26 298.45) (xy 48.26 323.85)
 		)
 		(stroke
@@ -5263,6 +5283,16 @@
 			(type default)
 		)
 		(uuid "16b4e484-a4b0-46c2-98f9-f91d9f2ba1d9")
+	)
+	(wire
+		(pts
+			(xy 389.89 143.51) (xy 391.16 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18efdde6-15b8-4c9d-bc8a-e39205f7d9a8")
 	)
 	(wire
 		(pts
@@ -5793,6 +5823,16 @@
 			(type default)
 		)
 		(uuid "7038e5de-83b8-48af-9fe7-0459c27a55f4")
+	)
+	(wire
+		(pts
+			(xy 389.89 140.97) (xy 391.16 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709dba46-95b8-46fb-8c07-b491d65fd165")
 	)
 	(wire
 		(pts
@@ -7470,6 +7510,28 @@
 			)
 		)
 	)
+	(global_label "SDA{slash}SCK_R"
+		(shape input)
+		(at 389.89 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25d88743-2141-426d-ba0c-95112694ce12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 376.0191 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL12_L"
 		(shape input)
 		(at 259.08 139.7 0)
@@ -8060,6 +8122,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL{slash}TX_R"
+		(shape input)
+		(at 389.89 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f9950e0-f272-454d-a656-89d6e0cf5caf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 377.652 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10539,6 +10623,72 @@
 			(project "RKD02_Assemble"
 				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
 					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 363.22 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e575b4f-9376-44ff-bcf4-964fe905a223")
+		(property "Reference" "#PWR040"
+			(at 363.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_R"
+			(at 363.22 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 363.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96e66bb7-07e1-47a8-80c4-8af65b519137")
+		)
+		(instances
+			(project "RKD07_Assemble"
+				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -16434,6 +16584,82 @@
 		)
 	)
 	(symbol
+		(lib_id "BrownSugar_KBD:OLED")
+		(at 398.78 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bb7482c-2177-4b6f-a100-f04ee4df9712")
+		(property "Reference" "OL3"
+			(at 405.13 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OLED"
+			(at 405.13 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BrownSugar_KBD:OLED_center_display"
+			(at 398.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 398.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ea4a684b-6f9a-4c5e-a472-144bdf661f66")
+		)
+		(pin "1"
+			(uuid "00db38f0-ec2a-4e4a-a1a4-cfdd1440ca62")
+		)
+		(pin "4"
+			(uuid "77d3a3ee-8c53-415f-9382-814c58fa5c4d")
+		)
+		(pin "2"
+			(uuid "056eb7c6-c0e5-4824-87a5-f85f8e63fc8f")
+		)
+		(instances
+			(project "RKD07_Assemble"
+				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
+					(reference "OL3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 400.05 358.14 90)
 		(unit 1)
@@ -19109,6 +19335,72 @@
 			(project "RKD02_Assemble"
 				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
 					(reference "D71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 363.22 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95fefc89-bbd0-4df6-8596-4dae5d4a5add")
+		(property "Reference" "#PWR039"
+			(at 363.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3v3_R"
+			(at 365.76 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 363.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e97cafb-c1b6-4386-87ba-c6d966d8ebb3")
+		)
+		(instances
+			(project "RKD07_Assemble"
+				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
