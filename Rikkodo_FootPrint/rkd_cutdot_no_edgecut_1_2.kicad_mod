@@ -1,0 +1,87 @@
+(footprint "rkd_cutdot_no_edgecut_1_2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e94c41ae-7f00-4185-a2c6-dfc578b791c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "rkd_cutdot_no_edgecut_1_2"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd80996e-3856-4885-be7b-75b38bc30cac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a1c8fc4-9823-4ecc-8666-635b0826a2b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e748b67-3f07-48b8-b343-264a71b73183")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start 0.297656 -0.297656)
+		(end -0.297656 -0.297656)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "df30f689-d5ef-4f48-9eb3-a3ea335fd814")
+	)
+	(fp_line
+		(start 0.297656 0.297656)
+		(end -0.297656 0.297656)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "f6ab88ad-d55d-493e-9b07-9dca62926c11")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0.000356 90)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "5a13c4fc-4ef2-4253-906a-a526280e831c")
+	)
+	(embedded_fonts no)
+)
