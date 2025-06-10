@@ -4609,12 +4609,6 @@
 		(uuid "809618fc-80ab-460b-bac5-4e8669ba9b1a")
 	)
 	(junction
-		(at 124.46 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "854573da-eabc-48bc-9625-acb05d159a3d")
-	)
-	(junction
 		(at 340.36 361.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5025,6 +5019,10 @@
 		(uuid "afb7d16d-0e42-4c20-9310-8ec6a0457df3")
 	)
 	(no_connect
+		(at 90.17 72.39)
+		(uuid "b1594228-5752-410a-9095-7ecbd186369c")
+	)
+	(no_connect
 		(at 90.17 62.23)
 		(uuid "ce55dd0a-a9cc-4357-9b0b-b8d7567d95c0")
 	)
@@ -5074,7 +5072,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 85.09) (xy 124.46 72.39)
+			(xy 124.46 59.69) (xy 124.46 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5224,7 +5222,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 48.26) (xy 342.9 48.26)
+			(xy 370.84 48.26) (xy 342.9 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5281,16 +5279,6 @@
 			(type default)
 		)
 		(uuid "1cc56a9d-8cdf-4b4b-8235-a390dd96e930")
-	)
-	(wire
-		(pts
-			(xy 90.17 72.39) (xy 124.46 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cd70957-67b7-4d27-9c55-e89d0ae0180c")
 	)
 	(wire
 		(pts
@@ -5574,6 +5562,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 40.64) (xy 342.9 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5564d5a3-1fac-47ac-8771-47254d905645")
+	)
+	(wire
+		(pts
 			(xy 466.09 240.03) (xy 466.09 252.73)
 		)
 		(stroke
@@ -5631,16 +5629,6 @@
 			(type default)
 		)
 		(uuid "5d30deff-e99e-4af4-beff-605164050361")
-	)
-	(wire
-		(pts
-			(xy 323.85 40.64) (xy 342.9 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d6794dc-dc11-4fd9-b1cf-b0a690b8cc42")
 	)
 	(wire
 		(pts
@@ -5871,16 +5859,6 @@
 			(type default)
 		)
 		(uuid "7560521c-ecc9-4496-9e2f-877f94837ff0")
-	)
-	(wire
-		(pts
-			(xy 124.46 72.39) (xy 124.46 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75a08126-df1d-4ee8-8624-0a421e7128e4")
 	)
 	(wire
 		(pts
@@ -7620,22 +7598,22 @@
 	)
 	(global_label "SDA{slash}SCK_R"
 		(shape input)
-		(at 342.9 43.18 180)
+		(at 342.9 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "35dd9e95-e725-414f-83a4-fab2377d4aa5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 329.0291 43.18 0)
+			(at 356.7709 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8038,22 +8016,22 @@
 	)
 	(global_label "SCL{slash}TX_R"
 		(shape input)
-		(at 342.9 45.72 180)
+		(at 342.9 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "55434b6f-27f3-48cb-b57f-1d10e53bb9e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 330.662 45.72 0)
+			(at 355.138 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11238,7 +11216,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 323.85 40.64 0)
+		(at 364.49 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11247,7 +11225,7 @@
 		(fields_autoplaced yes)
 		(uuid "1eb7f79c-e1b1-46c2-8986-2d626c660e99")
 		(property "Reference" "#PWR039"
-			(at 323.85 46.99 0)
+			(at 364.49 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11256,7 +11234,7 @@
 			)
 		)
 		(property "Value" "GND_R"
-			(at 323.85 45.72 0)
+			(at 364.49 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11264,7 +11242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 40.64 0)
+			(at 364.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11273,7 +11251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 40.64 0)
+			(at 364.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11282,7 +11260,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 323.85 40.64 0)
+			(at 364.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13015,7 +12993,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 347.98 43.18 0)
+		(at 337.82 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13023,7 +13001,7 @@
 		(dnp no)
 		(uuid "397b68aa-b234-4309-b490-2cfced0c698f")
 		(property "Reference" "J13"
-			(at 350.52 43.1799 0)
+			(at 335.28 45.7201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13032,7 +13010,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 350.52 45.7199 0)
+			(at 335.28 43.1801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13041,7 +13019,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
-			(at 347.98 43.18 0)
+			(at 337.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13050,7 +13028,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 347.98 43.18 0)
+			(at 337.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13059,7 +13037,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 347.98 43.18 0)
+			(at 337.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15317,7 +15295,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 311.15 48.26 0)
+		(at 370.84 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15325,7 +15303,7 @@
 		(dnp no)
 		(uuid "5d5a6efd-6418-4b63-97f3-029ff0090fe1")
 		(property "Reference" "#PWR038"
-			(at 311.15 52.07 0)
+			(at 370.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15334,7 +15312,7 @@
 			)
 		)
 		(property "Value" "VCC_R"
-			(at 313.69 46.9899 0)
+			(at 373.38 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15343,7 +15321,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 311.15 48.26 0)
+			(at 370.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15352,7 +15330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 311.15 48.26 0)
+			(at 370.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15361,7 +15339,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 311.15 48.26 0)
+			(at 370.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
