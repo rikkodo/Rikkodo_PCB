@@ -5129,12 +5129,6 @@
 		(uuid "5210db9a-a258-4d96-ab3a-ffd54da6be0c")
 	)
 	(junction
-		(at 415.29 345.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5483dd67-305b-41ab-b205-b2b0040ff704")
-	)
-	(junction
 		(at 83.82 331.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5291,12 +5285,6 @@
 		(uuid "7bacdde0-7fe9-4d46-bca9-83d8fa378d8a")
 	)
 	(junction
-		(at 425.45 354.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ea4201e-c9bd-4db4-a864-d54103251897")
-	)
-	(junction
 		(at 527.05 311.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5447,12 +5435,6 @@
 		(uuid "af2ed658-61ce-49e6-85db-331d6ae96513")
 	)
 	(junction
-		(at 389.89 345.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af46f8d3-1984-4fe1-861c-3411dc29b513")
-	)
-	(junction
 		(at 542.29 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5583,12 +5565,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d97b7b6d-48a8-40cd-aca9-e0f74ebd6e12")
-	)
-	(junction
-		(at 400.05 354.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9c8e6f0-a32d-4849-b04b-86b8b4144f15")
 	)
 	(junction
 		(at 389.89 252.73)
@@ -6274,7 +6250,7 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 345.44) (xy 389.89 354.33)
+			(xy 389.89 328.93) (xy 389.89 354.33)
 		)
 		(stroke
 			(width 0)
@@ -6541,16 +6517,6 @@
 			(type default)
 		)
 		(uuid "665c8613-6fd6-4f1e-a98b-ad81d3edaf00")
-	)
-	(wire
-		(pts
-			(xy 415.29 345.44) (xy 415.29 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6677016a-9356-434f-b557-cad3e27150ba")
 	)
 	(wire
 		(pts
@@ -6921,16 +6887,6 @@
 			(type default)
 		)
 		(uuid "8f5b3a53-a0dd-4ceb-8969-f7ec4f0e4ee6")
-	)
-	(wire
-		(pts
-			(xy 400.05 345.44) (xy 400.05 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91dc86fc-c18d-4142-86bd-42c574487c99")
 	)
 	(wire
 		(pts
@@ -7504,7 +7460,7 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 328.93) (xy 415.29 345.44)
+			(xy 415.29 328.93) (xy 415.29 354.33)
 		)
 		(stroke
 			(width 0)
@@ -7801,26 +7757,6 @@
 			(type default)
 		)
 		(uuid "f670067e-7be3-4905-a893-742155b2b5f3")
-	)
-	(wire
-		(pts
-			(xy 389.89 328.93) (xy 389.89 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f818ab75-8f96-4867-9c09-b1d8a8410cc1")
-	)
-	(wire
-		(pts
-			(xy 425.45 345.44) (xy 425.45 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f941bb03-6cba-4efc-8a64-d920797d5817")
 	)
 	(wire
 		(pts
@@ -14766,73 +14702,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 420.37 345.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39d994ae-f068-45d4-a9bd-635a35939f03")
-		(property "Reference" "SW43"
-			(at 420.37 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 420.37 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_ChocV1V2_Hotswap_1u"
-			(at 420.37 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 420.37 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 420.37 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abc1144e-964d-4c58-9d07-b99492b586e7")
-		)
-		(pin "2"
-			(uuid "a7289cd6-0dc8-464a-9836-0e1ebdca3e5c")
-		)
-		(instances
-			(project "RKD07_Assemble_BUILD"
-				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
-					(reference "SW43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BrownSugar_KBD:OLED")
 		(at 60.96 139.7 0)
 		(unit 1)
@@ -15720,7 +15589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_ChocV1V2_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_ChocV1V2_Hotswap_1u_twei0.25_A"
 			(at 394.97 349.25 0)
 			(effects
 				(font
@@ -23934,7 +23803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_ChocV1V2_Hotswap_1u"
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_ChocV1V2_Hotswap_1u_twei0.25_A"
 			(at 420.37 349.25 0)
 			(effects
 				(font
@@ -24351,74 +24220,6 @@
 			(project "RKD02_Assemble"
 				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
 					(reference "D51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 394.97 345.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3e0151b-aae7-47c6-b8ae-e0fb47981b16")
-		(property "Reference" "SW42"
-			(at 394.97 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 394.97 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_ChocV1V2_Hotswap_1u"
-			(at 394.97 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 394.97 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 394.97 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6acd9e70-27af-4637-86ab-6a9a658ee0d6")
-		)
-		(pin "2"
-			(uuid "09e69e9f-5f4c-4784-8a20-dd1b3c9f40d9")
-		)
-		(instances
-			(project "RKD07_Assemble_BUILD"
-				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
-					(reference "SW42")
 					(unit 1)
 				)
 			)
@@ -25323,6 +25124,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
