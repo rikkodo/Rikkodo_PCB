@@ -1,7 +1,7 @@
 (footprint "rkd_Asm_CherryChocV1V2_Hotswap_2u"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "SW1"
 		(at -5.08 -6.35 180)
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d73626cd-b38e-4ae3-96ed-fcad85003cf1")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -1458,7 +1446,7 @@
 	(pad "1" smd rect
 		(at -7.8 3.7 180)
 		(size 1.9 3.5)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "ca213826-0282-4b3a-840f-ec416dc34acf")
 	)
 	(pad "1" smd rect
@@ -1467,13 +1455,13 @@
 		(drill
 			(offset 0.45 0)
 		)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "7d2c2edc-29cb-47d7-83de-8a235141e32f")
 	)
 	(pad "2" smd rect
 		(at 3.55 5.9 180)
 		(size 3 3.5)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	)
 	(pad "2" smd rect
@@ -1482,7 +1470,8 @@
 		(drill
 			(offset -0.45 0)
 		)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "7e1baa76-c330-43f2-a1f4-e9e84b93d756")
 	)
+	(embedded_fonts no)
 )
