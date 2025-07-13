@@ -4754,6 +4754,28 @@
 			)
 		)
 	)
+	(global_label "GP04"
+		(shape input)
+		(at 298.45 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8981ca1a-5195-483d-8d47-d33971d8d7b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.5058 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL10_L"
 		(shape input)
 		(at 332.74 72.39 0)
@@ -4772,6 +4794,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GP07"
+		(shape input)
+		(at 298.45 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93508b85-a117-45bc-9c9f-684bd31c9b61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.5058 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5585,6 +5629,76 @@
 			(project "RKD07_RePicot"
 				(path "/237aa5e6-259c-459d-b408-55413a51412a"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 303.53 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "153ee774-52f5-4c98-9273-63e598f9d120")
+		(property "Reference" "J7"
+			(at 306.07 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 306.07 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 303.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 303.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 303.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7d75080-05d6-4dff-b0df-4413e304d8fd")
+		)
+		(pin "2"
+			(uuid "4bbfc83d-62bf-46a7-a2b5-796e16b41a56")
+		)
+		(instances
+			(project "RKD07_RePicot"
+				(path "/237aa5e6-259c-459d-b408-55413a51412a"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -7034,7 +7148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 304.8 109.22 0)
 			(effects
 				(font
