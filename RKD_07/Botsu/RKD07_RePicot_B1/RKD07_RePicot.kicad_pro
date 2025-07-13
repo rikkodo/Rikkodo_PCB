@@ -58,84 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|207181250|176510000|b92b1a0d-dc50-43db-b923-41bc2415a58a|68d955da-5b63-4af4-8ccf-e291f7df2b8c",
-          ""
-        ],
-        [
-          "copper_edge_clearance|207631250|164650000|b92b1a0d-dc50-43db-b923-41bc2415a58a|ab58d1bf-0d78-41a0-b7c2-2bbb6b760254",
-          ""
-        ],
-        [
-          "copper_edge_clearance|207631250|166430000|b92b1a0d-dc50-43db-b923-41bc2415a58a|ffed1f3e-3d48-4db1-ba5a-b97e75eb7767",
-          ""
-        ],
-        [
-          "copper_edge_clearance|207631250|168210000|b92b1a0d-dc50-43db-b923-41bc2415a58a|6bebbb73-5bef-4492-97aa-6a146dc9e948",
-          ""
-        ],
-        [
-          "copper_edge_clearance|207631250|169990000|b92b1a0d-dc50-43db-b923-41bc2415a58a|6dcff756-8f6c-4e80-9ced-ff76b20d2130",
-          ""
-        ],
-        [
-          "copper_edge_clearance|207631250|171770000|b92b1a0d-dc50-43db-b923-41bc2415a58a|53395962-73f8-4d1d-9268-90a32f3ab317",
-          ""
-        ],
-        [
-          "copper_edge_clearance|207631250|173550000|b92b1a0d-dc50-43db-b923-41bc2415a58a|48b25815-36d4-4448-a9be-8b2f350b2ad7",
-          ""
-        ],
-        [
-          "copper_edge_clearance|207631250|175330000|b92b1a0d-dc50-43db-b923-41bc2415a58a|3dcaa8e6-0e4c-4116-9ce3-71db076e3b92",
-          ""
-        ],
-        [
-          "copper_edge_clearance|211281250|180525000|b92b1a0d-dc50-43db-b923-41bc2415a58a|93917ce7-4f72-4e36-b6ac-1747247689f8",
-          ""
-        ],
-        [
-          "copper_edge_clearance|213281250|180525000|b92b1a0d-dc50-43db-b923-41bc2415a58a|ae28a3ac-dede-4e69-9184-e802b65a0289",
-          ""
-        ],
-        [
-          "copper_edge_clearance|216231250|163800000|b92b1a0d-dc50-43db-b923-41bc2415a58a|9cf0415b-ba5f-4fed-8f61-e1c729496378",
-          ""
-        ],
-        [
-          "copper_edge_clearance|216231250|165580000|b92b1a0d-dc50-43db-b923-41bc2415a58a|1c1a1120-7041-4952-816e-0a90b00061da",
-          ""
-        ],
-        [
-          "copper_edge_clearance|216231250|167360000|b92b1a0d-dc50-43db-b923-41bc2415a58a|85488aa1-74c2-42b3-90e0-dd9ea41d1401",
-          ""
-        ],
-        [
-          "copper_edge_clearance|216231250|169140000|b92b1a0d-dc50-43db-b923-41bc2415a58a|07ea77ab-314d-4d88-931b-cc7fdf774244",
-          ""
-        ],
-        [
-          "copper_edge_clearance|216231250|170920000|b92b1a0d-dc50-43db-b923-41bc2415a58a|bf2c4b9d-ec39-4fa6-b5fe-547809cbffe1",
-          ""
-        ],
-        [
-          "copper_edge_clearance|216231250|172700000|b92b1a0d-dc50-43db-b923-41bc2415a58a|e8d05815-e019-4efe-8389-609cc0066113",
-          ""
-        ],
-        [
-          "copper_edge_clearance|216231250|174480000|b92b1a0d-dc50-43db-b923-41bc2415a58a|65df7835-8409-4641-b42b-fa57eba62731",
-          ""
-        ],
-        [
-          "copper_edge_clearance|216231250|176260000|b92b1a0d-dc50-43db-b923-41bc2415a58a|ae8cf04b-c411-413d-abd7-19ef3a8f5fe6",
-          ""
-        ],
-        [
-          "courtyards_overlap|201909014|185805986|a84ff73f-15cc-4e76-bec6-64b53dfe514e|ce6674b2-b836-4e52-a323-b5d6cabd909f",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -184,7 +107,7 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -267,8 +190,7 @@
       "track_widths": [
         0.0,
         0.25,
-        0.3,
-        0.5
+        0.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -532,7 +454,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
@@ -545,7 +467,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RKD07_Assemble_BUILD.kicad_pro",
+    "filename": "RKD07_RePicot.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -567,6 +489,13 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5
       }
     ],
     "meta": {
@@ -574,14 +503,27 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "POWER",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "3V3"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "./",
-      "plot": "../../../Order/20241231/RKD07/Assemble/",
+      "netlist": "",
+      "plot": "../../../Order/20241231/RKD07/RePicot",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -621,26 +563,26 @@
         },
         {
           "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
         },
         {
           "group_by": false,
-          "label": "説明",
-          "name": "Description",
-          "show": false
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
         },
         {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
           "show": true
         },
         {
@@ -657,6 +599,12 @@
         },
         {
           "group_by": false,
+          "label": "SKU",
+          "name": "SKU",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
@@ -668,10 +616,10 @@
           "show": false
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
+          "group_by": false,
+          "label": "説明",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -723,7 +671,7 @@
   },
   "sheets": [
     [
-      "01a859e0-5a12-4534-b9e3-6128f69eb8fc",
+      "237aa5e6-259c-459d-b408-55413a51412a",
       "Root"
     ]
   ],
