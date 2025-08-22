@@ -19,3 +19,11 @@ SparkFunのライブラリ [SparkFun-KiCad-Libraries](https://github.com/sparkfu
 DreaM117er氏のライブラリ [DreaM117er KiCAD Library](https://github.com/DreaM117er/DreaM117er-keebLibrary.git)
 
 Tomotsugu Kaneko氏のライブラリ [BOB-PMW3360-SUMI](https://github.com/snize/BOB-PMW3360-SUMI)
+
+Tomotsugu Kaneko氏のライブラリ [BOB-PMW3360-SEIBOKU](https://github.com/snize/BOB-PMW3610-SEIBOKU)
+
+## ライセンス
+
+### BOB-PMW3360-SUMI、BOB-PMW3360-SEIBOKU
+
+This project is licensed under the CERN OHL-P v2. You may use, distribute, and modify this design under the terms of the CERN OHL-P v2. Original design by snize.
