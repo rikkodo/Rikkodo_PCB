@@ -58,72 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|116383750|73831250|a7c90b0a-5dbf-4ce0-85cd-fe11c3714aaa|c78bb54b-c622-47cc-a77d-e0e6bd6d6189",
-          ""
-        ],
-        [
-          "copper_edge_clearance|116633750|82881250|a7c90b0a-5dbf-4ce0-85cd-fe11c3714aaa|106549e5-c95b-4a4f-8178-5f9d6ed94f02",
-          ""
-        ],
-        [
-          "copper_edge_clearance|117563750|74281250|a7c90b0a-5dbf-4ce0-85cd-fe11c3714aaa|76b18620-40c1-4e98-80be-6d6a054c6f9b",
-          ""
-        ],
-        [
-          "copper_edge_clearance|118413750|82881250|a7c90b0a-5dbf-4ce0-85cd-fe11c3714aaa|e2c1cff4-879f-4bb7-bce7-a3ac544968fb",
-          ""
-        ],
-        [
-          "copper_edge_clearance|119343750|74281250|a7c90b0a-5dbf-4ce0-85cd-fe11c3714aaa|35cc454f-7afe-4002-b43d-ca66f6cb6808",
-          ""
-        ],
-        [
-          "copper_edge_clearance|120193750|82881250|a7c90b0a-5dbf-4ce0-85cd-fe11c3714aaa|19f3e474-fba1-4651-b47c-bab81b7c3f6c",
-          ""
-        ],
-        [
-          "copper_edge_clearance|121123750|74281250|a7c90b0a-5dbf-4ce0-85cd-fe11c3714aaa|125298aa-6885-4ff6-b32d-4cb318b82515",
-          ""
-        ],
-        [
-          "copper_edge_clearance|121973750|82881250|a7c90b0a-5dbf-4ce0-85cd-fe11c3714aaa|a22588e0-5c28-4706-8c9d-8c132a4a677e",
-          ""
-        ],
-        [
-          "copper_edge_clearance|122903750|74281250|a7c90b0a-5dbf-4ce0-85cd-fe11c3714aaa|111ed5cd-d37f-4b94-bc19-8c67ae52ab10",
-          ""
-        ],
-        [
-          "copper_edge_clearance|123753750|82881250|a7c90b0a-5dbf-4ce0-85cd-fe11c3714aaa|524d0b63-80da-4ebe-9a4b-27f0d596ff9e",
-          ""
-        ],
-        [
-          "copper_edge_clearance|124683750|74281250|a7c90b0a-5dbf-4ce0-85cd-fe11c3714aaa|88ed9fbf-f1e9-4d20-a9f1-6c4f14fed3dc",
-          ""
-        ],
-        [
-          "copper_edge_clearance|125533750|82881250|a7c90b0a-5dbf-4ce0-85cd-fe11c3714aaa|1b7c2bce-412c-4ba8-bb5a-8063f6e7a6cc",
-          ""
-        ],
-        [
-          "copper_edge_clearance|126463750|74281250|a7c90b0a-5dbf-4ce0-85cd-fe11c3714aaa|923be63f-2d55-4e71-a356-1fd5d7de410f",
-          ""
-        ],
-        [
-          "copper_edge_clearance|127313750|82881250|a7c90b0a-5dbf-4ce0-85cd-fe11c3714aaa|d054271a-92d1-4a20-ac49-dabca7c96bef",
-          ""
-        ],
-        [
-          "copper_edge_clearance|128243750|74281250|a7c90b0a-5dbf-4ce0-85cd-fe11c3714aaa|32b8bc11-615f-46b1-a880-cad2497af370",
-          ""
-        ],
-        [
-          "copper_edge_clearance|129093750|82881250|a7c90b0a-5dbf-4ce0-85cd-fe11c3714aaa|a24e3ef3-de93-4e9d-b53b-9704fc68837d",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -533,7 +468,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RKD07_RePicot.kicad_pro",
+    "filename": "RKD07_RePicotSplitL.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -551,7 +486,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -572,15 +507,15 @@
     "netclass_patterns": [
       {
         "netclass": "POWER",
-        "pattern": "VCC"
+        "pattern": "VCC_L"
       },
       {
         "netclass": "POWER",
-        "pattern": "GND"
+        "pattern": "GND_L"
       },
       {
         "netclass": "POWER",
-        "pattern": "3V3"
+        "pattern": "3V3_L"
       }
     ]
   },
