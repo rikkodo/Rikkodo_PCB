@@ -144,7 +144,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:RJ9"
+		(symbol "Connector:6P6C"
 			(pin_names
 				(offset 1.016)
 			)
@@ -152,7 +152,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -5.08 8.89 0)
+				(at -5.08 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -160,8 +160,8 @@
 					(justify right)
 				)
 			)
-			(property "Value" "RJ9"
-				(at 2.54 8.89 0)
+			(property "Value" "6P6C"
+				(at 2.54 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -170,7 +170,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 1.27 90)
+				(at 0 0.635 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -179,7 +179,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 1.27 90)
+				(at 0 0.635 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -187,7 +187,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RJ connector, 4P4C (4 positions 4 connected)"
+			(property "Description" "RJ connector, 6P6C (6 positions 6 connected), RJ12/RJ18/RJ25"
 				(at 0 0 0)
 				(effects
 					(font
@@ -196,7 +196,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "4P4C RJ socket connector"
+			(property "ki_keywords" "6P6C RJ socket connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -205,7 +205,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "4P4C* RJ9* RJ10* RJ22*"
+			(property "ki_fp_filters" "6P6C* RJ12* RJ18* RJ25*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -214,7 +214,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RJ9_0_1"
+			(symbol "6P6C_0_1"
 				(polyline
 					(pts
 						(xy -6.35 3.175) (xy -5.08 3.175) (xy -5.08 3.175)
@@ -265,9 +265,33 @@
 				)
 				(polyline
 					(pts
-						(xy -6.35 -3.175) (xy -6.35 5.715) (xy -1.27 5.715) (xy 3.81 5.715) (xy 3.81 4.445) (xy 5.08 4.445)
-						(xy 5.08 3.175) (xy 6.35 3.175) (xy 6.35 -0.635) (xy 5.08 -0.635) (xy 5.08 -1.905) (xy 3.81 -1.905)
-						(xy 3.81 -3.175) (xy -6.35 -3.175) (xy -6.35 -3.175)
+						(xy -6.35 -1.905) (xy -5.08 -1.905) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -4.445) (xy -6.35 6.985) (xy 3.81 6.985) (xy 3.81 4.445) (xy 5.08 4.445) (xy 5.08 3.175)
+						(xy 6.35 3.175) (xy 6.35 -0.635) (xy 5.08 -0.635) (xy 5.08 -1.905) (xy 3.81 -1.905) (xy 3.81 -4.445)
+						(xy -6.35 -4.445) (xy -6.35 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 4.445) (xy -6.35 4.445) (xy -6.35 4.445)
 					)
 					(stroke
 						(width 0)
@@ -278,8 +302,8 @@
 					)
 				)
 				(rectangle
-					(start 7.62 7.62)
-					(end -7.62 -5.08)
+					(start 7.62 10.16)
+					(end -7.62 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -289,7 +313,25 @@
 					)
 				)
 			)
-			(symbol "RJ9_1_1"
+			(symbol "6P6C_1_1"
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 10.16 5.08 180)
 					(length 2.54)
@@ -300,7 +342,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -318,7 +360,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -336,7 +378,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -346,6 +388,24 @@
 				)
 				(pin passive line
 					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -4405,16 +4465,6 @@
 		)
 		(uuid "bd63a51b-0888-4528-b4b5-c707b11e2643")
 	)
-	(text "Column"
-		(exclude_from_sim no)
-		(at 205.994 126.238 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c4b2f4c5-15dc-4567-86d4-5cc96a2ce936")
-	)
 	(text "Nogikesuya_TrackBall\n"
 		(exclude_from_sim no)
 		(at 40.386 181.61 0)
@@ -4454,16 +4504,6 @@
 			)
 		)
 		(uuid "e8f88612-b1da-443d-bd85-20b7f4b323b3")
-	)
-	(text "Row"
-		(exclude_from_sim no)
-		(at 157.48 128.524 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f1165bbb-1293-4fe0-98b9-eb660e6c6a6e")
 	)
 	(junction
 		(at 60.96 270.51)
@@ -4542,6 +4582,10 @@
 		(uuid "70829f52-c45f-4ec4-b620-fb1a18a96f40")
 	)
 	(no_connect
+		(at 173.99 186.69)
+		(uuid "856c1bc0-4f92-47b1-a0bc-c0f9ac9faf14")
+	)
+	(no_connect
 		(at 177.8 49.53)
 		(uuid "8f37b1d0-3f4f-42eb-af69-8629728bd998")
 	)
@@ -4552,6 +4596,10 @@
 	(no_connect
 		(at 157.48 95.25)
 		(uuid "d2c81ec8-c42b-4501-b532-9a88b06927c1")
+	)
+	(no_connect
+		(at 173.99 199.39)
+		(uuid "d3fb3252-d7bc-450f-8126-d014c8547ced")
 	)
 	(no_connect
 		(at 95.25 184.15)
@@ -5703,28 +5751,6 @@
 			)
 		)
 	)
-	(global_label "COL1_GP16_R"
-		(shape input)
-		(at 207.01 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "514248d5-681e-4bcd-b277-6d8504b66714")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.0225 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COL0_GP17_R"
 		(shape input)
 		(at 247.65 119.38 0)
@@ -5743,28 +5769,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL0_GP17_R"
-		(shape input)
-		(at 207.01 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5669658c-5f92-44fe-992b-0934341b1788")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.0225 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5879,28 +5883,6 @@
 			)
 		)
 	)
-	(global_label "ROW0_R"
-		(shape input)
-		(at 161.29 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5fc1f2fe-b891-4cfb-8697-d130fde43d39")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.8058 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COL4_R"
 		(shape input)
 		(at 142.24 74.93 180)
@@ -5914,28 +5896,6 @@
 		(uuid "60632412-a05a-4048-8c24-8eb9ae76a79f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 132.1791 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL2_R"
-		(shape input)
-		(at 207.01 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "60b923c4-7182-430c-8308-4c4f5dfaf067")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.9491 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,28 +5993,6 @@
 			)
 		)
 	)
-	(global_label "ROW4_R"
-		(shape input)
-		(at 161.29 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6c3be4f7-49af-41dc-af09-f2da1e22079b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.8058 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GP00_MISO_R"
 		(shape input)
 		(at 43.18 170.18 0)
@@ -6117,28 +6055,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL3_R"
-		(shape input)
-		(at 207.01 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "79d65905-f100-4c79-9f1b-c05fb792739c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.9491 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6222,28 +6138,6 @@
 		(uuid "7f3ef341-87c9-453c-b6d5-12b6ad17eec4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 37.5944 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL5_R"
-		(shape input)
-		(at 207.01 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "810837e0-090d-45f6-8cff-a21c6dfb8978")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.9491 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6385,28 +6279,6 @@
 			)
 		)
 	)
-	(global_label "COL4_R"
-		(shape input)
-		(at 207.01 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a65fa55d-2619-4f68-8e81-0ad0336fccd0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.9491 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COL7_R"
 		(shape input)
 		(at 33.02 67.31 180)
@@ -6447,28 +6319,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW3_R"
-		(shape input)
-		(at 161.29 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aefb08a8-6041-45bf-a60c-6f7b4e11150d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.8058 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6530,28 +6380,6 @@
 		(uuid "b6e2319f-b7b6-4bfd-981f-cda92f189327")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 126.4944 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW2_R"
-		(shape input)
-		(at 161.29 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b9927443-8d03-4f2e-a43c-bbeb6878428f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.8058 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6957,28 +6785,6 @@
 			)
 		)
 	)
-	(global_label "ROW1_R"
-		(shape input)
-		(at 161.29 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ea9d383e-3498-469e-90c0-3b27bebfce2f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.8058 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GP00_MISO_R"
 		(shape input)
 		(at 53.34 142.24 180)
@@ -7194,106 +7000,6 @@
 			(project "RKD04_Assemble"
 				(path "/237aa5e6-259c-459d-b408-55413a51412a"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 166.37 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07085954-21df-4d15-bd80-a310647eaa56")
-		(property "Reference" "J4"
-			(at 168.91 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06"
-			(at 168.91 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DreaM117er-keebLibrary:Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal"
-			(at 166.37 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 166.37 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 166.37 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part url" ""
-			(at 166.37 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dce175b1-5eec-4401-988e-bd54a98d146d")
-		)
-		(pin "6"
-			(uuid "0c3a0b79-4640-4a48-a1b4-e5cbd4a947c6")
-		)
-		(pin "1"
-			(uuid "9da48a86-8de2-4f43-9e17-027e0fff71f9")
-		)
-		(pin "4"
-			(uuid "9196187b-7407-4a09-9a8f-e71c5862e640")
-		)
-		(pin "3"
-			(uuid "5b9b5184-08ad-4d34-a35d-2988a4ef18fd")
-		)
-		(pin "5"
-			(uuid "b5e1a406-847c-4e9d-b686-4f82e2e3bf89")
-		)
-		(instances
-			(project "RKD07_RePicotSplitR"
-				(path "/237aa5e6-259c-459d-b408-55413a51412a"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7577,7 +7283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1563bb0a-43e4-4d10-b53c-1611581517a2")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 242.57 113.03 0)
 			(effects
 				(font
@@ -7659,7 +7365,7 @@
 		(instances
 			(project ""
 				(path "/237aa5e6-259c-459d-b408-55413a51412a"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8472,80 +8178,6 @@
 			(project "RKD07_RePicot"
 				(path "/237aa5e6-259c-459d-b408-55413a51412a"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:RJ9")
-		(at 163.83 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43a96e47-2071-4d2f-a929-c8a6d5ca6ee5")
-		(property "Reference" "J53"
-			(at 163.83 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RJ9"
-			(at 163.83 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_RJ:RJ9_Evercom_5301-440xxx_Horizontal"
-			(at 163.83 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RJ connector, 4P4C (4 positions 4 connected)"
-			(at 163.83 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "66f635c8-76cf-4beb-a1ac-be612de2e9c2")
-		)
-		(pin "1"
-			(uuid "388a52cf-24b3-44ce-95f8-22415f6374cd")
-		)
-		(pin "3"
-			(uuid "f3e9fee5-ceef-42a0-b465-a59224958a25")
-		)
-		(pin "2"
-			(uuid "b3d5104f-beab-4dbd-ac1a-95d13f052411")
-		)
-		(instances
-			(project "RKD07_RePicotSplitR"
-				(path "/237aa5e6-259c-459d-b408-55413a51412a"
-					(reference "J53")
 					(unit 1)
 				)
 			)
@@ -9968,6 +9600,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:6P6C")
+		(at 163.83 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9b6414c-6759-469e-9583-a8caf2ff3ba5")
+		(property "Reference" "J53"
+			(at 163.83 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6P6C"
+			(at 163.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_RJ:RJ12_Amphenol_54601-x06_Horizontal"
+			(at 163.83 193.675 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 193.675 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RJ connector, 6P6C (6 positions 6 connected), RJ12/RJ18/RJ25"
+			(at 163.83 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5ffb1be2-5a25-4203-8314-612883a0818c")
+		)
+		(pin "1"
+			(uuid "c8e5366e-462d-4c00-be36-1c605cfe23f4")
+		)
+		(pin "5"
+			(uuid "f39e1089-19dc-4227-9701-688dae194632")
+		)
+		(pin "2"
+			(uuid "b55e1a97-049d-4f4c-b09f-21a70abc1509")
+		)
+		(pin "3"
+			(uuid "22fa69ad-9118-43cb-a0a1-73a6c214f6a6")
+		)
+		(pin "6"
+			(uuid "7a4d6dd0-1011-4214-9d20-f69c72ace6f2")
+		)
+		(instances
+			(project "RKD07_RePicotSplitR"
+				(path "/237aa5e6-259c-459d-b408-55413a51412a"
+					(reference "J53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 109.22 262.89 0)
 		(mirror y)
@@ -10449,106 +10161,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 212.09 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df9786fe-4b7e-4c10-aae9-1830d31aaa75")
-		(property "Reference" "J5"
-			(at 214.63 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06"
-			(at 214.63 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DreaM117er-keebLibrary:Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal"
-			(at 212.09 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 212.09 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part url" ""
-			(at 212.09 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f386dd2c-ca2f-4799-b3e0-593ad10b9e22")
-		)
-		(pin "6"
-			(uuid "9f3acd17-767f-4123-a0f4-80f99b220fe7")
-		)
-		(pin "1"
-			(uuid "5b6efb22-5097-417b-b848-ed1019fb92e9")
-		)
-		(pin "4"
-			(uuid "9735d87d-44d8-4cb7-86de-e239a8f0bd9a")
-		)
-		(pin "3"
-			(uuid "e2f6cf69-2704-4f47-8984-f51a2833fb2a")
-		)
-		(pin "5"
-			(uuid "42dfdca1-98da-4088-9153-5076df31f788")
-		)
-		(instances
-			(project "RKD07_RePicotSplitR"
-				(path "/237aa5e6-259c-459d-b408-55413a51412a"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 44.45 22.86 0)
 		(unit 1)
@@ -10829,72 +10441,6 @@
 			(project "RKD07_RePicotSplitR"
 				(path "/237aa5e6-259c-459d-b408-55413a51412a"
 					(reference "SW55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 161.29 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb9b8af2-4382-4d59-ab65-0823281402c0")
-		(property "Reference" "#PWR012"
-			(at 161.29 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_R"
-			(at 161.29 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d19643d-5331-45ef-9d18-5ebbb11f9735")
-		)
-		(instances
-			(project "RKD07_RePicotSplitR"
-				(path "/237aa5e6-259c-459d-b408-55413a51412a"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)

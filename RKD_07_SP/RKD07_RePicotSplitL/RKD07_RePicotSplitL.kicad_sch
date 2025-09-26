@@ -144,7 +144,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:RJ9"
+		(symbol "Connector:6P6C"
 			(pin_names
 				(offset 1.016)
 			)
@@ -152,7 +152,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -5.08 8.89 0)
+				(at -5.08 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -160,8 +160,8 @@
 					(justify right)
 				)
 			)
-			(property "Value" "RJ9"
-				(at 2.54 8.89 0)
+			(property "Value" "6P6C"
+				(at 2.54 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -170,7 +170,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 1.27 90)
+				(at 0 0.635 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -179,7 +179,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 1.27 90)
+				(at 0 0.635 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -187,7 +187,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RJ connector, 4P4C (4 positions 4 connected)"
+			(property "Description" "RJ connector, 6P6C (6 positions 6 connected), RJ12/RJ18/RJ25"
 				(at 0 0 0)
 				(effects
 					(font
@@ -196,7 +196,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "4P4C RJ socket connector"
+			(property "ki_keywords" "6P6C RJ socket connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -205,7 +205,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "4P4C* RJ9* RJ10* RJ22*"
+			(property "ki_fp_filters" "6P6C* RJ12* RJ18* RJ25*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -214,7 +214,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RJ9_0_1"
+			(symbol "6P6C_0_1"
 				(polyline
 					(pts
 						(xy -6.35 3.175) (xy -5.08 3.175) (xy -5.08 3.175)
@@ -265,9 +265,33 @@
 				)
 				(polyline
 					(pts
-						(xy -6.35 -3.175) (xy -6.35 5.715) (xy -1.27 5.715) (xy 3.81 5.715) (xy 3.81 4.445) (xy 5.08 4.445)
-						(xy 5.08 3.175) (xy 6.35 3.175) (xy 6.35 -0.635) (xy 5.08 -0.635) (xy 5.08 -1.905) (xy 3.81 -1.905)
-						(xy 3.81 -3.175) (xy -6.35 -3.175) (xy -6.35 -3.175)
+						(xy -6.35 -1.905) (xy -5.08 -1.905) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -4.445) (xy -6.35 6.985) (xy 3.81 6.985) (xy 3.81 4.445) (xy 5.08 4.445) (xy 5.08 3.175)
+						(xy 6.35 3.175) (xy 6.35 -0.635) (xy 5.08 -0.635) (xy 5.08 -1.905) (xy 3.81 -1.905) (xy 3.81 -4.445)
+						(xy -6.35 -4.445) (xy -6.35 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 4.445) (xy -6.35 4.445) (xy -6.35 4.445)
 					)
 					(stroke
 						(width 0)
@@ -278,8 +302,8 @@
 					)
 				)
 				(rectangle
-					(start 7.62 7.62)
-					(end -7.62 -5.08)
+					(start 7.62 10.16)
+					(end -7.62 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -289,7 +313,25 @@
 					)
 				)
 			)
-			(symbol "RJ9_1_1"
+			(symbol "6P6C_1_1"
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 10.16 5.08 180)
 					(length 2.54)
@@ -300,7 +342,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -318,7 +360,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -336,7 +378,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -346,6 +388,24 @@
 				)
 				(pin passive line
 					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -3666,6 +3726,10 @@
 		(uuid "07b0d49f-2201-419f-a050-ca2513ac163c")
 	)
 	(no_connect
+		(at 173.99 199.39)
+		(uuid "11e94071-86cb-454f-88b9-18af90633348")
+	)
+	(no_connect
 		(at 90.17 176.53)
 		(uuid "1432b489-09bd-435e-b719-7562d6a980d6")
 	)
@@ -3680,6 +3744,10 @@
 	(no_connect
 		(at 262.89 106.68)
 		(uuid "2be3a639-da10-4fdf-bd10-1cd8c9d4ea71")
+	)
+	(no_connect
+		(at 173.99 186.69)
+		(uuid "4ef47c6d-8022-464e-92d3-d76c2adae0e7")
 	)
 	(no_connect
 		(at 280.67 71.12)
@@ -6563,80 +6631,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:RJ9")
-		(at 163.83 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43a96e47-2071-4d2f-a929-c8a6d5ca6ee5")
-		(property "Reference" "J153"
-			(at 163.83 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RJ9"
-			(at 163.83 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_RJ:RJ9_Evercom_5301-440xxx_Horizontal"
-			(at 163.83 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RJ connector, 4P4C (4 positions 4 connected)"
-			(at 163.83 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "66f635c8-76cf-4beb-a1ac-be612de2e9c2")
-		)
-		(pin "1"
-			(uuid "388a52cf-24b3-44ce-95f8-22415f6374cd")
-		)
-		(pin "3"
-			(uuid "f3e9fee5-ceef-42a0-b465-a59224958a25")
-		)
-		(pin "2"
-			(uuid "b3d5104f-beab-4dbd-ac1a-95d13f052411")
-		)
-		(instances
-			(project "RKD07_RePicotSplitR"
-				(path "/237aa5e6-259c-459d-b408-55413a51412a"
-					(reference "J153")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 105.41 77.47 0)
 		(unit 1)
@@ -8036,6 +8030,86 @@
 			(project "RKD07_RePicotSplitL"
 				(path "/237aa5e6-259c-459d-b408-55413a51412a"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:6P6C")
+		(at 163.83 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9b6414c-6759-469e-9583-a8caf2ff3ba5")
+		(property "Reference" "J153"
+			(at 163.83 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6P6C"
+			(at 163.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_RJ:RJ12_Amphenol_54601-x06_Horizontal"
+			(at 163.83 193.675 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 193.675 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RJ connector, 6P6C (6 positions 6 connected), RJ12/RJ18/RJ25"
+			(at 163.83 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5ffb1be2-5a25-4203-8314-612883a0818c")
+		)
+		(pin "1"
+			(uuid "c8e5366e-462d-4c00-be36-1c605cfe23f4")
+		)
+		(pin "5"
+			(uuid "f39e1089-19dc-4227-9701-688dae194632")
+		)
+		(pin "2"
+			(uuid "b55e1a97-049d-4f4c-b09f-21a70abc1509")
+		)
+		(pin "3"
+			(uuid "22fa69ad-9118-43cb-a0a1-73a6c214f6a6")
+		)
+		(pin "6"
+			(uuid "7a4d6dd0-1011-4214-9d20-f69c72ace6f2")
+		)
+		(instances
+			(project "RKD07_RePicotSplitL"
+				(path "/237aa5e6-259c-459d-b408-55413a51412a"
+					(reference "J153")
 					(unit 1)
 				)
 			)
