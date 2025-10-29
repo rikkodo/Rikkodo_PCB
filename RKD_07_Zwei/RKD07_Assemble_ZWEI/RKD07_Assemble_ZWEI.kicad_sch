@@ -6609,6 +6609,12 @@
 		(uuid "c456a935-9ef2-486c-96fc-86bf4b952197")
 	)
 	(junction
+		(at 196.85 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4ae45ae-d1dd-4930-bc90-f6511bcf5d7e")
+	)
+	(junction
 		(at 521.97 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7219,6 +7225,16 @@
 			(type default)
 		)
 		(uuid "1adbea51-c779-4fdf-90c8-560218ee07f6")
+	)
+	(wire
+		(pts
+			(xy 196.85 228.6) (xy 196.85 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae2e789-0d96-4e12-a6b5-2c73521f7c14")
 	)
 	(wire
 		(pts
@@ -11259,6 +11275,28 @@
 		(uuid "4e9d79d7-bb2c-479b-b365-4435edac95ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 508.0991 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL10_L"
+		(shape input)
+		(at 186.69 228.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f6b8dee-8a0d-4cf6-b6b3-8a0432d8fe1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.6615 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32181,6 +32219,74 @@
 			(project "RKD02_Assemble"
 				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
 					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 191.77 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f96cb3a3-81d4-494c-9232-45b10ab2a845")
+		(property "Reference" "SW32"
+			(at 191.77 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 191.77 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rikkodo_FootPrint:rkd_Asm_ChocV1V2_Hotswap_1u_NM"
+			(at 191.77 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 191.77 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57bb4111-97f2-4de0-9385-0c2b51bdf882")
+		)
+		(pin "2"
+			(uuid "35aedeee-6614-41ab-99eb-0fad70410124")
+		)
+		(instances
+			(project "RKD07_Assemble_ZWEI"
+				(path "/01a859e0-5a12-4534-b9e3-6128f69eb8fc"
+					(reference "SW32")
 					(unit 1)
 				)
 			)
