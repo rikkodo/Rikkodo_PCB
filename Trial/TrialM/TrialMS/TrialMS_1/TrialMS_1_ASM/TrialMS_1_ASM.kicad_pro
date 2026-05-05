@@ -62,27 +62,15 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|137980000|48001625|76c837b7-3c48-4a89-a877-0787b829d6bb|b85e8958-3678-41fb-8673-d696978a674f",
+          "lib_footprint_mismatch|126801669|63103125|83b60653-68c3-4b62-b44f-27a05cbc66c0|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|100905384|41160968|795af29e-5f86-48e1-afa4-951d40d5ffb4|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|138112616|67658485|31ea8332-a488-4f72-929a-3a1d75e64c20|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|129182704|52676048|326f21c6-740e-429d-b9c0-384f8727b814|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|152479502|34448780|8bc578a0-4def-4c03-8ccc-ba79a1edbee0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|76577500|42941875|69f65507-702b-4d35-aa40-00830555c3b8|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|90983512|38695280|99b83c22-6309-409c-b7b1-a20cc51beede|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|138112616|89807889|dd2e0fd1-4ed7-4413-aa75-173b37b006c3|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -95,7 +83,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -109,7 +97,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
-        "hole_to_hole": "error",
+        "hole_to_hole": "ignore",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -516,7 +504,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TrialMB_1_ASM.kicad_pro",
+    "filename": "TrialMS_1_ASM.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -534,7 +522,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.25,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -675,18 +663,6 @@
           "label": "説明",
           "name": "Description",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "part url",
-          "name": "part url",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part #",
-          "name": "LCSC Part #",
-          "show": false
         }
       ],
       "filter_string": "",
@@ -740,18 +716,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "TrialMB_1_ASM.kicad_sch",
-        "name": "TrialMB_1_ASM",
+        "filename": "TrialMS_1_ASM.kicad_sch",
+        "name": "TrialMS_1_ASM",
         "uuid": "237aa5e6-259c-459d-b408-55413a51412a"
       }
     ],
-    "used_designators": "J3,J5,J56-57",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "237aa5e6-259c-459d-b408-55413a51412a",
-      "TrialMBody"
+      "TrialMS_1_ASM"
     ]
   ],
   "text_variables": {},
