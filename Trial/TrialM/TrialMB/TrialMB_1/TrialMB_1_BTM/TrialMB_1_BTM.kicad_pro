@@ -39,7 +39,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.85,
+          "drill": 1.0,
           "height": 1.7,
           "width": 1.7
         },
@@ -60,7 +60,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|137980000|48001625|76c837b7-3c48-4a89-a877-0787b829d6bb|b85e8958-3678-41fb-8673-d696978a674f",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|100905384|41160968|795af29e-5f86-48e1-afa4-951d40d5ffb4|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|152479502|34448780|8bc578a0-4def-4c03-8ccc-ba79a1edbee0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|76577500|42941875|69f65507-702b-4d35-aa40-00830555c3b8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|90983512|38695280|99b83c22-6309-409c-b7b1-a20cc51beede|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -70,7 +91,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "ignore",
+        "courtyards_overlap": "error",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -84,7 +105,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
-        "hole_to_hole": "ignore",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -111,7 +132,7 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -197,6 +218,7 @@
       "track_widths": [
         0.0,
         0.25,
+        0.3,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -446,11 +468,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -472,7 +497,8 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -486,7 +512,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RKD07_Top_ZWEI_L.kicad_pro",
+    "filename": "TrialMB_1_BTM.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -504,11 +530,19 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -516,14 +550,27 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "POWER",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "3V3"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../Order/20241231/RKD07/Top",
+      "plot": "../../../Order/20241231/RKD07/RePicot",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -534,6 +581,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -593,6 +644,18 @@
         },
         {
           "group_by": false,
+          "label": "PROD_ID",
+          "name": "PROD_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SKU",
+          "name": "SKU",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
@@ -607,6 +670,18 @@
           "group_by": false,
           "label": "説明",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "part url",
+          "name": "part url",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
           "show": false
         }
       ],
@@ -625,6 +700,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -648,6 +724,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -659,16 +736,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "RKD07_Top_ZWEI_L.kicad_sch",
-        "name": "RKD07_Top_ZWEI_L",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "filename": "TrialMB_1_ASM.kicad_sch",
+        "name": "TrialMB_1_ASM",
+        "uuid": "237aa5e6-259c-459d-b408-55413a51412a"
       }
-    ]
+    ],
+    "used_designators": "J3,J5,J56-57",
+    "variants": []
   },
   "sheets": [
     [
-      "01a859e0-5a12-4534-b9e3-6128f69eb8fc",
-      "Root"
+      "237aa5e6-259c-459d-b408-55413a51412a",
+      "TrialMBody"
     ]
   ],
   "text_variables": {},
